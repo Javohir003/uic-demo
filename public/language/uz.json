@@ -1,0 +1,60 @@
+{
+  "about": "Biz Haqimizda",
+  "portfolio": "Portfolio",
+  "services": "Xizmatlar",
+  "vacansies": "E'lonlar",
+  "blog": "Blog",
+  "titleHome": "Raqamli yechimlarni taklif qilamiz",
+  "titleHome_child": "HAR QANDAY MURAKKABLIKDA",
+  "callHome": "Qo'ng'iroq",
+  "about1Title": "UIC HAQIDA",
+  "aboutTitle": "'United IT Company' 2020-yil 8-oktyabrda tashkil etilgan. Kompaniya direktori Murodxo'ja Muratovning so'zlariga ko'ra, kompaniyaning falsafasi O'zbekistonning IT sohasidagi xalqaro standartlarga javob beradigan jamoani shakllantirish, yosh dasturchilarga o'zlari ustida ishlash va shu bilan birga rasmiy ravishda ishga joylashish imkoniyatini yaratish, kompaniyani IT jahon sahnasida taniqli joyga olib borishdan iborat.",
+  "aboutTitle1": "Kompaniya tashkil etilgan paytda jamoa atigi 10 kishidan iborat edi, endilikda esa jamoada +100 mutaxassislar faoliyat olib boradi. Bu odamlar kompaniya maqsadiga ishonib, loyihaning rivojlanishiga hissa qo'shishga intilishdi. Bugungi kunga qadar bu odamlar kompaniyaga sodiq qolgan holda, o'z jamoalarini turli yo'nalishlarda (Backend, Frontend, QA, Mobile, Analytics, Marketing Team va boshqalar) rivojlantirib kelmoqdalar.",
+  "secondPage_left": "YILLIK MALAKAGA EGA  JAMOA",
+  "secondPage_title_top": "BIR SO‘Z BILAN AYTGANDA",
+  "secondPage_title": "Har bir yirik kompaniya faqatgina oʻziga emas, balki yonida yelkadosh boʻlgan hamda ishonganlarga minnatdorchilik bildirishi lozim. Axir, bizning ishda eng muhim prinsip - bu ishonch.",
+  "secondPage_title1": "Ishonch nafaqat mijoz va hamkorlar sadoqatini ta’minlaydi, qolversa, o’zimizga bo’lgan talabchanligimizni oshiradi. Biz uzoq yillik insoniylik an’analari ustiga qurilgan munosabatlar asosida hamkorlik qilamiz.",
+  "secondPage_left_child": "Tezkor yechimlar",
+  "secondPage_right_child": "Takrorlanmas loyihalar",
+  "Home": "UIC Group",
+  "Xazna": "Xazna",
+  "Xazna App": "Xazna dasturi",
+  "Express24": "Express24",
+  "Cawbox": "Cawbox",
+  "STesting": "STesting",
+  "Munir": "Munir",
+  "Lenta": "Lenta",
+  "Website": "Website",
+  "Mobile App": "Mobil ilova",
+  "allProjects": "Hamma Loyihalar",
+  "CRM": "CRM",
+
+  "ServicesChild": "Bizning",
+  "ServicesWebsite": "Veb-Saytlar",
+  "ServicesWebsiteInfo": "Korporativ veb saytlardan tortib veb ilovalargacha boʻlgan murakkablikdagi internet saytlarni sifat kafolati bilan ishlab chiqamiz",
+
+  "ServicesMobileApp": "Mobil ilovalar",
+  "ServicesMobileAppInfo": "Istalgan qiyinchilikdagi mobil ilovalarni ishlab chiqish va ularni texnik qoʻllab-quvvatlash",
+
+  "ServicesUIUX_Info": "Loyiha MindMapʼini ishlab chiqish va ushbu arxitektura asosida optimal yechimga ega dizaynlarni chizish",
+
+  "ServicesMedia": "Media production",
+  "ServicesMediaInfo": "2D/3D animatsiya, loyiha taqdimoti, reklamasi, videomateriallar va boshqa media resurslarni professional tarzida tayyorlash",
+
+  "ServicesCRM": "CRM Systems",
+  "ServicesCRMInfo": "Biznesni va jarayonlarni avtomatlashtirish, kanselyariya ishlarini 100% gacha kamaytiruvchi boshqaruv elektron tizimlarini ishlab chiqish",
+
+  "ServicesBranding": "Logo va brending",
+  "ServicesBrandingInfo": "Biznesni ilgari surish uchun asosiy vositalar va marketing materiallari to'plamini noldan yaratish.",
+
+  "ServicesKiberHavsizlik": "Kiberxavfsizlik",
+  "ServicesKiberHavsizlikInfo": "Tarmoqlar, qurilmalar, kodlar va ma'lumotlardagi zaifliklarni topish va tuzatish.",
+  "ServicesNewPageChildTitle": "MUAMMO BORMI?",
+  "ServicesNewPageTitle": "Qanday yechim xohlaysiz?",
+
+  "Partnyor": "Bizning hamkorlar",
+  "PartnyorTitle": "Bizga ishonadigan kompaniyalar",
+
+  "FooterTitle": "Shu jamoa orasida siz ham bo‘lishingiz mumkin  :) ",
+  "FooterChildInfo": "Biz bilan birga yuksalmoqchimisiz? Keling, bizga kerakligingizni isbotlang! Jamoaning ajralmas bo‘lagiga aylaning."
+}

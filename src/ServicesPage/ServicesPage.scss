@@ -1,0 +1,64 @@
+.Services-Parent {
+    width: 100%;
+    background-color: #1E1E20;
+    padding: 100px 0px;
+    .container {
+        width: 100%;
+        .Service-Parent-Child-Text {
+            width: 100%;
+            height: max-content;
+            padding-bottom: 50px;
+          span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            .title-fonts{
+              color: #068E80;
+              font-size: 20px;
+              font-weight: 700;
+              text-transform: uppercase;
+            }
+            div {
+                width: 30px;
+                height: 3px;
+                background-color: gray;
+            }
+          }
+          h1 {
+            font-size: 48px;
+            color: white;
+          }
+
+        }
+        .Services-Parent-Child-Box{
+          width: 100%;
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0,1fr));
+          gap: 1.5rem;
+          .Services-Box{
+            padding: 40px 30px;
+            background-color: #252527;
+            border-radius: 12px;
+            text-decoration: none;
+              &:hover{
+                box-shadow: 16px 19px 13px -3px rgba(0, 0, 0, 0.25);
+                box-shadow: 0 5px 6px #0f0f0f59, 0 24px 80px #252525b3;
+                transition: .5s ease-in-out !important;
+            }
+            h1{
+              font-size: 38px;
+              margin-bottom: 20px;
+              font-weight: 700;
+              color: white;
+            }
+            p{
+              font-size: 1rem;
+              line-height: 140%;
+              color: #e0e0e099;
+              letter-spacing: .2px;
+              font-weight: 400;
+            }
+          }
+        }
+    }
+}

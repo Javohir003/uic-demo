@@ -1,0 +1,125 @@
+.Home-Page-Parent .Navbar-And-Home-Page {
+  position: relative;
+  max-width: 100%;
+  background-image: url(/public/assests/bgc-img.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left {
+  max-width: 506px;
+  transform: translateZ(0);
+  transform: translateY(100px);
+  z-index: 2;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  line-height: 60px;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left p {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 52px;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left .Home-Page-Visit-and-Call-Block a {
+  margin-right: 25px;
+  text-decoration: none;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Logo {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  display: flex;
+  justify-content: end;
+  transform: translate3d(0px, 53.795px, 0px);
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Logo svg {
+  width: auto;
+  height: auto;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Gif-Visit-Parent {
+  position: relative;
+  top: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Gif-Visit-Parent .Give-Visit-Gif {
+  position: relative;
+  left: 0;
+  right: 0;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Gif-Visit-Parent .Give-Visit-Gif .Give-Visit-Child {
+  position: absolute;
+  width: -moz-max-content;
+  width: max-content;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  transition: 0.2s ease;
+  outline: none;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Gif-Visit-Parent .Give-Visit-Gif .Give-Visit-Child .box {
+  position: absolute;
+  animation: animName 8s linear infinite;
+  width: 110px;
+  height: 110px;
+  border-radius: 20%;
+  margin: 20px;
+  z-index: 1;
+  cursor: pointer;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Gif-Visit-Parent .Give-Visit-Gif .Give-Visit-Child:hover {
+  transform: scale(1.2);
+  transition: 0.4s ease-in-out;
+  transition-duration: 0.6s;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Navbar-Moutain-bgc {
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 120px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/public/assests/mountain-bgc.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.Home-Page-Parent .Navbar-And-Home-Page .Navbar-Moutain-bgc::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(180deg, rgba(40, 40, 42, 0) 0%, rgba(30, 30, 32, 0.53) 30.38%, #1e1e20 100%);
+}
+
+@keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=Home.css.map */

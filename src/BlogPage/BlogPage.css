@@ -1,0 +1,212 @@
+.Blog-Page-Parent {
+  max-width: 100%;
+  background-color: #1e1e20;
+  margin: auto;
+  padding: 0;
+}
+.Blog-Page-Parent .BlogPage-First-elem {
+  padding-top: 150px;
+  margin-bottom: 5rem;
+}
+.Blog-Page-Parent .BlogPage-First-elem .BlogPage-Title-elem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 220px;
+  font-weight: 800;
+  line-height: 100px;
+  line-height: 252px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+}
+.Blog-Page-Parent .BlogPage-First-elem .BlogPage-Title-elem span {
+  position: absolute;
+  font-size: 78px;
+  line-height: 94px;
+  text-transform: uppercase;
+  font-weight: 800;
+  -webkit-text-fill-color: white;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy {
+  width: 100%;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Categoriy-Parent {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Categoriy-Parent .categoriy-icons {
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: #00a795;
+  border: 1px solid #00a795;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Categoriy-Parent .categoriy-icons svg path {
+  fill: white;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Categoriy-Parent .categoriy-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Categoriy-Parent .categoriy-wrap .categoriy-title {
+  display: flex;
+  align-items: flex-start;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 11px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(158, 160, 163);
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #333436;
+  transition-duration: 0.3s;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Categoriy-Parent .categoriy-wrap .categoriy-title:hover {
+  border: 2px solid #00a795;
+  border-radius: 11px;
+  color: #00a795;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .search-page {
+  margin-top: 28px;
+  margin-bottom: 50px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1.4px solid transparent;
+  background-color: rgba(20, 20, 21, 0.46);
+  transition: border-color 0.3s ease;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .search-page:focus-within {
+  border-color: #00a795;
+  border: 1.5px solid #00a795;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .search-page .search-icon {
+  padding: 0px 10px;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .search-page input {
+  width: 100%;
+  background-color: transparent;
+  padding: 13px 0.875rem;
+  font-family: Roboto;
+  font-size: 16px;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .search-page input:focus {
+  border-color: #00a795;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  -moz-column-gap: 2.75rem;
+       column-gap: 2.75rem;
+  row-gap: 2.5rem;
+  padding-bottom: 100px;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a {
+  text-decoration: none;
+  color: white;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Img-Parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 270px));
+  background-color: rgb(43, 43, 46);
+  border-radius: 8px;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Img-Parent .img-post {
+  width: 220px;
+  height: 220px;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Img-Parent .img-post img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: translateX(-20px) translateY(-12px);
+  transition: transform 0.5s ease;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Img-Parent:hover img {
+  transform: translateX(0px) translateY(0px);
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Img-Parent:hover h2 {
+  transform: translateX(50px) translateY(170px);
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text {
+  padding-top: 25px;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text .post-blog-text-title span {
+  padding: 1rem 0px;
+  font-size: 1rem;
+  letter-spacing: 0.002rem;
+  line-height: 130% !important;
+  font-weight: 700;
+  color: white;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text .post-blog-text-title p {
+  padding: 1rem 0px;
+  font-size: 0.75rem;
+  color: rgba(224, 224, 224, 0.6);
+  line-height: 140% !important;
+  font-weight: 400;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text .post-blog-text-title .hrStyle {
+  opacity: 0.3;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text .post-blog-text-title .icon-Blogs {
+  display: flex;
+  gap: 30px;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text .post-blog-text-title .icon-Blogs .kalendar-Block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text .post-blog-text-title .icon-Blogs .kalendar-Block .icon-k {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  background-color: rgba(255, 255, 255, 0.1411764706);
+  border-radius: 100%;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text .post-blog-text-title .icon-Blogs .kalendar-Block .icon-k svg path {
+  fill: white;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text .post-blog-text-title .icon-Blogs span {
+  font-weight: 500;
+  font-size: 13px;
+  color: rgb(165, 165, 166);
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text .post-blog-text-title .icon-Blogs .hide-Block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text .post-blog-text-title .icon-Blogs .hide-Block .icon-h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  background-color: rgba(255, 255, 255, 0.1411764706);
+  border-radius: 100%;
+}
+.Blog-Page-Parent .Blog-Page-Categoriy .Blog-Post-Parent a .Blog-Post-Child-First .Blog-Post-Left-Img-Blog .Post-title-text .post-blog-text-title .icon-Blogs .hide-Block .icon-h svg path {
+  fill: white;
+}/*# sourceMappingURL=BlogPage.css.map */

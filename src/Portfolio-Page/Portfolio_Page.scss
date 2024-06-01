@@ -1,0 +1,135 @@
+.Portfolio-Parent {
+  max-width: 100%;
+  background-color: #141415;
+  padding: 118px 0px 96px 0px;
+  .Not_Found_CRM{
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+    // background-color: red;
+    .Portfolio-Nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 48px;
+      .Portfolio-Name {
+        h1 {
+          font-size: 64px;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: white;
+        }
+      }
+      .Portfolio-list-nav {
+        display: flex;
+        gap: 20px;
+        a {
+          text-decoration: none;
+          border-radius: 8px;
+          border: none;
+          .btn-portfolio {
+            cursor: pointer;
+            border: 2px solid gray;
+            padding: 15px 25px;
+            border-radius: 8px;
+            background-color: transparent;
+            color: #fff9;
+            font-size: 14px;
+            font-weight: 700;
+            transition: all 0.3s;
+            &:hover {
+              transition: 0.2s;
+              color: #1a8377;
+              border: 2px solid #1a8377;
+            }
+          }
+          .active{
+            color: #1fa191;
+            border: 2px solid #138a7c;
+          }
+        }
+      }
+    }
+  }
+}
+
+.Portfolio-Projects-Box {
+  .box-Portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    a {
+      position: relative;
+      left: 0;
+      top: 0;
+      border-radius: 10px;
+      .text-info {
+        position: absolute;
+        padding: 10px 0px 0px 30px;
+        font-size: 26px;
+        font-weight: 700;
+        color: white;
+        z-index: 3;
+        .title-site {
+          font-size: 0.7rem;
+          font-weight: 600;
+          line-height: 1.25rem;
+          color: #fff9;
+          text-transform: uppercase;
+        }
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+      }
+      transition: all 0.4s;
+      &:hover {
+        transform: translateY(-10px);
+        &::before {
+          border-radius: 10px;
+          position: absolute;
+          content: "";
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(
+              325.56deg,
+              #03ceba -2.1%,
+              rgba(4, 208, 187, 0.969) -0.69%,
+              rgba(0, 167, 149, 0) 33.13%
+            ),
+            linear-gradient(
+              165.56deg,
+              #03ceba -2.1%,
+              rgba(4, 208, 187, 0.969) -0.69%,
+              rgba(0, 167, 149, 0) 33.13%
+            );
+        }
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        background: linear-gradient(
+          160.09deg,
+          #141415 -12.64%,
+          rgba(0, 0, 0, 0.7) -80%,
+          rgba(20, 20, 21, 0.2) 94.29%
+        );
+      }
+    }
+  }
+  margin-bottom: 80px;
+}
+
+@import "../Second-Page/SecondPage.scss";

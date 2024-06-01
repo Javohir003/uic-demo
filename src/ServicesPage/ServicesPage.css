@@ -1,0 +1,64 @@
+.Services-Parent {
+  width: 100%;
+  background-color: #1E1E20;
+  padding: 100px 0px;
+}
+.Services-Parent .container {
+  width: 100%;
+}
+.Services-Parent .container .Service-Parent-Child-Text {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  padding-bottom: 50px;
+}
+.Services-Parent .container .Service-Parent-Child-Text span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Services-Parent .container .Service-Parent-Child-Text span .title-fonts {
+  color: #068E80;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.Services-Parent .container .Service-Parent-Child-Text span div {
+  width: 30px;
+  height: 3px;
+  background-color: gray;
+}
+.Services-Parent .container .Service-Parent-Child-Text h1 {
+  font-size: 48px;
+  color: white;
+}
+.Services-Parent .container .Services-Parent-Child-Box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+.Services-Parent .container .Services-Parent-Child-Box .Services-Box {
+  padding: 40px 30px;
+  background-color: #252527;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.Services-Parent .container .Services-Parent-Child-Box .Services-Box:hover {
+  box-shadow: 16px 19px 13px -3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 6px rgba(15, 15, 15, 0.3490196078), 0 24px 80px rgba(37, 37, 37, 0.7019607843);
+  transition: 0.5s ease-in-out !important;
+}
+.Services-Parent .container .Services-Parent-Child-Box .Services-Box h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: white;
+}
+.Services-Parent .container .Services-Parent-Child-Box .Services-Box p {
+  font-size: 1rem;
+  line-height: 140%;
+  color: rgba(224, 224, 224, 0.6);
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}/*# sourceMappingURL=ServicesPage.css.map */

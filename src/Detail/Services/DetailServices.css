@@ -1,0 +1,73 @@
+.Services-Child-Wrapper {
+  padding: 150px 0px 0px 0px;
+  background-color: #1e1e20;
+}
+.Services-Child-Wrapper .title-styles {
+  font-size: 18px;
+  font-weight: 300;
+  color: #01a795;
+  margin-bottom: 20px;
+}
+.Services-Child-Wrapper .title-services-form {
+  font-size: 45px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 50px;
+}
+.Services-Child-Wrapper .services-child-box {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.Services-Child-Wrapper .services-child-box .services-child-box-title {
+  font-size: 16px;
+  color: gray;
+  font-weight: 200;
+  grid-column: span 4/span 4;
+}
+.Services-Child-Wrapper .services-child-box form {
+  padding: 50px;
+  background-color: #38383c;
+  border-radius: 10px;
+  grid-column: span 8/span 8;
+}
+.Services-Child-Wrapper .services-child-box form .form-input-box {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Services-Child-Wrapper .services-child-box form .form-input-box label p {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+.Services-Child-Wrapper .services-child-box form .form-input-box label input {
+  width: 90%;
+  padding: 17px 15px;
+  margin: 20px 0px;
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-color: #141415;
+  transition: all 0.5s;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.Services-Child-Wrapper .services-child-box form .form-input-box label input:focus {
+  border: 2px solid #01a795;
+}
+.Services-Child-Wrapper .services-child-box form textarea {
+  resize: none;
+  width: 95%;
+  height: 110px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-color: #141415;
+  transition: all 0.5s;
+}
+.Services-Child-Wrapper .services-child-box form textarea:focus {
+  border: 2px solid #01a795;
+}/*# sourceMappingURL=DetailServices.css.map */

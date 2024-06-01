@@ -1,0 +1,138 @@
+.Home-Page-Parent{
+     .Navbar-And-Home-Page {
+        position: relative;
+        max-width: 100%;
+        background-image: url(/public/assests/bgc-img.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // padding-top: 15px;
+        .Home-Page-Text{
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 600px;
+           // background-color: red;
+            .Home-Page-Text-Left{
+                max-width: 506px;
+                transform: translateZ(0);
+                transform: translateY(100px);
+                z-index: 2;
+                h1{
+                    font-size: 48px;
+                    font-weight: 700;
+                    color: rgb(255 255 255);
+                    line-height: 60px;
+                }
+                p{
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #fff9;
+                    letter-spacing: .03em;
+                    text-transform: uppercase;
+                    margin-bottom: 52px;
+                }
+                .Home-Page-Visit-and-Call-Block{
+                    a{
+                        margin-right: 25px;
+                        text-decoration: none;
+                    }
+    
+                }
+            }
+            .Home-Page-Text-Logo{
+                position: absolute;
+                width: 100%;
+                top: 30%;
+                display: flex;
+                justify-content: end;
+                transform: translate3d(0px, 53.795px, 0px);
+                svg{
+                    width: auto;
+                    height: auto;
+                }
+            }
+            .Gif-Visit-Parent{
+                position: relative;
+                top: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .Give-Visit-Gif{
+                    position: relative;
+                    left: 0;
+                    right: 0;
+                    .Give-Visit-Child{
+                        position: absolute;
+                        width: max-content;
+                        left: 0;
+                        right: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        z-index: 2;
+                        transition: 0.2s ease;
+                        outline: none;
+                        .box {
+                            position: absolute;
+                            animation: animName 8s linear infinite;
+                            width: 110px;
+                            height: 110px;
+                            border-radius: 20%;
+                            margin: 20px;
+                            z-index: 1;
+                            cursor: pointer;
+                        }
+                        &:hover{
+                            transform: scale(1.2);
+                            transition: 0.4s ease-in-out;
+                            transition-duration: .6s;
+                        }
+                    }
+                }
+            }
+        }
+       .Navbar-Moutain-bgc{
+        position: relative;
+        right: 0;
+        left: 0;
+        top: 120px;
+        width: 100%;
+        height: 100vh;
+        background-image: url(/public/assests/mountain-bgc.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 80%;
+                background: linear-gradient(180deg, rgba(40, 40, 42, 0) 0%, rgba(30, 30, 32, .53) 30.38%, #1e1e20 100%);
+            }
+       }
+       
+    }
+}
+
+
+
+
+
+
+@keyframes animName {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,76 @@
+.Partnyor-Parent-Child{
+    background-color: black;
+    .Titlte-Partnoyr{
+        .title-fonts{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: .03em;
+            text-transform: uppercase;
+            color: #00a795;
+            padding-top: 120px;
+        }
+        .Title{
+            padding: 20px 0px;
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 43px;
+            color: white;
+            padding-bottom: 70px;
+        }
+    }
+    .Partnyor-list-Parent{
+        max-width: 100%;
+        padding-bottom: 100px;
+        .Grid-Partnyor{
+            display: grid;
+            grid-template-columns: repeat(5, minmax(210px, 210px));
+            justify-content: center;
+            gap: 30px;
+            .grid-partnyor-list{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                filter: grayscale(100%);
+                background-color:  rgb(37 37 39);
+                border-radius: 10px;
+                transition-timing-function: cubic-bezier(.4,0,.2,1);
+                transition-duration: .3s;
+                &:hover{
+                    filter: grayscale(0%);
+                }
+                a{
+                    text-decoration: none;
+                }
+                article{
+                    width: 100%;
+                    height: 150px !important;
+                    padding: 4px;
+                    img{
+                        max-width: 170px;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+// .grid-partnyor-list{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color:  rgb(37 37 39);
+//     border-radius: 10px;
+//     filter: grayscale(100%);
+//     transition-timing-function: cubic-bezier(.4,0,.2,1);
+//     transition-duration: .3s;
+//     &:hover{
+//         filter: grayscale(0%);
+//     }

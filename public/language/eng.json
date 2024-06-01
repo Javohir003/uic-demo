@@ -1,0 +1,71 @@
+{
+  "about": "About us",
+  "portfolio": "Portfolio",
+  "services": "Services",
+  "vacansies": "Vacansies",
+  "blog": "Blog",
+  "titleHome": "We offer digital solution",
+  "titleHome_child": "in any difficulty",
+  "callHome": "Call",
+
+  "about1Title": "About UIC",
+  "aboutTitle": "“United IT Company” was founded on October 8, 2020. According to the director of the company Murodkhuja Muratov, the philosophy of the company is to create a team that meets international standards in the IT field of Uzbekistan, to open up the opportunity for young programmers to work on themselves and at the same time be officially employed, to bring the company to a prominent place in the world arena IT.",
+  "aboutTitle1": "At the time the company was founded, the team consisted of only 10 people, and now the team has +100 specialists. These people believed in the philosophy of the company and sought to contribute to the development of the project. To this day, these people remain loyal to the company and develop their teams within the company in different directions (Backend, Frontend, QA, Mobile, Analytics, Marketing Team, etc.).",
+  
+  
+  "secondPage_left": "ANNUAL QUALIFICATION TEAM",
+  "secondPage_title_top": "IN THE WORLD",
+  "secondPage_title": "Every big company needs to thank not only itself, but also those who have stood beside it and believed in it. After all, the most important principle in our work is trust.",
+  "secondPage_title1": "Trust not only ensures the loyalty of customers and partners, but also increases our demand for ourselves. We cooperate on the basis of relations built on thousand-year human traditions.",
+  "secondPage_left_child": "Quick solutions",
+  "secondPage_right_child": "Unique projects",
+  "Home": "UIC Group",
+
+
+  "Xazna": "Xazna",
+  "Xazna App": "Xazna App",
+  "Express24": "Express24",
+  "Cawbox": "Cawbox",
+  "STesting": "STesting",
+  "Munir": "Munir",
+  "Lenta": "Lenta",
+  "Website": "Website",
+  "Mobile App": "Mobile App",
+  "allProjects": "All Projects",
+  "CRM": "CRM",
+
+  "ServicesChild": "Our",
+  "ServicesWebsite": "Web Development",
+  "ServicesWebsiteInfo": "We develop websites with the high quality, from corporate websites to web applications",
+
+  "ServicesMobileApp": "Mobile apps",
+  "ServicesMobileAppInfo": "Development and technical support of mobile applications of any complexity",
+
+    "ServicesUIUX_Info": "Developing a project MindMap and designing it with the optimal solution based on its architecture", 
+
+    "ServicesMedia": "Media production",
+    "ServicesMediaInfo": "Professional preparation of 2D / 3D animation, project presentation, advertising, video and other media resources.",
+
+    "ServicesCRM": "CRM Systems" ,
+    "ServicesCRMInfo": "Automation of business and processes, development of electronic management systems that reduce paper-work by 100%",
+
+
+    "ServicesBranding": "Branding",
+    "ServicesBrandingInfo": "Developing a creative and unique logo for your project and create its branding guidelines",
+
+
+    "ServicesKiberHavsizlik": "Cybersecurity",
+    "ServicesKiberHavsizlikInfo": "Find and fix vulnerabilities in networks, devices, code, and data.",
+    "ServicesNewPageChildTitle": "IS THERE A PROBLEM?",
+    "ServicesNewPageTitle": "What solution do you want?",
+
+
+
+    "Partnyor": "Our Partners",
+    "PartnyorTitle": "Companies that believe in us",
+
+
+    "FooterTitle": "You can also be among this team :)   ",
+    "FooterChildInfo": "Do you want to growth with us? Now prove to us that you need it! Become an integral part of the team"
+    
+}

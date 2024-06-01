@@ -1,0 +1,67 @@
+.wrapper-Vacansy-Parent {
+  width: 100%;
+  background-color: rgb(36, 34, 34);
+  padding: 200px 0px 0px 0px;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy {
+  width: 100%;
+  padding-bottom: 60px;
+  color: white;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .vacansy-header {
+  width: 100%;
+  padding: 20px 20px 50px 20px;
+  border-radius: 10px;
+  background-color: #2b2b2e;
+  margin-bottom: 40px;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .vacansy-header .header-title {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .vacansy-header .vacansy-header-child {
+  display: flex;
+  gap: 80px;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .vacansy-header .vacansy-header-child .header-child-1 {
+  display: flex;
+  gap: 20px;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .vacansy-header .vacansy-header-child .header-child-1 .tarmoq-oval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(147, 146, 146);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .vacansy-header .vacansy-header-child .header-child-1 .tarmoq-oval:hover {
+  border: 1px solid #00a795;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .vacansy-header .vacansy-header-child .header-child-workDate {
+  display: flex;
+  gap: 30px;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .vacansy-header .vacansy-header-child .header-child-workDate .workDate-wrapper {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .vacansy-header .vacansy-header-child .header-child-workDate .workDate-wrapper p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .vacansy-header .vacansy-header-child .header-child-workDate .workDate-wrapper .workDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgb(107, 105, 105);
+  cursor: pointer;
+}/*# sourceMappingURL=DetailVacansy.css.map */

@@ -1,0 +1,58 @@
+.Parent-Services{
+    background-color: #1E1E20;
+    .Servicess-header{
+        padding-top: 150px;
+        padding-bottom: 20px;
+        .title-styles{
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: .03em;
+          text-transform: uppercase;
+          color: #00a795;
+          margin-bottom: 20px;
+  
+        }
+        .title-leader{
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 120%;
+          color: #fff;
+          margin-bottom: 50px;
+        }
+    }
+}
+
+.Services-Parent-Child-Box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap: 1.5rem;
+    padding-bottom: 50px;
+    .Services-Box{
+      padding: 40px 30px;
+      background-color: #252527;
+      border-radius: 12px;
+      text-decoration: none;
+        &:hover{
+          box-shadow: 16px 19px 13px -3px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 5px 6px #0f0f0f59, 0 24px 80px #252525b3;
+          transition: .5s ease-in-out !important;
+      }
+      h1{
+        font-size: 38px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        color: white;
+      }
+      p{
+        font-size: 1rem;
+        line-height: 140%;
+        color: #e0e0e099;
+        letter-spacing: .2px;
+        font-weight: 400;
+      }
+    }
+  }

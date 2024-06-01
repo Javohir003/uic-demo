@@ -1,0 +1,373 @@
+{
+  "portfolio": [
+    {
+      "id": 0,
+      "title_portfolio": "Xazna",
+      "title_web": "Website",
+      "images": "/public/assests/portfolio-img/xazna.jpg"
+    },
+    {
+      "id": 1,
+      "title_portfolio": "Xazna App",
+      "title_web": "Mobile App",
+      "images": "/public/assests/portfolio-img/xaznaApp.jpg"
+    },
+    {
+      "id": 2,
+      "title_portfolio": "Express24",
+      "title_web": "Mobile App",
+      "images": "/public/assests/portfolio-img/express24.jpg"
+    },
+    {
+      "id": 3,
+      "title_portfolio": "Cawbox",
+      "title_web": "Website",
+      "images": "/public/assests/portfolio-img/cawbox.jpg"
+    },
+    {
+      "id": 4,
+      "title_portfolio": "STesting",
+      "title_web": "Website",
+      "images": "/public/assests/portfolio-img/stesting.jpg"
+    },
+    {
+      "id": 5,
+      "title_portfolio": "TSUL",
+      "title_web": "Website",
+      "images": "/public/assests/portfolio-img/tsul.jpg"
+    },
+    {
+      "id": 6,
+      "title_portfolio": "Munir",
+      "title_web": "Mobile App",
+      "images": "/public/assests/portfolio-img/munir.jpg"
+    },
+    {
+      "id": 7,
+      "title_portfolio": "Uzbekistan's Club",
+      "title_web": "Website",
+      "images": "/public/assests/portfolio-img/Uzbekistonlik.jpeg"
+    },
+    {
+      "id": 8,
+      "title_portfolio": "Lenta",
+      "title_web": "Website",
+      "images": "/public/assests/portfolio-img/lenta.jpg"
+    },
+    {
+      "id": 9,
+      "title_portfolio": "Cyber Park",
+      "title_web": "Website",
+      "images": "/public/assests/portfolio-img/CybrPark.jpeg"
+    }
+  ],
+  "partnyors": [
+    {
+      "name": "Asakabank",
+      "url": "https://www.asakabank.uz/uz/physical-persons/home",
+      "imageLogo": "/public/assests/Partnyor/asakabank.svg"
+    },
+    {
+      "name": "AKt",
+      "url": "https://mitc.uz/uz/pages/information_technologies",
+      "imageLogo": "/public/assests/Partnyor/AKT.svg"
+    },
+    {
+      "name": "Avloniy",
+      "url": "https://avloniy.uz/ru",
+      "imageLogo": "/public/assests/Partnyor/Avloniy.svg"
+    },
+    {
+      "name": "AZ Capital",
+      "url": "https://accapital.io/",
+      "imageLogo": "/public/assests/Partnyor/Az_Capital.png"
+    },
+    {
+      "name": "Express 24",
+      "url": "https://express24.uz/",
+      "imageLogo": "/public/assests/Partnyor/Express_24.svg"
+    },
+    {
+      "name": "IT Park",
+      "url": "https://it-park.uz/",
+      "imageLogo": "/public/assests/Partnyor/IT_park.svg"
+    },
+    {
+      "name": "Milli Gvardiya",
+      "url": "https://www.milliygvardiya.uz/",
+      "imageLogo": "/public/assests/Partnyor/milliy_Gvardiya.svg"
+    },
+    {
+      "name": "PM",
+      "url": "https://projectmanagers.uz/",
+      "imageLogo": "/public/assests/Partnyor/PM.svg"
+    },
+    {
+      "name": "ProServices",
+      "url": "https://prosm.uz/e",
+      "imageLogo": "/public/assests/Partnyor/Pro_SM.svg"
+    },
+    {
+      "name": "TDIU",
+      "url": "https://tsue.uz/",
+      "imageLogo": "/public/assests/Partnyor/TDIU.svg"
+    },
+    {
+      "name": "UzCard",
+      "url": "https://uzcard.uz/ru",
+      "imageLogo": "/public/assests/Partnyor/Uzcard.svg"
+    },
+    {
+      "name": "Yoshlar Ishlar Agent",
+      "url": "https://yoshlar.gov.uz/",
+      "imageLogo": "/public/assests/Partnyor/yoshlarAgent.svg"
+    },
+    {
+      "name": "Top Music",
+      "url": "https://top-music.live/",
+      "imageLogo": "/public/assests/Partnyor/TOP_Music.svg"
+    },
+    {
+      "name": "TMIC",
+      "url": "https://tmci.uz/en",
+      "imageLogo": "/public/assests/Partnyor/TMUniver.svg"
+    },
+    {
+      "name": "Cyber Park",
+      "url": "https://cyberpark.uz/",
+      "imageLogo": "/public/assests/Partnyor/CyberPark.png"
+    },
+    {
+      "name": "Uzbekistan Club",
+      "url": "https://uzbekistans.club/",
+      "imageLogo": "/public/assests/Partnyor/UzbekistanClub.svg"
+    },
+    {
+      "name": "Zo'r TV",
+      "url": "https://zortv.uz/",
+      "imageLogo": "/public/assests/Partnyor/zor_tv.svg"
+    },
+    {
+      "name": "G-EMx",
+      "url": "https://g-emx.com/",
+      "imageLogo": "/public/assests/Partnyor/GEM.svg"
+    },
+    {
+      "name": "Sello",
+      "url": "https://sello.uz/",
+      "imageLogo": "/public/assests/Partnyor/SELLO.svg"
+    },
+    {
+      "name": "Paylow",
+      "url": "https://paylov.uz/",
+      "imageLogo": "/public/assests/Partnyor/paylov.svg"
+    }
+  ],
+  "vacansyData": [
+    {
+      "id": 1,
+      "title": "Flutter Developer",
+      "workPrice": "10 mln - 20 mln",
+      "talab1": "Flutter yordamida platformalararo mobil ilovalarni ishlab chiqish;",
+      "talab2": "Foydalanuvchi interfeysining ishlashi va sezgirligini optimallashtirish;",
+      "talab3": "Backend xizmatlari bilan integratsiya va API bilan o'zaro aloqalar;",
+      "vazifa1": "Flutter yordamida mobil ilovalarni ishlab chiqishda kamida 1 yillik tajriba;",
+      "vazifa2": "Flutter v2.5+ va Dart v2.15+ bilan tajriba;",
+      "vazifa3": "Rest API, GraphQL, WebSocket bilan ishlash qobiliyati;",
+      "shart1": "Ish vaqti 5/2 kun, soat 09:00 dan 18:00 gacha;",
+      "shart2": "Qiziqarli loyihalarni ishlab chiqish uchun professional jamoa bilan ishlash imkoniyati;",
+      "shart3": "Kompaniya o'zining tirishqoq xodimlariga ishlash uchun eng zamonaviy va sifatli uskunalarni taqdim etadi;",
+      "shart4": "Ish uchun qulayliklarga ega zamonaviy ofis;"
+    },
+    {
+      "id": 2,
+      "title": "UI/UX designer",
+      "workPrice": "10 mln - 20 mln",
+      "talab1": "Interfeys dizayni (UI) va foydalanuvchi tajribasi (UX) bo'yicha tajriba;",
+      "talab2": "Sketch, Figma, Framer, Adobe Family (PS, AI) yoki boshqa analoglar kabi dizayn vositalarini bilish;",
+      "talab3": "Mobil qurilmalar uchun maketlar yaratish tajribasi va ularning dizayn xususiyatlarini tushunish;",
+      "vazifa1": "Zamonaviy tendentsiyalar va dizayn standartlarini hisobga olgan holda foydalanuvchi interfeyslarini (UI) ishlab chiqish;",
+      "vazifa2": "Veb va mobil ilovalar uchun maketlar, prototiplar va vizualizatsiyalarni yaratish;",
+      "vazifa3": "Dizayn yaxlitligi va foydalanuvchi tajribasini ta'minlash uchun mahsulot jamoasi va ishlab chiquvchilar bilan ishlash;",
+      "shart1": "Ish vaqti 5/2 kun, soat 09:00 dan 18:00 gacha;",
+      "shart2": "Jamoada do'stona va qo'llab-quvvatlovchi muhit, muntazam jamoaviy tadbirlar, jamoa qurish, shu jumladan marafonlar va kvizlar;",
+      "shart3": "Kompaniya o'zining tirishqoq xodimlariga ishlash uchun eng zamonaviy va sifatli uskunalarni taqdim etadi;",
+      "shart4": "Ish uchun qulayliklarga ega zamonaviy ofis;"
+    },
+    {
+      "id": 3,
+      "title": "Backend Developer (Python)",
+      "workPrice": "8 mln - 15 mln",
+      "talab1": "Python va Django tajribasi kamida 1,5 yil;",
+      "talab2": "Mikro-xizmat echimlarini ishlab chiqish va sun'iy intellekt modellari bilan integratsiya;",
+      "talab3": "Python 3, Django, Django Rest framework, Celery, PostgreSQL, JavaScript bilan ishlash bo'yicha bilim va ko'nikmalar;",
+      "vazifa1": "API-ni ishlab chiqish va sinovdan o'tkazish: dastur tarkibiy qismlari o'rtasida samarali ishlash uchun API yaratish va sinovdan o'tkazish;",
+      "vazifa2": "Python, Django-da loyihalar ustida ishlash: Python va Django-ga asoslangan turli xil murakkablik darajasidagi loyihalarni ishlab chiqishda ishtirok etish;",
+      "vazifa3": "Yosh jamoa a'zolarini qo'llab-quvvatlash: yosh ishlab chiquvchilarga yordam berish va qo'llab-quvvatlash va kamchiliklarni aniqlash uchun loyihalarni tekshirish;",
+      "shart1": "Ish vaqti 5/2 kun, soat 09:00 dan 18:00 gacha;",
+      "shart2": "Korporativ ta'lim va treninglar;",
+      "shart3": "Qiziqarli loyihalarni ishlab chiqish uchun professional jamoa bilan ishlash imkoniyati;",
+      "shart4": "O'z vaqtidagi ish haqi, shu jumladan ajoyib natijalar uchun bonus tizimi;"
+    },
+    {
+      "id": 4,
+      "title": "Project Manager",
+      "workPrice": "15 mln - 20 mln",
+      "talab1": "Axborot texnologiyalari sohasida loyihalarni boshqarish tajribasi;",
+      "talab2": "Loyihani boshqarish metodologiyasini tushunish (Agile, Scrum, Waterfall va boshqalar);",
+      "talab3": "Jamoani samarali boshqarish va muloqot qilish qobiliyati;",
+      "vazifa1": "Loyihaning boshidan oxirigacha hayot tizimini rejalashtirish, muvofiqlashtirish va boshqarish;",
+      "vazifa2": "Mijozlar bilan ishlash va ularning ehtiyojlarini aniqlash;",
+      "vazifa3": "Loyiha hujjatlarini, jumladan rejalar, hisobotlar va spetsifikatsiyalarni tayyorlash va saqlash.",
+      "shart1": "Ish vaqti 5/2 kun, soat 09:00 dan 18:00 gacha;",
+      "shart2": "Korporativ ta'lim va treninglar;",
+      "shart3": "Qiziqarli loyihalarni ishlab chiqish uchun professional jamoa bilan ishlash imkoniyati;",
+      "shart4": "O'z vaqtidagi ish haqi, shu jumladan ajoyib natijalar uchun bonus tizimi;"
+    },
+    {
+      "id": 5,
+      "title": "Frontend developer (Vue.js)",
+      "workPrice": "5 mln - 10 mln",
+      "talab1": "Mavjud loyihalarni qo'llab-quvvatlash va takomillashtirish, shuningdek, yangi funksiyalarni joriy etish;",
+      "talab2": "Boshqa ishlab chiquvchilar, QA testerlari, backend dasturchilari va UI/UX dizaynerlari bilan jamoaviy ish;",
+      "vazifa1": "Dastur tuzilishini bilish PWA(Progressive Web App), SPA(Single Page Application), SSR(Server-Side Rendering ), MF (Mutual Funds);",
+      "vazifa2": "2 yildan ortiq ish tajribasi.(1 yildan ortiq faol rivojlanish);",
+      "vazifa3": "JavaScript va uning asosiy tushunchalarini bilish (prototipik meros, hodisalar tsikli, yopilish, bu kalit so'z va boshqalar).;",
+      "vazifa4": "Axios va API bilan ishlash qobiliyati;",
+      "shart1": "Ish vaqti 5/2 kun, soat 09:00 dan 18:00 gacha;",
+      "shart2": "Korporativ ta'lim va treninglar;",
+      "shart3": "Qiziqarli loyihalarni ishlab chiqish uchun professional jamoa bilan ishlash imkoniyati;",
+      "shart4": "O'z vaqtidagi ish haqi, shu jumladan ajoyib natijalar uchun bonus tizimi;"
+    },
+    {
+      "id": 6,
+      "title": "Frontend developer (React.js)",
+      "workPrice": "10 mln - 20 mln",
+      "talab1": "React yordamida yuqori sifatli foydalanuvchi interfeyslarini ishlab chiqish.js va tegishli texnologiyalar;",
+      "talab2": "Frontend qismini backend xizmatlari va API bilan birlashtirish;",
+      "talab3": "Loyihaning umumiy maqsadlariga erishish uchun dizaynerlar va boshqa jamoa a'zolari bilan yaqin hamkorlik.",
+      "vazifa1": "Mavjud loyihalarni qo'llab-quvvatlash va takomillashtirish, shuningdek, yangi funksiyalarni joriy etish;",
+      "vazifa2": "Boshqa ishlab chiquvchilar, QA testerlari, backend dasturchilari va UI/UX dizaynerlari bilan jamoaviy ish.",
+      "shart1": "Ish vaqti 5/2 kun, soat 09:00 dan 18:00 gacha;",
+      "shart2": "Korporativ ta'lim va treninglar;",
+      "shart3": "Qiziqarli loyihalarni ishlab chiqish uchun professional jamoa bilan ishlash imkoniyati;",
+      "shart4": "O'z vaqtidagi ish haqi, shu jumladan ajoyib natijalar uchun bonus tizimi;"
+    },
+    {
+      "id": 7,
+      "title": "QA Engineer",
+      "workPrice": "15 mln - 20 mln",
+      "talab1": "Dasturiy ta'minotni sinovdan o'tkazish tajribasi.",
+      "talab2": "Sinov metodologiyalarini bilish va dasturiy ta'minotni ishlab chiqishning hayotiy tsiklini tushunish.",
+      "talab3": "Sinovlarni avtomatlashtirish asoslarini tushunish va avtomatlashtirish vositalari bilan ishlash tajribasi (masalan, Selenium, Appium, JUnit, TestNG).",
+      "vazifa1": "Kamida 1 yillik ish tajribasi. ",
+      "vazifa2": "Funktsional, regressiya, integratsiya va boshqa turdagi testlarni bajarish.",
+      "vazifa3": "Mahsulotning sifatli chiqarilishini ta'minlash uchun ishlab chiquvchilar, tahlilchilar va boshqa jamoa a'zolari bilan o'zaro aloqalar.",
+      "shart1": "Ish vaqti 5/2 kun, soat 09:00 dan 18:00 gacha;",
+      "shart2": "Korporativ ta'lim va treninglar;",
+      "shart3": "Qiziqarli loyihalarni ishlab chiqish uchun professional jamoa bilan ishlash imkoniyati;",
+      "shart4": "O'z vaqtidagi ish haqi, shu jumladan ajoyib natijalar uchun bonus tizimi;"
+    }
+  ],
+
+  "servicesData": [
+    {
+      "id": 1,
+      "types": "webistes",
+      "title": {
+        "eng": "Websites",
+        "uz": "Veb-saytlar",
+        "ru": "Веб-сайты"
+      },
+      "infoTitle": {
+        "eng": "We develop websites of various complexities from corporate sites to web applications with quality assurance.",
+        "uz": "Korporativ veb saytlardan tortib veb ilovalargacha bo‘lgan murakkablikdagi internet saytlarni sifat kafolati bilan ishlab chiqamiz",
+        "ru": "Мы разрабатываем веб-сайты различной сложности: от корпоративных сайтов до веб-приложений с гарантией качества."
+      }
+    },
+    {
+      "id": 2,
+      "types": "mobile-app",
+      "title": {
+        "eng": "Mobile Applications",
+        "uz": "Mobil Ilovalar",
+        "ru": "Мобильные приложения"
+      },
+      "infoTitle": {
+        "eng": "Development and technical support of mobile applications of any complexity.",
+        "uz": "Istalgan qiyinchilikdagi mobil ilovalarni ishlab chiqish va ularni texnik qo‘llab-quvvatlash",
+        "ru": "Разработка и техническая поддержка мобильных приложений любой сложности."
+      }
+    },
+    {
+      "id": 3,
+      "types": "ui/ux_design",
+      "title": {
+        "eng": "UI/UX Design",
+        "uz": "UI/UX dizayn",
+        "ru": "UI/UX дизайн"
+      },
+      "infoTitle": {
+        "eng": "Developing project MindMap and designing optimal solutions based on this architecture.",
+        "uz": "Loyiha MindMapʼini ishlab chiqish va ushbu arxitektura asosida optimal yechimga ega dizaynlarni chizish",
+        "ru": "Разработка MindMap проекта и проектирование оптимальных решений на основе этой архитектуры."
+      }
+    },
+    {
+      "id": 4,
+      "types": "media-production",
+      "title": {
+        "eng": "Media Production",
+        "uz": "Media production",
+        "ru": "Медиа производство"
+      },
+      "infoTitle": {
+        "eng": "Professional preparation of 2D/3D animation, project presentation, advertisement, video materials, and other media resources.",
+        "uz": "2D/3D animatsiya, loyiha taqdimoti, reklamasi, videomateriallar va boshqa media resurslarni professional tarzda tayyorlash",
+        "ru": "Профессиональная подготовка 2D/3D анимации, презентаций проектов, рекламы, видеоматериалов и других медиа ресурсов."
+      }
+    },
+    {
+      "id": 5,
+      "types": "crm_systems",
+      "title": {
+        "eng": "CRM Systems",
+        "uz": "CRM Systems",
+        "ru": "CRM системы"
+      },
+      "infoTitle": {
+        "eng": "Developing management electronic systems that automate business processes and reduce paperwork by up to 100%.",
+        "uz": "Biznesni va jarayonlarni avtomatlashtirish, kanselyariya ishlarini 100% gacha kamaytiruvchi boshqaruv elektron tizimlarini ishlab chiqish",
+        "ru": "Разработка управленческих электронных систем, автоматизирующих бизнес-процессы и сокращающих бумажную работу до 100%."
+      }
+    },
+    {
+      "id": 6,
+      "types": "logo-branding",
+      "title": {
+        "eng": "Logo and Branding",
+        "uz": "Logo va brending",
+        "ru": "Логотип и брендинг"
+      },
+      "infoTitle": {
+        "eng": "Creating essential tools and marketing materials from scratch to promote a business.",
+        "uz": "Biznesni ilgari surish uchun asosiy vositalar va marketing materiallari to‘plamini noldan yaratish.",
+        "ru": "Создание основных инструментов и маркетинговых материалов с нуля для продвижения бизнеса."
+      }
+    },
+    {
+      "id": 7,
+      "types": "cybersecurity",
+      "title": {
+        "eng": "Cybersecurity",
+        "uz": "Kiberxavfsizlik",
+        "ru": "Кибербезопасность"
+      },
+      "infoTitle": {
+        "eng": "Identifying and fixing vulnerabilities in networks, devices, codes, and data.",
+        "uz": "Tarmoqlar, qurilmalar, kodlar va ma'lumotlardagi zaifliklarni topish va tuzatish.",
+        "ru": "Обнаружение и устранение уязвимостей в сетях, устройствах, кодах и данных."
+      }
+    }
+  ]
+}

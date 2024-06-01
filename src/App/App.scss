@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
+  a {
+    text-decoration: none;
+  }
+}
+
+.containers {
+  max-width: 1450px;
+  margin: auto;
+}
+
+.btn-anim {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #fff;
+  background-color: #1a8377;
+  border: 2px solid #00a795;
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition-duration: 1.2s;
+  span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 3s;
+  }
+
+  &:hover {
+    background-color: #00a795;
+    transition: all 0.3s;
+    border: 2px solid transparent;
+    transition-duration: 0.6s;
+    .second-animation {
+      transform: rotate(45deg);
+      transition-duration: 0.8s;
+    }
+  }
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid rgb(205, 204, 204);
+}
+
+.btn {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #fff;
+  background-color: #1a8377;
+  border: 2px solid #00a795;
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition-duration: 1s;
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &:hover {
+    background-color: #00a795;
+    transition: 0.21s;
+    border: 2px solid transparent;
+
+    .second-animation {
+      transform: rotate(50deg);
+      transition: 0.5s;
+    }
+  }
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid rgb(205, 204, 204);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: inherit;
+  background-color: #1e1e20;
+}
+
+.container {
+  max-width: 1220px;
+  margin: auto;
+  padding: 0;
+  // background-color: rgb(200, 120, 200);
+}
+
+.App {
+  max-width: 100%;
+}
+
+html::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: gray;
+}
+html::-webkit-scrollbar-thumb {
+  background: rgb(224, 224, 224);
+}
+
+.Navbar-Parent {
+  nav {
+    position: fixed;
+    z-index: 989;
+    width: 100%;
+    .container {
+      #Navbar-Parent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 0px;
+        .Logo-UIC {
+          margin-right: 100px;
+          cursor: pointer;
+        }
+        .Nav-Parent-Child2 {
+          display: flex;
+          .Nav-List {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            li {
+              margin-right: 40px;
+              font-size: 14px;
+              font-weight: 500;
+              cursor: pointer;
+              text-transform: uppercase;
+              a {
+                color: #fff9;
+                &:hover {
+                  color: #00a795;
+                  transition: all 0.5s ease-in-out;
+                }
+                .actives{
+                  color: red !important;
+                }
+              }
+            }
+            span {
+              display: flex;
+              align-items: center;
+              margin-right: 50px;
+              cursor: pointer;
+              font-size: 23px;
+              font-weight: 600;
+              color: #fff9;
+
+              p {
+                padding-left: 10px;
+                color: white;
+              }
+
+              &:hover {
+                color: white;
+                transition: all 0.3s ease-in-out;
+              }
+            }
+          }
+
+          .UIC-Language {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            width: 100px;
+            cursor: pointer;
+            color: #fff9;
+            transition: all 0.7s;
+            overflow: hidden;
+            span:nth-child(3) {
+              transition: all 0.7s;
+              transform: translateX(50px);
+            }
+            span:nth-child(4) {
+              transition: all 0.7s;
+              transform: translateX(60px);
+            }
+            img{
+              transition: all 0.7s;
+              transform: translateX(40px);
+            }
+            span {
+              color: #fff9;
+              transition: all 0.7s;
+              transform: translateX(35px);
+              &:hover {
+                color: white;
+              }
+            }
+            &:hover {
+              width: 200px;
+              overflow: hidden;
+              span {
+                display: block;
+                transform: translateX(0px);
+              }
+              img{
+                transform: translateX(0px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@import "../Home/Home.scss";
+@import "../Second-Page/SecondPage.scss";
+@import "../Portfolio-Page/Portfolio_Page.scss";
+// @import "../ServicesPage/ServicesPage.scss";
+@import "../Partnyor/Partnyor.scss";
+@import "../Footer/Footer.scss";
+@import "../BlogPage/BlogPage.scss";
+@import "../Servicess/Servicess.scss";
+@import "../About/About.scss";

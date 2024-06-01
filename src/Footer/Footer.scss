@@ -1,0 +1,153 @@
+.Footer-Parent-Selector{
+    max-width: 100%;  
+    background-color: rgb(30 30 32);
+    .Footer-Page-Parent{
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        ul{
+            list-style: none;
+            display: flex;
+            column-gap: 3rem !important;
+            a{
+                text-decoration: none !important;
+                color: white;
+                font-size: 1rem !important;
+                line-height: 1.5rem;
+                opacity: 0.6;
+                font-weight: 600;
+                text-transform: uppercase;
+                transition: 0.2s ease;
+                &:hover{
+                    opacity: 1;
+                    transition: 0.3s ease-in-out;
+                }
+            }
+        }
+        .Top-Home-Page{
+            .border-Top-Icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+                border: 1px solid #A4A4A5;
+                cursor: pointer;
+                padding-top: 5px;
+                &:hover{
+                    border: 1px solid #00a795;
+                }
+            }
+        }
+    }
+    .Footer-Page-Ijtimoiy-Tarmoq{
+        width: 100%;
+        .Ijtimoiy-Tarmoq-Parent{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0px;
+            align-items: flex-end;
+            margin-bottom: 50px;
+            .Ijtimoiy-Tarmoq-Left-Parent{
+                display: grid;
+                grid-template-columns: repeat(9, 0fr);
+                gap: 14px;
+                a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid rgba(255, 255, 255, 0.254);
+                    border-radius: 100%;
+                    transition-timing-function: cubic-bezier(.4,0,.2,1);
+                    transition-duration: .3s;
+                    svg{
+                        width: auto;
+                        height: auto;
+                    }
+                    &:hover{
+                        background-color: #00a795;
+                        border-color: #00a795;
+                    }
+                }
+            }
+            .Info-MobileNumber-email{
+                display: flex;
+                column-gap: 1rem !important;
+                margin-left: -80px;
+                .a-Links{
+                    text-decoration: none;
+                    line-height: 18px;
+                    font-weight: 400;
+                    font-size: 16px !important;
+                    color: #fff9;
+                    transition-timing-function: cubic-bezier(.4,0,.2,1);
+                    transition-duration: .3s;
+                    cursor: pointer;
+                    &:hover{
+                        color: white;
+                    }
+                }
+                .Info{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 12px !important;
+                }
+                
+            }
+        }
+    }
+    .footer-End-Box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0px;
+        .footer-copyright{
+            font-size: 17px;
+            font-weight: 500;
+            color: rgb(165, 164, 164);
+
+        }
+        .logo-footer{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            overflow: hidden;
+            .title-Logo{
+                transform: translateX(50px) scale(0.7);
+                opacity: 0;
+                font-size: 22px;
+                font-weight: 900;
+                transition: all 0.5s;
+                color: white;
+                span{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: rgb(185, 184, 184);
+                }
+            }
+            &:hover .title-Logo{
+                transform: translateX(0px) scale(1);
+                opacity: 1;
+            }
+        }
+        .map-button{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            border: 1px solid gray;
+            transition: all 0.4s;
+            color: white;
+            &:hover{
+                border: 1px solid #00a795;
+            }
+        }
+    }
+}
