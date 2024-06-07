@@ -10,7 +10,7 @@ const Portfolio_Page = () => {
   useEffect(() => {
     const dataFetch = async () => {
       try {
-        const res = await fetch("/info.json");
+        const res = await fetch("/public/info.json");
         const data = await res.json();
         setProjects(data.portfolio);
       } catch (error) {

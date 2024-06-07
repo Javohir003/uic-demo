@@ -126,9 +126,6 @@
   max-width: 1220px;
   margin: auto;
   padding: 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
 }
 .Second-Page-Parent .container-Blog .Second-Page-Childs {
   display: flex;

@@ -144,6 +144,7 @@ function NavbarLayout() {
       <main>
         <Outlet/>
       </main>
+      
     </>
   );
 }

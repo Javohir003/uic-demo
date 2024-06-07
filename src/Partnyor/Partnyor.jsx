@@ -9,7 +9,7 @@ const Partnyor = () => {
   useEffect(() => {
     const dataFetch = async () => {
       try {
-        const response = await fetch("/info.json");
+        const response = await fetch("/public/info.json");
         const data = await response.json();
 
         const genetUUID = data.partnyors.map((partnyor) => ({

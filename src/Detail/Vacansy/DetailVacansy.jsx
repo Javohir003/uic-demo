@@ -9,7 +9,7 @@ function DetailVacansy() {
   useEffect(() => {
     const fetchData1 = async () => {
       try {
-        const data = await fetch("/info.json");
+        const data = await fetch("/public/info.json");
         const res = await data.json();
         if (res && Array.isArray(res.vacansyData)) {
           const foundVacancy = res.vacansyData.find(

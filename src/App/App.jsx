@@ -21,7 +21,6 @@ import DetailVacansy from "../Detail/Vacansy/DetailVacansy";
 import ArticlesLayout from "../Layout/ArticlesLayout";
 import BoxFooter from '../Footer/Along/FooterBox'
 import DetailServices from "../Detail/Services/DetailServices";
-import { Helmet } from "react-helmet-async";
 
 const App = () => {
   const routes = createBrowserRouter(

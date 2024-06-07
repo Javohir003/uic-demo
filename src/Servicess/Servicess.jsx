@@ -10,7 +10,7 @@ function Servicess() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const servicesdata = await fetch("/info.json");
+        const servicesdata = await fetch("/public/info.json");
         const response = await servicesdata.json();
         console.log(response.servicesData);
         setServicesdata(response.servicesData);

@@ -10,7 +10,7 @@ function Vacansies() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await fetch("/info.json");
+      const data = await fetch("/public/info.json");
       const response = await data.json();
       setVacansy(response.vacansyData);
     };

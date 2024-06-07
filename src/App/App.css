@@ -1075,11 +1075,11 @@ html::-webkit-scrollbar-thumb {
   overflow: hidden;
 }
 .Footer-Parent-Selector .footer-End-Box .logo-footer .title-Logo {
-  transform: translateX(50px);
+  transform: translateX(50px) scale(0.7);
   opacity: 0;
   font-size: 22px;
   font-weight: 900;
-  transition: all 0.4s;
+  transition: all 0.5s;
   color: white;
 }
 .Footer-Parent-Selector .footer-End-Box .logo-footer .title-Logo span {
@@ -1088,7 +1088,7 @@ html::-webkit-scrollbar-thumb {
   color: rgb(185, 184, 184);
 }
 .Footer-Parent-Selector .footer-End-Box .logo-footer:hover .title-Logo {
-  transform: translateX(0px);
+  transform: translateX(0px) scale(1);
   opacity: 1;
 }
 .Footer-Parent-Selector .footer-End-Box .map-button {
