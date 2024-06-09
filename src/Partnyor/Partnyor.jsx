@@ -9,7 +9,7 @@ const Partnyor = () => {
   useEffect(() => {
     const dataFetch = async () => {
       try {
-        const response = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/data.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2RhdGEuanNvbiIsImlhdCI6MTcxNzkyOTA1NSwiZXhwIjoxNzQ5NDY1MDU1fQ.oFitd0OL-dTulzaTVgMSwqARyxQsTUsirb0Wwg4SQa0&t=2024-06-09T10%3A37%3A40.276Z");
+        const response = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxNzkzNDQwMCwiZXhwIjoxNzQ5NDcwNDAwfQ.y5mEmhUYpLfofDw73078txcCI2W6nnr1r3j2oaDejtM&t=2024-06-09T12%3A06%3A44.793Z");
         const data = await response.json();
 
         const genetUUID = data.partnyors.map((partnyor) => ({

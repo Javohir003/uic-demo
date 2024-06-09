@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Portfolio_Page = () => {
   const [projects, setProjects] = useState([]);
-  const [filterType, setFilterType] = useState('');
-  const { t } = useTranslation();
+  const [filterType, setFilterType] = useState("");
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     const dataFetch = async () => {
       try {
-        const res = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/data.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2RhdGEuanNvbiIsImlhdCI6MTcxNzkyNzcwMywiZXhwIjoxNzQ5NDYzNzAzfQ.tNMF-4Pnv1gywkFrJEtbhxP-jj_UCm_pMZIaNJleBWc&t=2024-06-09T10%3A15%3A08.395Z");
+        const res = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxNzkzNDQwMCwiZXhwIjoxNzQ5NDcwNDAwfQ.y5mEmhUYpLfofDw73078txcCI2W6nnr1r3j2oaDejtM&t=2024-06-09T12%3A06%3A44.793Z");
         const data = await res.json();
         setProjects(data.portfolio);
       } catch (error) {
@@ -46,7 +47,9 @@ const Portfolio_Page = () => {
               </a>
               <a href="#2">
                 <button
-                  className={`btn-portfolio ${filterType === "Mobile App" && "active"}`}
+                  className={`btn-portfolio ${
+                    filterType === "Mobile App" && "active"
+                  }`}
                   onClick={() => handleFilter("Mobile App")}
                 >
                   {t("Mobile App")}
@@ -54,7 +57,9 @@ const Portfolio_Page = () => {
               </a>
               <a href="#3">
                 <button
-                  className={`btn-portfolio ${filterType === "CRM" && "active"}`}
+                  className={`btn-portfolio ${
+                    filterType === "CRM" && "active"
+                  }`}
                   onClick={() => handleFilter("CRM")}
                 >
                   {t("CRM")}
@@ -62,7 +67,9 @@ const Portfolio_Page = () => {
               </a>
               <a href="#4">
                 <button
-                  className={`btn-portfolio ${filterType === "Website" && "active"}`}
+                  className={`btn-portfolio ${
+                    filterType === "Website" && "active"
+                  }`}
                   onClick={() => handleFilter("Website")}
                 >
                   {t("Website")}
@@ -78,15 +85,17 @@ const Portfolio_Page = () => {
           <div className="Portfolio-Projects-Box">
             <div className="box-Portfolio">
               {projects
-                .filter((proj) => filterType === "" || proj.title_web === filterType)
+                .filter(
+                  (proj) => filterType === "" || proj.title_web === filterType
+                )
                 .map((proj) => (
-                  <a href="1" key={proj.id}>
+                  <Link to={`/${i18n.language}/portfolio/${proj.routesLink}`} state={{projects: proj}} key={proj.id}>
                     <div className="text-info">
-                    {t(proj.title_portfolio)}
+                      {t(proj.title_portfolio)}
                       <p className="title-site">{t(proj.title_web)}</p>
                     </div>
                     <img src={proj.images} alt="" />
-                  </a>
+                  </Link>
                 ))}
             </div>
           </div>

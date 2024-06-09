@@ -21,6 +21,7 @@ import DetailVacansy from "../Detail/Vacansy/DetailVacansy";
 import ArticlesLayout from "../Layout/ArticlesLayout";
 import BoxFooter from '../Footer/Along/FooterBox'
 import DetailServices from "../Detail/Services/DetailServices";
+import DetailPortfolio from "../Detail/Portfolio/DetailPortfolio";
 
 const App = () => {
   const routes = createBrowserRouter(
@@ -40,7 +41,10 @@ const App = () => {
           }
         />
         <Route path=":lang/about" element={<About />} />
-        <Route path=":lang/portfolio" element={<Portfolio_Page />} />
+        <Route path=":lang/portfolio" element={<ArticlesLayout/>}>
+          <Route index element={<Portfolio_Page/>} />
+          <Route path=":id" element={<DetailPortfolio/>}/>
+        </Route>
         <Route path=":lang/services" element={<ArticlesLayout/>}>
           <Route index element={<Servicess />}/>
           <Route path=":id" element={<DetailServices/>} />
