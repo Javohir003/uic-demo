@@ -10,7 +10,7 @@ function Servicess() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const servicesdata = await fetch("/public/info.json");
+        const servicesdata = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/data.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2RhdGEuanNvbiIsImlhdCI6MTcxNzkyOTE0NSwiZXhwIjoxNzQ5NDY1MTQ1fQ.nQSc8aSrbkOwwBSN0jK2sV4O6vfAWbLQaYMeuncStRQ&t=2024-06-09T10%3A39%3A10.201Z");
         const response = await servicesdata.json();
         console.log(response.servicesData);
         setServicesdata(response.servicesData);
