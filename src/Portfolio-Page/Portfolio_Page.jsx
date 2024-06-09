@@ -10,7 +10,7 @@ const Portfolio_Page = () => {
   useEffect(() => {
     const dataFetch = async () => {
       try {
-        const res = await fetch("/public/info.json");
+        const res = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/data.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2RhdGEuanNvbiIsImlhdCI6MTcxNzkyNzcwMywiZXhwIjoxNzQ5NDYzNzAzfQ.tNMF-4Pnv1gywkFrJEtbhxP-jj_UCm_pMZIaNJleBWc&t=2024-06-09T10%3A15%3A08.395Z");
         const data = await res.json();
         setProjects(data.portfolio);
       } catch (error) {
