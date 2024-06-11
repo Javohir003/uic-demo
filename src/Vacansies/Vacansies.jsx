@@ -10,7 +10,7 @@ function Vacansies() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxODA4ODM5OCwiZXhwIjoxNzQ5NjI0Mzk4fQ.1x0ipczWOZrco6-2G9vE7BF-ci60i8gsvjJLZXYgkP8&t=2024-06-11T06%3A46%3A35.498Z");
+      const data = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxODEwMTg2OSwiZXhwIjoxNzQ5NjM3ODY5fQ.hpneWz5-nOCpnz7JJfCBCW136GyVBHBhuZh-yNxxgPU&t=2024-06-11T10%3A31%3A04.797Z");
       const response = await data.json();
       setVacansy(response.vacansyData);
     };

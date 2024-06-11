@@ -5,7 +5,6 @@
   width: 100%;
   background-color: #27272b;
   border-radius: 20px;
-  overflow: hidden;
 }
 .DetailPortfolio-wrapper .Detail-Portfolio-Parent .Detail-Portfolio-header {
   display: flex;
@@ -101,6 +100,7 @@
   width: 100%;
   height: auto;
   margin-top: 60px;
+  overflow: hidden;
 }
 
 .detail-container {
@@ -109,7 +109,7 @@
 }
 
 .img1 {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   transition: all 0.3s;
   margin-bottom: 70px;

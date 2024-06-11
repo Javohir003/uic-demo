@@ -8,22 +8,7 @@ import "./Portfolio.css";
 function DetailPortfolio() {
   const { t, i18n } = useTranslation();
   const location = useLocation();
-  const { projects } = location.state || [];
-
-
-
-  const [detail, setDetail] = useState([]);
-
-
-  // useEffect(()=> {
-  //   const fetchData = async () => {
-  //     const res = await fetch('https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxODA4ODM5OCwiZXhwIjoxNzQ5NjI0Mzk4fQ.1x0ipczWOZrco6-2G9vE7BF-ci60i8gsvjJLZXYgkP8&t=2024-06-11T06%3A46%3A35.498Z');
-  //     const data = await res.json();
-  //     console.log(data.portfolio);
-  //     setDetail(data.portfolio)
-  //   }
-  //   fetchData()
-  // }, [])
+  const { projects } = location.state || {projects: {}};
 
   console.log(projects);
 
@@ -48,7 +33,7 @@ function DetailPortfolio() {
             </div>
             <div className="detail-container">
               <button className="btn-detailPortfolio btn-anim">
-                <Link to="https://uzbekistans.club/" target="_blank">
+                <a href={projects.LinkVisitSites} target="_blank">
                   Got To Web site
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <g clip-path="url(#clip0_1802_2798)" fill="none">
@@ -69,7 +54,7 @@ function DetailPortfolio() {
                       ></path>
                     </g>
                   </svg>
-                </Link>
+                </a>
               </button>
             </div>
 

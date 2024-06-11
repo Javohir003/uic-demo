@@ -6,11 +6,12 @@
       "title_portfolio": "Xazna",
       "title_web": "Website",
       "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/xazna.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcveGF6bmEuanBnIiwiaWF0IjoxNzE3OTMyNTMyLCJleHAiOjE3NDk0Njg1MzJ9.ylJ-LNAb0QZY-yLiVHs2qNFvAEwauy9p6_JOEd6xi-Q&t=2024-06-09T11%3A35%3A37.043Z",
-      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xaznaLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmFMb2dvLnN2ZyIsImlhdCI6MTcxODEwMTUxNywiZXhwIjoxNzQ5NjM3NTE3fQ.QBw-S0LMu80QQ57Il2y7mq0C2yzn-xKagzMy-frBDuk&t=2024-06-11T10%3A25%3A12.886Z",
       "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmExLmpwZyIsImlhdCI6MTcxODA4ODE4MSwiZXhwIjoxNzQ5NjI0MTgxfQ._Q8z-DR82vEsACxYYAdKGuJbc8VJGgHUPVOgsJmogPc&t=2024-06-11T06%3A42%3A58.095Z",
       "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEyLmpwZyIsImlhdCI6MTcxODA4ODM0NywiZXhwIjoxNzQ5NjI0MzQ3fQ.W3ibpVw9Z6SnrlAnRRfObt7un4zBaLtEynqXOXUgNJg&t=2024-06-11T06%3A45%3A44.094Z",
       "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z",
-      "detailPortfolio3": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z"
+      "detailPortfolio3": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z",
+      "LinkVisitSites": "https://xazna.uz/"
     },
     {
       "id": 1,
@@ -18,11 +19,12 @@
       "title_portfolio": "Xazna App",
       "title_web": "Mobile App",
       "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/xaznaApp.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcveGF6bmFBcHAuanBnIiwiaWF0IjoxNzE3OTMyNTQ1LCJleHAiOjE3NDk0Njg1NDV9.etE22fu-9ez-TefUYRKLTUyot4oRYZNwflMlC8RcLVI&t=2024-06-09T11%3A35%3A49.809Z",
-      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xaznaLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmFMb2dvLnN2ZyIsImlhdCI6MTcxODEwMTUxNywiZXhwIjoxNzQ5NjM3NTE3fQ.QBw-S0LMu80QQ57Il2y7mq0C2yzn-xKagzMy-frBDuk&t=2024-06-11T10%3A25%3A12.886Z",
       "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmExLmpwZyIsImlhdCI6MTcxODA4ODE4MSwiZXhwIjoxNzQ5NjI0MTgxfQ._Q8z-DR82vEsACxYYAdKGuJbc8VJGgHUPVOgsJmogPc&t=2024-06-11T06%3A42%3A58.095Z",
       "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEyLmpwZyIsImlhdCI6MTcxODA4ODM0NywiZXhwIjoxNzQ5NjI0MzQ3fQ.W3ibpVw9Z6SnrlAnRRfObt7un4zBaLtEynqXOXUgNJg&t=2024-06-11T06%3A45%3A44.094Z",
       "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z",
-      "detailPortfolio3": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z"
+      "detailPortfolio3": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z",
+      "LinkVisitSites": "https://play.google.com/store/apps/details?id=uz.tune.xazna&hl=ru&gl=US"
     },
     {
       "id": 2,
@@ -33,7 +35,9 @@
       "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/express24Logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvZXhwcmVzczI0TG9nby5zdmciLCJpYXQiOjE3MTgwODgwMzAsImV4cCI6MTc0OTYyNDAzMH0.8e5UoUMizAtKaLuzEfhYg4LMEkpM00erNzS-Gp_2eY0&t=2024-06-11T06%3A40%3A27.659Z",
       "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/express24img1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvZXhwcmVzczI0aW1nMS5qcGciLCJpYXQiOjE3MTgwODgxNDQsImV4cCI6MTc0OTYyNDE0NH0.9-L5LhAH3_9qzKKwabKsi20Ujv-0pFbCf1gtvDHQdtA&t=2024-06-11T06%3A42%3A20.952Z",
       "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/express24img2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvZXhwcmVzczI0aW1nMi5qcGciLCJpYXQiOjE3MTgwODgxNTMsImV4cCI6MTc0OTYyNDE1M30.6Z-08FqkU92YSAxhcWZ9KXI-V7-m-XMBhFQFKJWam5g&t=2024-06-11T06%3A42%3A30.637Z",
-      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/express24img2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvZXhwcmVzczI0aW1nMi5qcGciLCJpYXQiOjE3MTgwODgxNTMsImV4cCI6MTc0OTYyNDE1M30.6Z-08FqkU92YSAxhcWZ9KXI-V7-m-XMBhFQFKJWam5g&t=2024-06-11T06%3A42%3A30.637Z"
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/express24img2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvZXhwcmVzczI0aW1nMi5qcGciLCJpYXQiOjE3MTgwODgxNTMsImV4cCI6MTc0OTYyNDE1M30.6Z-08FqkU92YSAxhcWZ9KXI-V7-m-XMBhFQFKJWam5g&t=2024-06-11T06%3A42%3A30.637Z",
+      "LinkVisitSites": "https://express24.uz/"
+
     },
     {
       "id": 3,
@@ -44,7 +48,9 @@
       "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/cashboxLogo.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvY2FzaGJveExvZ28ucG5nIiwiaWF0IjoxNzE4MDg3ODIyLCJleHAiOjE3NDk2MjM4MjJ9.u_vcIKdld_l-Yt04kFEMt-zA6Qsiflan9ruRxwDdGnU&t=2024-06-11T06%3A36%3A59.759Z",
       "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/cashbox1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvY2FzaGJveDEuanBnIiwiaWF0IjoxNzE4MDg3OTc5LCJleHAiOjE3NDk2MjM5Nzl9.I3X7Wbw9Aenywx9qo5amEq8RS6ik6oxcWaLnXc3042s&t=2024-06-11T06%3A39%3A36.004Z",
       "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/cashbox2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvY2FzaGJveDIuanBnIiwiaWF0IjoxNzE4MDg3OTg5LCJleHAiOjE3NDk2MjM5ODl9.Rinrn8pUdPc0AC9oc3vFSw4yYqBGnqNm6Xf7rudEN3U&t=2024-06-11T06%3A39%3A46.149Z",
-      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/cashbox3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvY2FzaGJveDMuanBnIiwiaWF0IjoxNzE4MDg4MDAzLCJleHAiOjE3NDk2MjQwMDN9.UvGP0BL027PMQBeNcUa5oVH-6AsKUVSYaehlxkxJ1Kk&t=2024-06-11T06%3A40%3A00.667Z"
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/cashbox3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvY2FzaGJveDMuanBnIiwiaWF0IjoxNzE4MDg4MDAzLCJleHAiOjE3NDk2MjQwMDN9.UvGP0BL027PMQBeNcUa5oVH-6AsKUVSYaehlxkxJ1Kk&t=2024-06-11T06%3A40%3A00.667Z",
+      "LinkVisitSites": "https://e-cashbox.uz/"
+
     },
     {
       "id": 4,
@@ -54,7 +60,10 @@
       "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/stesting.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvc3Rlc3RpbmcuanBnIiwiaWF0IjoxNzE3OTMyNTg1LCJleHAiOjE3NDk0Njg1ODV9.w5WCSKsgT5WvsiGsFjl5jXeI3xX5_FKOAftt9FRuc3Q&t=2024-06-09T11%3A36%3A29.770Z",
       "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/stestingLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvc3Rlc3RpbmdMb2dvLnN2ZyIsImlhdCI6MTcxODA4Nzc4MywiZXhwIjoxNzQ5NjIzNzgzfQ.tm723igFY-1FOZ5iAOMa0wYJgAqq4LwbwEeZfEDYgEI&t=2024-06-11T06%3A36%3A20.211Z",
       "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Stesting1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvU3Rlc3RpbmcxLmpwZyIsImlhdCI6MTcxODA4Nzc5OSwiZXhwIjoxNzQ5NjIzNzk5fQ.ucTjd4lb5-nxm3y3blHvobFzMvXEp0f2Jaj23195CDQ&t=2024-06-11T06%3A36%3A36.541Z",
-      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Stesting2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvU3Rlc3RpbmcyLmpwZyIsImlhdCI6MTcxODA4NzgwOSwiZXhwIjoxNzQ5NjIzODA5fQ.pMhfZDg4Li6jCGEo_bsQDifN5tsupvCxe0g0uRJdHuE&t=2024-06-11T06%3A36%3A46.794Z"
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Stesting2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvU3Rlc3RpbmcyLmpwZyIsImlhdCI6MTcxODA4NzgwOSwiZXhwIjoxNzQ5NjIzODA5fQ.pMhfZDg4Li6jCGEo_bsQDifN5tsupvCxe0g0uRJdHuE&t=2024-06-11T06%3A36%3A46.794Z",
+      "LinkVisitSites": "https://stesting.uz/ru"
+
+      
     },
     {
       "id": 5,
@@ -65,8 +74,10 @@
       "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/tdiu.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvdGRpdS5zdmciLCJpYXQiOjE3MTgwODc3MDUsImV4cCI6MTc0OTYyMzcwNX0.O_3qkQ7r9c-MvQefBFMMNt1eTBPTg7yMKhc31Iv1ncY&t=2024-06-11T06%3A35%3A02.778Z",
       "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TDIU1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVERJVTEuanBnIiwiaWF0IjoxNzE4MDg3NzM5LCJleHAiOjE3NDk2MjM3Mzl9.vkCuc7UmgR1BWAcQBlzI4fddfzUd49vRmPCoZZ4lLj0&t=2024-06-11T06%3A35%3A36.106Z",
       "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TDIU2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVERJVTIuanBnIiwiaWF0IjoxNzE4MDg3NzQ5LCJleHAiOjE3NDk2MjM3NDl9.yFivYk3dNSh39huMSZ67SyYI8jpMQCVZnBgTdt8XEM4&t=2024-06-11T06%3A35%3A45.860Z",
-      "detailPortfoli2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TDIU3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVERJVTMuanBnIiwiaWF0IjoxNzE4MDg3NzU3LCJleHAiOjE3NDk2MjM3NTd9.HdpBSKTcWSXY2ciZnJSfEr2LdudzDXFk6lyNPr5hUdI&t=2024-06-11T06%3A35%3A54.777Z",
-      "detailPortfolio3": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TDIU4.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVERJVTQuanBnIiwiaWF0IjoxNzE4MDg3NzY3LCJleHAiOjE3NDk2MjM3Njd9.uJplzPUE4RUyMiLG4XPYB7f15dHM-bYiyESPeQKhmrI&t=2024-06-11T06%3A36%3A04.132Z"
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TDIU3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVERJVTMuanBnIiwiaWF0IjoxNzE4MDg3NzU3LCJleHAiOjE3NDk2MjM3NTd9.HdpBSKTcWSXY2ciZnJSfEr2LdudzDXFk6lyNPr5hUdI&t=2024-06-11T06%3A35%3A54.777Z",
+      "detailPortfolio3": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TDIU4.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVERJVTQuanBnIiwiaWF0IjoxNzE4MDg3NzY3LCJleHAiOjE3NDk2MjM3Njd9.uJplzPUE4RUyMiLG4XPYB7f15dHM-bYiyESPeQKhmrI&t=2024-06-11T06%3A36%3A04.132Z",
+      "LinkVisitSites": "https://tsue.uz/"
+
     },
     {
       "id": 6,
@@ -75,8 +86,11 @@
       "title_web": "Mobile App",
       "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/munir.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvbXVuaXIuanBnIiwiaWF0IjoxNzE3OTMyNjA5LCJleHAiOjE3NDk0Njg2MDl9.voBLOkYFCRnVCX6IDRGN-Z-S6HklSnhtoMEWiCyCUts&t=2024-06-09T11%3A36%3A53.695Z",
       "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/munirLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvbXVuaXJMb2dvLnN2ZyIsImlhdCI6MTcxODA4NzY1NiwiZXhwIjoxNzQ5NjIzNjU2fQ.JQsvGQAb8ncTAPoAK5b2hUwleKV2aSnPjJS8Vf9q430&t=2024-06-11T06%3A34%3A13.780Z",
-      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Munir1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvTXVuaXIxLmpwZyIsImlhdCI6MTcxODA4NzY3MywiZXhwIjoxNzQ5NjIzNjczfQ.yCNz_rj3-h5AQmmgTkpINlBblQzCXXfLYrijcVqoJK8&t=2024-06-11T06%3A34%3A29.895Z",
-      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Munir2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvTXVuaXIyLmpwZyIsImlhdCI6MTcxODA4NzY4NCwiZXhwIjoxNzQ5NjIzNjg0fQ.pYX-q847Yk82KBIzoNNFWyi-VinYl-wiBZg8FDsedoA&t=2024-06-11T06%3A34%3A41.066Z"
+      "detailPortfolio": "/public/assests/DetailImg/Munir1.jpg",
+      "detailPortfolio1": "/public/assests/DetailImg/Munir2.jpg",
+      "detailPortfolio2": "/public/assests/DetailImg/Munir3.jpg",
+      "LinkVisitSites": "https://munir.uz/"
+
     },
     {
       "id": 7,
@@ -84,17 +98,25 @@
       "title_portfolio": "Uzbekistan's Club",
       "title_web": "Website",
       "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/Uzbekistonlik.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvVXpiZWtpc3Rvbmxpay5qcGVnIiwiaWF0IjoxNzE3OTMyNjIyLCJleHAiOjE3NDk0Njg2MjJ9.RS0JRYT5i5YUa3uosYhB-ZnhlBQaFe-ZxRZl4GlrSCM&t=2024-06-09T11%3A37%3A06.673Z",
-      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Uzbekistonlikimg3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVXpiZWtpc3Rvbmxpa2ltZzMuanBnIiwiaWF0IjoxNzE4MDg3NjEzLCJleHAiOjE3NDk2MjM2MTN9.CNX_0eSO7VBKlzUAjE0OBnDvkEk7LKiisjVevC2r1eo&t=2024-06-11T06%3A33%3A30.598Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/uzbekistonlikLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvdXpiZWtpc3Rvbmxpa0xvZ28uc3ZnIiwiaWF0IjoxNzE4MTAwNzg2LCJleHAiOjE3NDk2MzY3ODZ9.obXQmqEGeRqcFTnZi_KvgMKGWu2MGDuB5YjLpAK80Aw&t=2024-06-11T10%3A13%3A02.082Z",
       "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Uzbekistonlikimg1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVXpiZWtpc3Rvbmxpa2ltZzEuanBnIiwiaWF0IjoxNzE4MDg3NTg5LCJleHAiOjE3NDk2MjM1ODl9.haEYaiVjFrz3Po4xk1TjvGhcD-M_P8loNbNm-_bfjoA&t=2024-06-11T06%3A33%3A06.186Z",
       "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Uzbekistonlikimg2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVXpiZWtpc3Rvbmxpa2ltZzIuanBnIiwiaWF0IjoxNzE4MDg3NjA0LCJleHAiOjE3NDk2MjM2MDR9.5grqTU6mEpBpDhYm6dcFRaLqfw3LuSqu6DIHGbuxVxg&t=2024-06-11T06%3A33%3A21.608Z",
-      "detailPortfoli2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Uzbekistonlikimg3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVXpiZWtpc3Rvbmxpa2ltZzMuanBnIiwiaWF0IjoxNzE4MDg3NjEzLCJleHAiOjE3NDk2MjM2MTN9.CNX_0eSO7VBKlzUAjE0OBnDvkEk7LKiisjVevC2r1eo&t=2024-06-11T06%3A33%3A30.598Z"
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Uzbekistonlikimg3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVXpiZWtpc3Rvbmxpa2ltZzMuanBnIiwiaWF0IjoxNzE4MDg3NjEzLCJleHAiOjE3NDk2MjM2MTN9.CNX_0eSO7VBKlzUAjE0OBnDvkEk7LKiisjVevC2r1eo&t=2024-06-11T06%3A33%3A30.598Z",
+      "LinkVisitSites": "https://uzbekistans.club/"
+
     },
     {
       "id": 8,
-      "routesLink": "lenta",
-      "title_portfolio": "Lenta",
+      "routesLink": "marjon",
+      "title_portfolio": "Marjon",
       "title_web": "Website",
-      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/lenta.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvbGVudGEuanBnIiwiaWF0IjoxNzE3OTMyNjM1LCJleHAiOjE3NDk0Njg2MzV9.6oPmQQSZmMVGYs0BiefsOA2id42yWdXSjZ3WK61SUfs&t=2024-06-09T11%3A37%3A19.967Z"
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/marjonImg.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvbWFyam9uSW1nLmpwZyIsImlhdCI6MTcxODEwMDc1MiwiZXhwIjoxNzQ5NjM2NzUyfQ.zNOAfaxU9O1eUp6zaNxAHoAfCTTOqGJWAvAO79hJOig&t=2024-06-11T10%3A12%3A28.400Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Marjon_logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvTWFyam9uX2xvZ28uc3ZnIiwiaWF0IjoxNzE4MTAwNzE1LCJleHAiOjE3NDk2MzY3MTV9.00TQwdlzzAGZpUYeldGM1JrkWUs572GARlED19zetRs&t=2024-06-11T10%3A11%3A51.605Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Marjon1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvTWFyam9uMS5qcGciLCJpYXQiOjE3MTgxMDE4MjYsImV4cCI6MTc0OTYzNzgyNn0.nk0XrwVsHNjSgdde2-ZHapSW-DaThfcmcO4clSFiXWM&t=2024-06-11T10%3A30%3A23.020Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Marjon2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvTWFyam9uMi5qcGciLCJpYXQiOjE3MTgxMDA2OTQsImV4cCI6MTc0OTYzNjY5NH0.Y5DbttH9cPk_miWorfTlK7NfUKg0i7kL-6W4j_HaCkI&t=2024-06-11T10%3A11%3A30.687Z",
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Marjon3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvTWFyam9uMy5qcGciLCJpYXQiOjE3MTgxMDA3MDUsImV4cCI6MTc0OTYzNjcwNX0.DwI_IxtSMBxABSD-_Lyq2cDOEXD_mH6KDdsKl8VdtHg&t=2024-06-11T10%3A11%3A41.496Z",
+      "LinkVisitSites": "https://marjon.uz/ru"
+
     },
     {
       "id": 9,
@@ -103,9 +125,61 @@
       "title_web": "Website",
       "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/CybrPark.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvQ3liclBhcmsuanBlZyIsImlhdCI6MTcxNzkzMjY1MCwiZXhwIjoxNzQ5NDY4NjUwfQ.A44deyCgTc_BfgrabGWt1PllUn7lUw1PZF4z220mGzg&t=2024-06-09T11%3A37%3A34.528Z",
       "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/cyberLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvY3liZXJMb2dvLnN2ZyIsImlhdCI6MTcxODA4NzY0MCwiZXhwIjoxNzQ5NjIzNjQwfQ.d2FB4PpuBVaofW8ePEYcMM69W0N3yOtFLoYIJcNwEq4&t=2024-06-11T06%3A33%3A57.528Z",
-      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/CyberPark1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQ3liZXJQYXJrMS5qcGciLCJpYXQiOjE3MTgwODc1MzQsImV4cCI6MTc0OTYyMzUzNH0.513cp1cSsbC9TeaDtcuDVkd9YtCqADxgU4sNAzQOP5s&t=2024-06-11T06%3A32%3A10.940Z",
-      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/CyberPark2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQ3liZXJQYXJrMi5qcGciLCJpYXQiOjE3MTgwODc1NTUsImV4cCI6MTc0OTYyMzU1NX0.zWEaSgZ-Jki5aAyAe8xZnBjdDmlumbvRjBf7pZ6xPSs&t=2024-06-11T06%3A32%3A32.362Z",
-      "detailPortfoli2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/CyberPark3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQ3liZXJQYXJrMy5qcGciLCJpYXQiOjE3MTgwODc1NjksImV4cCI6MTc0OTYyMzU2OX0.C4V8Ur7UTpjLMs2srBaDmQzIZ-yemS1GQGmwGNUKi_Y&t=2024-06-11T06%3A32%3A45.914Z"
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/CyberPark1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQ3liZXJQYXJrMS5qcGciLCJpYXQiOjE3MTgxMDA2MTQsImV4cCI6MTc0OTYzNjYxNH0.9qQufyQR4Y2mMADKlwrhdSXioSpb4Hn6vVBG_rbPtkc&t=2024-06-11T10%3A10%3A10.629Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/CyberPark2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQ3liZXJQYXJrMi5qcGciLCJpYXQiOjE3MTgxMDA2MzksImV4cCI6MTc0OTYzNjYzOX0.Ibyr9T1BglHovh7hT5pnGSzUYjAmS_K0LuUfh-U-pOM&t=2024-06-11T10%3A10%3A34.795Z",
+      "detailPortfoli2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/CyberPark3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQ3liZXJQYXJrMy5qcGciLCJpYXQiOjE3MTgxMDA2NTEsImV4cCI6MTc0OTYzNjY1MX0.RHCKpwfjRtKaJWi37T-sWhel5ZNHJlW4jzJ7bFDViCs&t=2024-06-11T10%3A10%3A47.168Z",
+      "LinkVisitSites": "https://cyberpark.uz/"
+    },
+    {
+      "id": 10,
+      "routesLink": "anatomica",
+      "title_portfolio": "Anotomica",
+      "title_web": "Website",
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/AnatomikaImg.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQW5hdG9taWthSW1nLmpwZyIsImlhdCI6MTcxODEwMDI3NCwiZXhwIjoxNzQ5NjM2Mjc0fQ.gJO9FX2jSyOHoas6Oy685Z9Bd9VcCGCAFogpp6DWaco&t=2024-06-11T10%3A04%3A30.419Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/anatomicLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvYW5hdG9taWNMb2dvLnN2ZyIsImlhdCI6MTcxODEwMDMwNSwiZXhwIjoxNzQ5NjM2MzA1fQ.Jco9Ae3kAYB2TNzJ1W7cU4xlksu-qLda7vTohnesTGU&t=2024-06-11T10%3A05%3A01.775Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Anatomika1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQW5hdG9taWthMS5qcGciLCJpYXQiOjE3MTgxMDAyMjMsImV4cCI6MTc0OTYzNjIyM30.dIek0vz2DQakOFeR7BTRrh8QMGVgAhCfICDxMiWJPtI&t=2024-06-11T10%3A03%3A39.717Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Anatomika2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQW5hdG9taWthMi5qcGciLCJpYXQiOjE3MTgxMDAyMzcsImV4cCI6MTc0OTYzNjIzN30.n5t1dwN9cOBj2HmpWjnFkD4eUtacnj8Tx0W1oyoSjP0&t=2024-06-11T10%3A03%3A53.309Z",
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Anatomika3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQW5hdG9taWthMy5qcGciLCJpYXQiOjE3MTgxMDAyNTEsImV4cCI6MTc0OTYzNjI1MX0.GFXWEsLmmxSSyROL23QGMKpWo4UZfM3dvKZRgLID4-M&t=2024-06-11T10%3A04%3A06.859Z",
+      "LinkVisitSites": "https://anatomica.uz/uz/about"
+    },
+    {
+      "id": 11,
+      "routesLink": "one-net",
+      "title_portfolio": "One Net",
+      "title_web": "Website",
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/OneNet3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvT25lTmV0My5qcGciLCJpYXQiOjE3MTgxMDAzNTMsImV4cCI6MTc0OTYzNjM1M30.ZDLSvAhKLqXF1672UbaKra4muMr1iDr9xyTvXfzP6oI&t=2024-06-11T10%3A05%3A48.933Z",
+      "detailPortfolioLogo": "/public/assests/DetailImg/oneNetLogo.svg",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/OneNet1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvT25lTmV0MS5qcGciLCJpYXQiOjE3MTgxMDAzMjUsImV4cCI6MTc0OTYzNjMyNX0.DCaYme4YKl921CcWsLVqn1p44QniAaOqKBb5dJ9aeRw&t=2024-06-11T10%3A05%3A20.962Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/OneNet2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvT25lTmV0Mi5qcGciLCJpYXQiOjE3MTgxMDAzNDEsImV4cCI6MTc0OTYzNjM0MX0.s7sF5KoydWQXDnFCzubdHRsaqL4F3Rp2tGgs4sK-j_Q&t=2024-06-11T10%3A05%3A37.791Z",
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/OneNet3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvT25lTmV0My5qcGciLCJpYXQiOjE3MTgxMDAzNTMsImV4cCI6MTc0OTYzNjM1M30.ZDLSvAhKLqXF1672UbaKra4muMr1iDr9xyTvXfzP6oI&t=2024-06-11T10%3A05%3A48.933Z",
+      "LinkVisitSites": "https://one-net.uz/"
+    },
+    {
+      "id": 12,
+      "routesLink": "toshkent-parfum",
+      "title_portfolio": "Toshkent Parfum",
+      "title_web": "Website",
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/ToshkentPrfumImg.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVG9zaGtlbnRQcmZ1bUltZy5qcGciLCJpYXQiOjE3MTgxMDA0NTEsImV4cCI6MTc0OTYzNjQ1MX0.lVMnRCjsTk8yYyTZuQGvCG80HoEFae5ty1GN-BlkKeE&t=2024-06-11T10%3A07%3A27.549Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/toshkentParfumLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvdG9zaGtlbnRQYXJmdW1Mb2dvLnN2ZyIsImlhdCI6MTcxODEwMDQ3MSwiZXhwIjoxNzQ5NjM2NDcxfQ.ZByUcj1Xa0wiyQ4hSQhk_NYwCqvCC1iUlGUcq1Y3sjM&t=2024-06-11T10%3A07%3A47.667Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Parfum1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvUGFyZnVtMS5qcGciLCJpYXQiOjE3MTgxMDAzODQsImV4cCI6MTc0OTYzNjM4NH0.Jlnn0NdvmxkVRAT7e5P8UdfO6AHXwPlYbskb_Mh2L-o&t=2024-06-11T10%3A06%3A20.395Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Parfum2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvUGFyZnVtMi5qcGciLCJpYXQiOjE3MTgxMDAzOTUsImV4cCI6MTc0OTYzNjM5NX0.VYFKImnvKzwk10GVMOXyBbCWZNZJmYIArhLvza2xqx8&t=2024-06-11T10%3A06%3A31.486Z",
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Parfum3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvUGFyZnVtMy5qcGciLCJpYXQiOjE3MTgxMDA0MzQsImV4cCI6MTc0OTYzNjQzNH0.UX0uQ-a4GkmC1xgU0wfijrK1T9Lm_thnhCqRrWKqQmY&t=2024-06-11T10%3A07%3A10.420Z",
+      "LinkVisitSites": "https://toshkent-parfum.uz/uz"
+
+    },
+    {
+      "id": 13,
+      "routesLink": "tmc-institute",
+      "title_portfolio": "TMIC",
+      "title_web": "Website",
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/tmicLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvdG1pY0xvZ28uc3ZnIiwiaWF0IjoxNzE4MTAwNDg2LCJleHAiOjE3NDk2MzY0ODZ9.11-H2maER4zKQPb_BAnEKoDpYyL_A4pJ4CqIVWQh-IU&t=2024-06-11T10%3A08%3A02.499Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/tmicLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvdG1pY0xvZ28uc3ZnIiwiaWF0IjoxNzE4MTAwNDg2LCJleHAiOjE3NDk2MzY0ODZ9.11-H2maER4zKQPb_BAnEKoDpYyL_A4pJ4CqIVWQh-IU&t=2024-06-11T10%3A08%3A02.499Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TMIC1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVE1JQzEuanBnIiwiaWF0IjoxNzE4MTAwNTIxLCJleHAiOjE3NDk2MzY1MjF9.K231IBHhljrU_hPmgJnizQ3meE2Wmn83Ya2T0QlsIGU&t=2024-06-11T10%3A08%3A37.333Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TMIC2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVE1JQzIuanBnIiwiaWF0IjoxNzE4MTAwNTUyLCJleHAiOjE3NDk2MzY1NTJ9.SjTO5O3Ia2xek82-8pFn-ultK8w6Szp4ycSvmnKFRXs&t=2024-06-11T10%3A09%3A08.122Z",
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TMIC3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVE1JQzMuanBnIiwiaWF0IjoxNzE4MTAwNTYxLCJleHAiOjE3MjA2OTI1NjF9.I8iz25n_44_xVBWbaCmuYJQan3B6evO0KoMRguEqJoo&t=2024-06-11T10%3A09%3A17.716Z",
+      "detailPortfolio3": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TMIC4.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVE1JQzQuanBnIiwiaWF0IjoxNzE4MTAwNTcyLCJleHAiOjE3NDk2MzY1NzJ9.VigTL9zCRMglw_9KuXUh3krPzQna3UFC-NcvBYobjho&t=2024-06-11T10%3A09%3A28.502Z",
+      "LinkVisitSites": "https://tmci.uz/"
+
     }
   ],
   "partnyors": [
