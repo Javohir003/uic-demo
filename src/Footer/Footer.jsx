@@ -1,46 +1,28 @@
 import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t, i18n } = useTranslation();
+
   const scrollTopPage = (e) => {
     e.preventDefault();
-    if (
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      })
-    ) {
-      console.log("Succes");
-    } else {
-      console.log("Error");
-    }
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
   return (
     <div className="Footer-Parent-Selector">
       <div className="container">
         <div id="vacancies" className="Footer-Page-Parent">
-          <ul>
-            <li>
-              {" "}
-              <a href="about">{t("about")}</a>
-            </li>
-            <li>
-              {" "}
-              <a href="portfolio">{t("services")}</a>
-            </li>
-            <li>
-              {" "}
-              <a href="services">{t("portfolio")}</a>
-            </li>
-            <li>
-              {" "}
-              <a href="vacancies">{t("vacansies")}</a>
-            </li>
-            <li>
-              {" "}
-              <a href="blog">{t("blog")}</a>
-            </li>
-          </ul>
+          {/* <ul> 
+            <li><a href={`/${i18n.language}/about`}>{t("about")}</a></li>
+            <li><a href={`/${i18n.language}/services`}>{t("services")}</a></li>
+            <li><a href={`/${i18n.language}/portfolio`}>{t("portfolio")}</a></li>
+            <li><a href={`/${i18n.language}/vacancies`}>{t("vacansies")}</a></li>
+            <li><a href={`/${i18n.language}/blog`}>{t("blog")}</a></li>
+          </ul> */}
           <div className="Top-Home-Page">
             <a href="#top" onClick={scrollTopPage}>
               <div className="border-Top-Icon">
