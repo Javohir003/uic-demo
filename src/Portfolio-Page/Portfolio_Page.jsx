@@ -11,7 +11,7 @@ const Portfolio_Page = () => {
   useEffect(() => {
     const dataFetch = async () => {
       try {
-        const res = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxNzkzNDQwMCwiZXhwIjoxNzQ5NDcwNDAwfQ.y5mEmhUYpLfofDw73078txcCI2W6nnr1r3j2oaDejtM&t=2024-06-09T12%3A06%3A44.793Z");
+        const res = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxODA4ODM5OCwiZXhwIjoxNzQ5NjI0Mzk4fQ.1x0ipczWOZrco6-2G9vE7BF-ci60i8gsvjJLZXYgkP8&t=2024-06-11T06%3A46%3A35.498Z");
         const data = await res.json();
         setProjects(data.portfolio);
       } catch (error) {
@@ -89,7 +89,7 @@ const Portfolio_Page = () => {
                   (proj) => filterType === "" || proj.title_web === filterType
                 )
                 .map((proj) => (
-                  <Link to={`/${i18n.language}/portfolio/${proj.routesLink}`} state={{projects: proj}} key={proj.id}>
+                  <Link to={{pathname: `/${i18n.language}/portfolio/${proj.routesLink}`}} state={{projects: proj}} key={proj.id}>
                     <div className="text-info">
                       {t(proj.title_portfolio)}
                       <p className="title-site">{t(proj.title_web)}</p>

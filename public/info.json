@@ -5,56 +5,89 @@
       "routesLink": "xazna-web",
       "title_portfolio": "Xazna",
       "title_web": "Website",
-      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/xazna.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcveGF6bmEuanBnIiwiaWF0IjoxNzE3OTMyNTMyLCJleHAiOjE3NDk0Njg1MzJ9.ylJ-LNAb0QZY-yLiVHs2qNFvAEwauy9p6_JOEd6xi-Q&t=2024-06-09T11%3A35%3A37.043Z"
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/xazna.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcveGF6bmEuanBnIiwiaWF0IjoxNzE3OTMyNTMyLCJleHAiOjE3NDk0Njg1MzJ9.ylJ-LNAb0QZY-yLiVHs2qNFvAEwauy9p6_JOEd6xi-Q&t=2024-06-09T11%3A35%3A37.043Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmExLmpwZyIsImlhdCI6MTcxODA4ODE4MSwiZXhwIjoxNzQ5NjI0MTgxfQ._Q8z-DR82vEsACxYYAdKGuJbc8VJGgHUPVOgsJmogPc&t=2024-06-11T06%3A42%3A58.095Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEyLmpwZyIsImlhdCI6MTcxODA4ODM0NywiZXhwIjoxNzQ5NjI0MzQ3fQ.W3ibpVw9Z6SnrlAnRRfObt7un4zBaLtEynqXOXUgNJg&t=2024-06-11T06%3A45%3A44.094Z",
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z",
+      "detailPortfolio3": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z"
     },
     {
       "id": 1,
       "routesLink": "xazna-app",
       "title_portfolio": "Xazna App",
       "title_web": "Mobile App",
-      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/xaznaApp.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcveGF6bmFBcHAuanBnIiwiaWF0IjoxNzE3OTMyNTQ1LCJleHAiOjE3NDk0Njg1NDV9.etE22fu-9ez-TefUYRKLTUyot4oRYZNwflMlC8RcLVI&t=2024-06-09T11%3A35%3A49.809Z"
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/xaznaApp.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcveGF6bmFBcHAuanBnIiwiaWF0IjoxNzE3OTMyNTQ1LCJleHAiOjE3NDk0Njg1NDV9.etE22fu-9ez-TefUYRKLTUyot4oRYZNwflMlC8RcLVI&t=2024-06-09T11%3A35%3A49.809Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmExLmpwZyIsImlhdCI6MTcxODA4ODE4MSwiZXhwIjoxNzQ5NjI0MTgxfQ._Q8z-DR82vEsACxYYAdKGuJbc8VJGgHUPVOgsJmogPc&t=2024-06-11T06%3A42%3A58.095Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEyLmpwZyIsImlhdCI6MTcxODA4ODM0NywiZXhwIjoxNzQ5NjI0MzQ3fQ.W3ibpVw9Z6SnrlAnRRfObt7un4zBaLtEynqXOXUgNJg&t=2024-06-11T06%3A45%3A44.094Z",
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z",
+      "detailPortfolio3": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/xazna3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcveGF6bmEzLmpwZyIsImlhdCI6MTcxODA4ODIzOSwiZXhwIjoxNzQ5NjI0MjM5fQ.K844EfijPBcq5D45eUniRbwrfKURsb7prK1gCTPgH3A&t=2024-06-11T06%3A43%3A56.767Z"
     },
     {
       "id": 2,
-      "routesLink": "express24", 
+      "routesLink": "express24",
       "title_portfolio": "Express24",
       "title_web": "Mobile App",
-      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/express24.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvZXhwcmVzczI0LmpwZyIsImlhdCI6MTcxNzkzMjU1NywiZXhwIjoxNzQ5NDY4NTU3fQ.easzDd7a9mOujohb2AyImRX9-TJYBt-38ZcmkUwPHj4&t=2024-06-09T11%3A36%3A01.347Z"
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/express24.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvZXhwcmVzczI0LmpwZyIsImlhdCI6MTcxNzkzMjU1NywiZXhwIjoxNzQ5NDY4NTU3fQ.easzDd7a9mOujohb2AyImRX9-TJYBt-38ZcmkUwPHj4&t=2024-06-09T11%3A36%3A01.347Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/express24Logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvZXhwcmVzczI0TG9nby5zdmciLCJpYXQiOjE3MTgwODgwMzAsImV4cCI6MTc0OTYyNDAzMH0.8e5UoUMizAtKaLuzEfhYg4LMEkpM00erNzS-Gp_2eY0&t=2024-06-11T06%3A40%3A27.659Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/express24img1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvZXhwcmVzczI0aW1nMS5qcGciLCJpYXQiOjE3MTgwODgxNDQsImV4cCI6MTc0OTYyNDE0NH0.9-L5LhAH3_9qzKKwabKsi20Ujv-0pFbCf1gtvDHQdtA&t=2024-06-11T06%3A42%3A20.952Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/express24img2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvZXhwcmVzczI0aW1nMi5qcGciLCJpYXQiOjE3MTgwODgxNTMsImV4cCI6MTc0OTYyNDE1M30.6Z-08FqkU92YSAxhcWZ9KXI-V7-m-XMBhFQFKJWam5g&t=2024-06-11T06%3A42%3A30.637Z",
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/express24img2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvZXhwcmVzczI0aW1nMi5qcGciLCJpYXQiOjE3MTgwODgxNTMsImV4cCI6MTc0OTYyNDE1M30.6Z-08FqkU92YSAxhcWZ9KXI-V7-m-XMBhFQFKJWam5g&t=2024-06-11T06%3A42%3A30.637Z"
     },
     {
       "id": 3,
       "routesLink": "cashbox",
       "title_portfolio": "Cawbox",
       "title_web": "Website",
-      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/cawbox.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvY2F3Ym94LmpwZyIsImlhdCI6MTcxNzkzMjU3MSwiZXhwIjoxNzQ5NDY4NTcxfQ.eumDUF6mvEbCl4hKKM42qEE0SG5HfVyujwGR3hL4iyk&t=2024-06-09T11%3A36%3A15.373Z"
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/cawbox.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvY2F3Ym94LmpwZyIsImlhdCI6MTcxNzkzMjU3MSwiZXhwIjoxNzQ5NDY4NTcxfQ.eumDUF6mvEbCl4hKKM42qEE0SG5HfVyujwGR3hL4iyk&t=2024-06-09T11%3A36%3A15.373Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/cashboxLogo.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvY2FzaGJveExvZ28ucG5nIiwiaWF0IjoxNzE4MDg3ODIyLCJleHAiOjE3NDk2MjM4MjJ9.u_vcIKdld_l-Yt04kFEMt-zA6Qsiflan9ruRxwDdGnU&t=2024-06-11T06%3A36%3A59.759Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/cashbox1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvY2FzaGJveDEuanBnIiwiaWF0IjoxNzE4MDg3OTc5LCJleHAiOjE3NDk2MjM5Nzl9.I3X7Wbw9Aenywx9qo5amEq8RS6ik6oxcWaLnXc3042s&t=2024-06-11T06%3A39%3A36.004Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/cashbox2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvY2FzaGJveDIuanBnIiwiaWF0IjoxNzE4MDg3OTg5LCJleHAiOjE3NDk2MjM5ODl9.Rinrn8pUdPc0AC9oc3vFSw4yYqBGnqNm6Xf7rudEN3U&t=2024-06-11T06%3A39%3A46.149Z",
+      "detailPortfolio2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/cashbox3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvY2FzaGJveDMuanBnIiwiaWF0IjoxNzE4MDg4MDAzLCJleHAiOjE3NDk2MjQwMDN9.UvGP0BL027PMQBeNcUa5oVH-6AsKUVSYaehlxkxJ1Kk&t=2024-06-11T06%3A40%3A00.667Z"
     },
     {
       "id": 4,
       "routesLink": "Stesting",
       "title_portfolio": "STesting",
       "title_web": "Website",
-      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/stesting.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvc3Rlc3RpbmcuanBnIiwiaWF0IjoxNzE3OTMyNTg1LCJleHAiOjE3NDk0Njg1ODV9.w5WCSKsgT5WvsiGsFjl5jXeI3xX5_FKOAftt9FRuc3Q&t=2024-06-09T11%3A36%3A29.770Z"
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/stesting.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvc3Rlc3RpbmcuanBnIiwiaWF0IjoxNzE3OTMyNTg1LCJleHAiOjE3NDk0Njg1ODV9.w5WCSKsgT5WvsiGsFjl5jXeI3xX5_FKOAftt9FRuc3Q&t=2024-06-09T11%3A36%3A29.770Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/stestingLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvc3Rlc3RpbmdMb2dvLnN2ZyIsImlhdCI6MTcxODA4Nzc4MywiZXhwIjoxNzQ5NjIzNzgzfQ.tm723igFY-1FOZ5iAOMa0wYJgAqq4LwbwEeZfEDYgEI&t=2024-06-11T06%3A36%3A20.211Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Stesting1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvU3Rlc3RpbmcxLmpwZyIsImlhdCI6MTcxODA4Nzc5OSwiZXhwIjoxNzQ5NjIzNzk5fQ.ucTjd4lb5-nxm3y3blHvobFzMvXEp0f2Jaj23195CDQ&t=2024-06-11T06%3A36%3A36.541Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Stesting2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvU3Rlc3RpbmcyLmpwZyIsImlhdCI6MTcxODA4NzgwOSwiZXhwIjoxNzQ5NjIzODA5fQ.pMhfZDg4Li6jCGEo_bsQDifN5tsupvCxe0g0uRJdHuE&t=2024-06-11T06%3A36%3A46.794Z"
     },
     {
       "id": 5,
-      "routesLink": "tsul",
-      "title_portfolio": "TSUL",
+      "routesLink": "tdiu",
+      "title_portfolio": "TDIU",
       "title_web": "Website",
-      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/tsul.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvdHN1bC5qcGciLCJpYXQiOjE3MTc5MzI1OTgsImV4cCI6MTc0OTQ2ODU5OH0.6B_VyEV0PkArShJJqo9jIR0SGOASHYpsIDCgiKWIank&t=2024-06-09T11%3A36%3A42.734Z"
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TDIUA.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVERJVUEuanBnIiwiaWF0IjoxNzE4MDg3NzI5LCJleHAiOjE3NDk2MjM3Mjl9.C2qnIekpWlC69Urce75WT0PKCHe34Z-ZUmkh-RSv8ys&t=2024-06-11T06%3A35%3A26.153Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/tdiu.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvdGRpdS5zdmciLCJpYXQiOjE3MTgwODc3MDUsImV4cCI6MTc0OTYyMzcwNX0.O_3qkQ7r9c-MvQefBFMMNt1eTBPTg7yMKhc31Iv1ncY&t=2024-06-11T06%3A35%3A02.778Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TDIU1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVERJVTEuanBnIiwiaWF0IjoxNzE4MDg3NzM5LCJleHAiOjE3NDk2MjM3Mzl9.vkCuc7UmgR1BWAcQBlzI4fddfzUd49vRmPCoZZ4lLj0&t=2024-06-11T06%3A35%3A36.106Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TDIU2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVERJVTIuanBnIiwiaWF0IjoxNzE4MDg3NzQ5LCJleHAiOjE3NDk2MjM3NDl9.yFivYk3dNSh39huMSZ67SyYI8jpMQCVZnBgTdt8XEM4&t=2024-06-11T06%3A35%3A45.860Z",
+      "detailPortfoli2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TDIU3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVERJVTMuanBnIiwiaWF0IjoxNzE4MDg3NzU3LCJleHAiOjE3NDk2MjM3NTd9.HdpBSKTcWSXY2ciZnJSfEr2LdudzDXFk6lyNPr5hUdI&t=2024-06-11T06%3A35%3A54.777Z",
+      "detailPortfolio3": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/TDIU4.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVERJVTQuanBnIiwiaWF0IjoxNzE4MDg3NzY3LCJleHAiOjE3NDk2MjM3Njd9.uJplzPUE4RUyMiLG4XPYB7f15dHM-bYiyESPeQKhmrI&t=2024-06-11T06%3A36%3A04.132Z"
     },
     {
       "id": 6,
       "routesLink": "munir",
       "title_portfolio": "Munir",
       "title_web": "Mobile App",
-      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/munir.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvbXVuaXIuanBnIiwiaWF0IjoxNzE3OTMyNjA5LCJleHAiOjE3NDk0Njg2MDl9.voBLOkYFCRnVCX6IDRGN-Z-S6HklSnhtoMEWiCyCUts&t=2024-06-09T11%3A36%3A53.695Z"
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/munir.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvbXVuaXIuanBnIiwiaWF0IjoxNzE3OTMyNjA5LCJleHAiOjE3NDk0Njg2MDl9.voBLOkYFCRnVCX6IDRGN-Z-S6HklSnhtoMEWiCyCUts&t=2024-06-09T11%3A36%3A53.695Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/munirLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvbXVuaXJMb2dvLnN2ZyIsImlhdCI6MTcxODA4NzY1NiwiZXhwIjoxNzQ5NjIzNjU2fQ.JQsvGQAb8ncTAPoAK5b2hUwleKV2aSnPjJS8Vf9q430&t=2024-06-11T06%3A34%3A13.780Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Munir1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvTXVuaXIxLmpwZyIsImlhdCI6MTcxODA4NzY3MywiZXhwIjoxNzQ5NjIzNjczfQ.yCNz_rj3-h5AQmmgTkpINlBblQzCXXfLYrijcVqoJK8&t=2024-06-11T06%3A34%3A29.895Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Munir2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvTXVuaXIyLmpwZyIsImlhdCI6MTcxODA4NzY4NCwiZXhwIjoxNzQ5NjIzNjg0fQ.pYX-q847Yk82KBIzoNNFWyi-VinYl-wiBZg8FDsedoA&t=2024-06-11T06%3A34%3A41.066Z"
     },
     {
       "id": 7,
       "routesLink": "uzbekistan-club",
       "title_portfolio": "Uzbekistan's Club",
       "title_web": "Website",
-      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/Uzbekistonlik.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvVXpiZWtpc3Rvbmxpay5qcGVnIiwiaWF0IjoxNzE3OTMyNjIyLCJleHAiOjE3NDk0Njg2MjJ9.RS0JRYT5i5YUa3uosYhB-ZnhlBQaFe-ZxRZl4GlrSCM&t=2024-06-09T11%3A37%3A06.673Z"
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/Uzbekistonlik.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvVXpiZWtpc3Rvbmxpay5qcGVnIiwiaWF0IjoxNzE3OTMyNjIyLCJleHAiOjE3NDk0Njg2MjJ9.RS0JRYT5i5YUa3uosYhB-ZnhlBQaFe-ZxRZl4GlrSCM&t=2024-06-09T11%3A37%3A06.673Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Uzbekistonlikimg3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVXpiZWtpc3Rvbmxpa2ltZzMuanBnIiwiaWF0IjoxNzE4MDg3NjEzLCJleHAiOjE3NDk2MjM2MTN9.CNX_0eSO7VBKlzUAjE0OBnDvkEk7LKiisjVevC2r1eo&t=2024-06-11T06%3A33%3A30.598Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Uzbekistonlikimg1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVXpiZWtpc3Rvbmxpa2ltZzEuanBnIiwiaWF0IjoxNzE4MDg3NTg5LCJleHAiOjE3NDk2MjM1ODl9.haEYaiVjFrz3Po4xk1TjvGhcD-M_P8loNbNm-_bfjoA&t=2024-06-11T06%3A33%3A06.186Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Uzbekistonlikimg2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVXpiZWtpc3Rvbmxpa2ltZzIuanBnIiwiaWF0IjoxNzE4MDg3NjA0LCJleHAiOjE3NDk2MjM2MDR9.5grqTU6mEpBpDhYm6dcFRaLqfw3LuSqu6DIHGbuxVxg&t=2024-06-11T06%3A33%3A21.608Z",
+      "detailPortfoli2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/Uzbekistonlikimg3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvVXpiZWtpc3Rvbmxpa2ltZzMuanBnIiwiaWF0IjoxNzE4MDg3NjEzLCJleHAiOjE3NDk2MjM2MTN9.CNX_0eSO7VBKlzUAjE0OBnDvkEk7LKiisjVevC2r1eo&t=2024-06-11T06%3A33%3A30.598Z"
     },
     {
       "id": 8,
@@ -68,7 +101,11 @@
       "routesLink": "cyber-park",
       "title_portfolio": "Cyber Park",
       "title_web": "Website",
-      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/CybrPark.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvQ3liclBhcmsuanBlZyIsImlhdCI6MTcxNzkzMjY1MCwiZXhwIjoxNzQ5NDY4NjUwfQ.A44deyCgTc_BfgrabGWt1PllUn7lUw1PZF4z220mGzg&t=2024-06-09T11%3A37%3A34.528Z"
+      "images": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/portfolio-img/CybrPark.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL3BvcnRmb2xpby1pbWcvQ3liclBhcmsuanBlZyIsImlhdCI6MTcxNzkzMjY1MCwiZXhwIjoxNzQ5NDY4NjUwfQ.A44deyCgTc_BfgrabGWt1PllUn7lUw1PZF4z220mGzg&t=2024-06-09T11%3A37%3A34.528Z",
+      "detailPortfolioLogo": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/cyberLogo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvY3liZXJMb2dvLnN2ZyIsImlhdCI6MTcxODA4NzY0MCwiZXhwIjoxNzQ5NjIzNjQwfQ.d2FB4PpuBVaofW8ePEYcMM69W0N3yOtFLoYIJcNwEq4&t=2024-06-11T06%3A33%3A57.528Z",
+      "detailPortfolio": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/CyberPark1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQ3liZXJQYXJrMS5qcGciLCJpYXQiOjE3MTgwODc1MzQsImV4cCI6MTc0OTYyMzUzNH0.513cp1cSsbC9TeaDtcuDVkd9YtCqADxgU4sNAzQOP5s&t=2024-06-11T06%3A32%3A10.940Z",
+      "detailPortfolio1": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/CyberPark2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQ3liZXJQYXJrMi5qcGciLCJpYXQiOjE3MTgwODc1NTUsImV4cCI6MTc0OTYyMzU1NX0.zWEaSgZ-Jki5aAyAe8xZnBjdDmlumbvRjBf7pZ6xPSs&t=2024-06-11T06%3A32%3A32.362Z",
+      "detailPortfoli2": "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/Detail-img/CyberPark3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL0RldGFpbC1pbWcvQ3liZXJQYXJrMy5qcGciLCJpYXQiOjE3MTgwODc1NjksImV4cCI6MTc0OTYyMzU2OX0.C4V8Ur7UTpjLMs2srBaDmQzIZ-yemS1GQGmwGNUKi_Y&t=2024-06-11T06%3A32%3A45.914Z"
     }
   ],
   "partnyors": [
@@ -279,7 +316,6 @@
       "shart4": "O'z vaqtidagi ish haqi, shu jumladan ajoyib natijalar uchun bonus tizimi;"
     }
   ],
-
   "servicesData": [
     {
       "id": 1,

@@ -1,38 +1,44 @@
 import { t } from "i18next";
-import React from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
-import uzbekistonlikImg1 from "/public/assests/DetailImg/Uzbekistonlikimg1.jpg";
-import uzbekistonlikImg2 from "/public/assests/DetailImg/Uzbekistonlikimg2.jpg";
-import uzbekistonlikImg3 from "/public/assests/DetailImg/Uzbekistonlikimg3.jpg";
-// import uzbekistonlikImg2 from '/public/assests/DetailImg/UzbekistonlikImg2.jpg';
-// import uzbekistonlikImg3 from '/public/assests/DetailImg/UzbekistonlikImg3.jpg'
 
 import "./Portfolio.css";
 
 function DetailPortfolio() {
-  1;
   const { t, i18n } = useTranslation();
   const location = useLocation();
-  const { projects } = location.state || {};
+  const { projects } = location.state || [];
+
+
+
+  const [detail, setDetail] = useState([]);
+
+
+  // useEffect(()=> {
+  //   const fetchData = async () => {
+  //     const res = await fetch('https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxODA4ODM5OCwiZXhwIjoxNzQ5NjI0Mzk4fQ.1x0ipczWOZrco6-2G9vE7BF-ci60i8gsvjJLZXYgkP8&t=2024-06-11T06%3A46%3A35.498Z');
+  //     const data = await res.json();
+  //     console.log(data.portfolio);
+  //     setDetail(data.portfolio)
+  //   }
+  //   fetchData()
+  // }, [])
 
   console.log(projects);
 
   return (
     <>
-      {/* <h1 style={{ fontSize: "80px", color: "white" }}>
-        Hello {t(projects.title_portfolio)}
-      </h1> */}
       <div className="DetailPortfolio-wrapper ">
         <div className="container">
           <div className="Detail-Portfolio-Parent">
             <div className="detail-container">
               <div className="Detail-Portfolio-header">
-                <img src="/public/assests/DetailImg/uzbekistonlikLogo.svg" alt="" />
+                <img src={projects.detailPortfolioLogo} alt="" />
                 <article className="hedaer-left-detailportfolio">
                   <h3>JavaScript (Vue.JS)</h3>
                   <h3>Python(Django)</h3>
-                  <button>Website</button>
+                  <button>{t(projects.title_web)}</button>
                 </article>
               </div>
             </div>
@@ -66,8 +72,9 @@ function DetailPortfolio() {
                 </Link>
               </button>
             </div>
+
             <div className="wrapper-img-portfolio">
-              <img className="img1" src={uzbekistonlikImg1} alt="" />
+              <img  className="img1" src={projects.detailPortfolio} alt="" />
             </div>
 
             <p className="detail-container text-detail-portfolio">
@@ -77,7 +84,16 @@ function DetailPortfolio() {
               Uzbekistan.
             </p>
             <div className="wrapper-img-portfolio">
-              <img className="img1" src={uzbekistonlikImg2} alt="" />
+              <img className="img1" src={projects.detailPortfolio1} alt="" />
+            </div>
+            <p className="detail-container text-detail-portfolio">
+              The UIC Group provided services for the creation of a website and
+              an application for Uzbekistan's club project, which was created to
+              further promote the achievements of the great generation of
+              Uzbekistan.
+            </p>
+            <div className="wrapper-img-portfolio">
+              <img className="img1" src={projects.detailPortfolio2} alt="" />
             </div>
           </div>
         </div>
