@@ -1,6 +1,10 @@
 import { Fragment, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { v4 as uuidv4 } from "uuid";
+import { Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const Partnyor = () => {
   const [partnyorData, setPartnyorData] = useState([]);
@@ -9,7 +13,9 @@ const Partnyor = () => {
   useEffect(() => {
     const dataFetch = async () => {
       try {
-        const response = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxODEwMTg2OSwiZXhwIjoxNzQ5NjM3ODY5fQ.hpneWz5-nOCpnz7JJfCBCW136GyVBHBhuZh-yNxxgPU&t=2024-06-11T10%3A31%3A04.797Z");
+        const response = await fetch(
+          "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxODEwMTg2OSwiZXhwIjoxNzQ5NjM3ODY5fQ.hpneWz5-nOCpnz7JJfCBCW136GyVBHBhuZh-yNxxgPU&t=2024-06-11T10%3A31%3A04.797Z"
+        );
         const data = await response.json();
 
         const genetUUID = data.partnyors.map((partnyor) => ({
@@ -35,7 +41,7 @@ const Partnyor = () => {
           <div className="Grid-Partnyor">
             {partnyorData.map((partnyor) => (
               <div className="grid-partnyor-list" key={partnyor.id}>
-                <a href={partnyor.url} target="_blank">
+                <a href={partnyor.url} target="_blank" rel="noopener noreferrer">
                   <article>
                     <img src={partnyor.imageLogo} alt="" />
                   </article>
@@ -43,6 +49,24 @@ const Partnyor = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className="slider-box">
+          <Swiper
+            slidesPerView={3}
+            pagination={{
+              clickable: false,
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            {partnyorData.map((partnyor) => (
+              <SwiperSlide >
+                <a href={partnyor.url} target="_blank">
+                  <img src={partnyor.imageLogo} alt="" />
+                </a>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </div>
