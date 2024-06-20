@@ -52,12 +52,9 @@ const Partnyor = () => {
         </div>
         <div className="slider-box">
           <Swiper
-            slidesPerView={3}
-            pagination={{
-              clickable: false,
-            }}
-            modules={[Pagination]}
-            className="mySwiper"
+              spaceBetween={50}
+              slidesPerView={3}
+              className="mySwiper"
           >
             {partnyorData.map((partnyor) => (
               <SwiperSlide >

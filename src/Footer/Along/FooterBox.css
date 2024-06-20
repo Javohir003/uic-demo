@@ -56,4 +56,21 @@
   color: #00a795;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.3s;
+}
+
+@media (max-width: 1220px) {
+  .be-Also-Box {
+    padding: 50px 15px;
+  }
+}
+@media (max-width: 950px) {
+  .be-Also-Box .be-also-among-Block {
+    display: block;
+  }
+  .be-Also-Box .be-also-among-Block .Text-Among p {
+    margin-bottom: 40px;
+  }
+  .be-Also-Box .be-also-among-Block ul {
+    display: block;
+  }
 }/*# sourceMappingURL=FooterBox.css.map */

@@ -59,3 +59,26 @@
     }
   }
 }
+
+
+@media (max-width: 1220px){
+  .be-Also-Box{
+    padding: 50px 15px;
+  }
+}
+
+@media (max-width: 950px){
+  .be-Also-Box{
+    .be-also-among-Block{
+      display: block;
+      .Text-Among{
+        p{
+          margin-bottom: 40px;
+        }
+      }
+      ul{
+        display: block;
+      }
+    }
+  }
+}

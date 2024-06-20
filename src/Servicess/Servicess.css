@@ -54,4 +54,10 @@
   color: rgba(224, 224, 224, 0.6);
   letter-spacing: 0.2px;
   font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .Parent-Services {
+    padding: 0px 20px;
+  }
 }/*# sourceMappingURL=Servicess.css.map */

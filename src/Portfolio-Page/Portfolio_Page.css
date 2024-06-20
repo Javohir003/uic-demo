@@ -20,7 +20,7 @@
   margin-bottom: 48px;
 }
 .Portfolio-Parent .container .Portfolio-Nav .Portfolio-Name h1 {
-  font-size: 64px;
+  font-size: 55px;
   font-weight: 700;
   text-transform: uppercase;
   color: white;
@@ -111,6 +111,11 @@
   background: linear-gradient(160.09deg, #141415 -12.64%, rgba(0, 0, 0, 0.7) -80%, rgba(20, 20, 21, 0.2) 94.29%);
 }
 
+@media (max-width: 1230px) {
+  .Portfolio-Parent {
+    padding: 100px 15px;
+  }
+}
 .Second-Page-Parent {
   position: relative;
   max-width: 100%;

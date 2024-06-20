@@ -938,7 +938,7 @@ html::-webkit-scrollbar-thumb {
   text-decoration: none;
 }
 .Partnyor-Parent-Child .Partnyor-list-Parent .Grid-Partnyor .grid-partnyor-list article {
-  width: 100%;
+  width: 100% !important;
   height: 150px !important;
   padding: 4px;
 }
@@ -949,14 +949,12 @@ html::-webkit-scrollbar-thumb {
   -o-object-fit: contain;
      object-fit: contain;
 }
-.Partnyor-Parent-Child .slider-box {
+.Partnyor-Parent-Child .swiper {
   display: none;
-}
-.Partnyor-Parent-Child .slider-box .swiper {
   width: 100%;
   height: 100%;
 }
-.Partnyor-Parent-Child .slider-box .swiper-slide {
+.Partnyor-Parent-Child .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -965,7 +963,7 @@ html::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
 }
-.Partnyor-Parent-Child .slider-box .swiper-slide img {
+.Partnyor-Parent-Child .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -1005,55 +1003,31 @@ html::-webkit-scrollbar-thumb {
 }
 @media (max-width: 886px) {
   .Partnyor-Parent-Child .Partnyor-list-Parent {
-    max-width: 95%;
-    margin: auto;
     display: none;
   }
-  .Partnyor-Parent-Child .Partnyor-list-Parent .Grid-Partnyor {
-    grid-template-columns: repeat(3, minmax(250px, 210px));
-    gap: 15px;
-    transition: all 1s;
-  }
-  .Partnyor-Parent-Child .slider-box {
+  .Partnyor-Parent-Child .swiper {
+    position: relative;
+    left: 0;
+    top: 0;
     display: block;
-    background-color: salmon;
+    max-width: 95%;
   }
-  .Partnyor-Parent-Child .slider-box .swiper {
+  .Partnyor-Parent-Child .swiper .swiper-wrapper {
     display: flex;
-    max-width: 100%;
-    height: 300px;
+    gap: 20px;
+    padding: 50px 0px;
   }
-  .Partnyor-Parent-Child .slider-box .swiper-wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 0.6fr);
-    grid-template-rows: repeat(2, 0.4fr);
-    gap: 40px;
+  .Partnyor-Parent-Child .swiper .swiper-wrapper .swiper-slide {
+    width: 260px !important;
+    height: 100px !important;
+    padding: 10px !important;
+    background-color: rgb(53, 52, 52) !important;
+    margin: 0 !important;
+    border-radius: 10px;
   }
-  .Partnyor-Parent-Child .slider-box .swiper-pagination {
-    display: flex;
-    justify-content: center;
-  }
-  .Partnyor-Parent-Child .slider-box .swiper-pagination .swiper-pagination-bullet {
-    margin: 0;
-    border-radius: 0;
-    width: 50px;
-    height: 4px;
-    background-color: rgb(47, 0, 255);
-  }
-  .Partnyor-Parent-Child .slider-box .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .Partnyor-Parent-Child .slider-box .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+  .Partnyor-Parent-Child .swiper .swiper-wrapper .swiper-slide img {
+    width: 100% !important;
+    height: 100% !important;
   }
 }
 .Footer-Parent-Selector {
@@ -1066,6 +1040,9 @@ html::-webkit-scrollbar-thumb {
   align-items: center;
   padding-top: 50px;
   padding-bottom: 30px;
+}
+.Footer-Parent-Selector .Footer-Page-Parent .newLogo {
+  display: none;
 }
 .Footer-Parent-Selector .Footer-Page-Parent ul {
   list-style: none;
@@ -1209,6 +1186,41 @@ html::-webkit-scrollbar-thumb {
   border: 1px solid #00a795;
 }
 
+@media (max-width: 1250px) {
+  .Footer-Parent-Selector .Footer-Page-Parent {
+    padding: 20px 20px;
+  }
+}
+@media (max-width: 1100px) {
+  .Footer-Parent-Selector {
+    transition: all 0.7s;
+    padding: 0px 20px;
+  }
+  .Footer-Parent-Selector .Footer-Page-Ijtimoiy-Tarmoq .Ijtimoiy-Tarmoq-Parent {
+    gap: 150px;
+  }
+}
+@media (max-width: 950px) {
+  .Footer-Parent-Selector .Footer-Page-Parent .newLogo {
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    height: 100px;
+  }
+  .Footer-Parent-Selector .Footer-Page-Ijtimoiy-Tarmoq .Ijtimoiy-Tarmoq-Parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .Footer-Parent-Selector .Footer-Page-Ijtimoiy-Tarmoq .Ijtimoiy-Tarmoq-Parent .Info-MobileNumber-email {
+    margin: 0;
+  }
+  .Footer-Parent-Selector .footer-End-Box .logo-footer {
+    display: none;
+  }
+}
 .Blog-Page-Parent {
   max-width: 100%;
   background-color: #1e1e20;
@@ -1480,6 +1492,11 @@ html::-webkit-scrollbar-thumb {
   font-weight: 400;
 }
 
+@media (max-width: 1200px) {
+  .Parent-Services {
+    padding: 0px 20px;
+  }
+}
 .AboutPage-Parent {
   background: linear-gradient(180deg, rgba(2, 182, 164, 0.254) 0%, rgba(0, 167, 149, 0) 100%);
   background-color: rgb(30, 27, 27);

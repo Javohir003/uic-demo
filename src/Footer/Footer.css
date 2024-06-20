@@ -9,6 +9,9 @@
   padding-top: 50px;
   padding-bottom: 30px;
 }
+.Footer-Parent-Selector .Footer-Page-Parent .newLogo {
+  display: none;
+}
 .Footer-Parent-Selector .Footer-Page-Parent ul {
   list-style: none;
   display: flex;
@@ -149,4 +152,40 @@
 }
 .Footer-Parent-Selector .footer-End-Box .map-button:hover {
   border: 1px solid #00a795;
+}
+
+@media (max-width: 1250px) {
+  .Footer-Parent-Selector .Footer-Page-Parent {
+    padding: 20px 20px;
+  }
+}
+@media (max-width: 1100px) {
+  .Footer-Parent-Selector {
+    transition: all 0.7s;
+    padding: 0px 20px;
+  }
+  .Footer-Parent-Selector .Footer-Page-Ijtimoiy-Tarmoq .Ijtimoiy-Tarmoq-Parent {
+    gap: 150px;
+  }
+}
+@media (max-width: 950px) {
+  .Footer-Parent-Selector .Footer-Page-Parent .newLogo {
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    height: 100px;
+  }
+  .Footer-Parent-Selector .Footer-Page-Ijtimoiy-Tarmoq .Ijtimoiy-Tarmoq-Parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .Footer-Parent-Selector .Footer-Page-Ijtimoiy-Tarmoq .Ijtimoiy-Tarmoq-Parent .Info-MobileNumber-email {
+    margin: 0;
+  }
+  .Footer-Parent-Selector .footer-End-Box .logo-footer {
+    display: none;
+  }
 }/*# sourceMappingURL=Footer.css.map */

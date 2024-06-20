@@ -2,7 +2,7 @@
   max-width: 100%;
   background-color: #141415;
   padding: 118px 0px 96px 0px;
-  .Not_Found_CRM{
+  .Not_Found_CRM {
     font-weight: 700;
     font-size: 50px;
     color: white;
@@ -19,7 +19,7 @@
       margin-bottom: 48px;
       .Portfolio-Name {
         h1 {
-          font-size: 64px;
+          font-size: 55px;
           font-weight: 700;
           text-transform: uppercase;
           color: white;
@@ -48,7 +48,7 @@
               border: 2px solid #1a8377;
             }
           }
-          .active{
+          .active {
             color: #1fa191;
             border: 2px solid #138a7c;
           }
@@ -128,6 +128,12 @@
     }
   }
   margin-bottom: 80px;
+}
+
+@media (max-width: 1230px) {
+  .Portfolio-Parent {
+    padding: 100px 15px;
+  }
 }
 
 @import "../Second-Page/SecondPage.scss";
