@@ -581,7 +581,7 @@ html::-webkit-scrollbar-thumb {
   margin-bottom: 48px;
 }
 .Portfolio-Parent .container .Portfolio-Nav .Portfolio-Name h1 {
-  font-size: 64px;
+  font-size: 55px;
   font-weight: 700;
   text-transform: uppercase;
   color: white;
@@ -672,6 +672,11 @@ html::-webkit-scrollbar-thumb {
   background: linear-gradient(160.09deg, #141415 -12.64%, rgba(0, 0, 0, 0.7) -80%, rgba(20, 20, 21, 0.2) 94.29%);
 }
 
+@media (max-width: 1230px) {
+  .Portfolio-Parent {
+    padding: 100px 15px;
+  }
+}
 .Second-Page-Parent {
   position: relative;
   max-width: 100%;
@@ -1028,6 +1033,11 @@ html::-webkit-scrollbar-thumb {
   .Partnyor-Parent-Child .swiper .swiper-wrapper .swiper-slide img {
     width: 100% !important;
     height: 100% !important;
+  }
+}
+@media (max-width: 1200px) {
+  .Partnyor-Parent-Child .Titlte-Partnoyr {
+    padding: 0px 15px;
   }
 }
 .Footer-Parent-Selector {

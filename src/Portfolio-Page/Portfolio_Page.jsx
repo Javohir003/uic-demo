@@ -11,7 +11,7 @@ const Portfolio_Page = () => {
   useEffect(() => {
     const dataFetch = async () => {
       try {
-        const res = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxODEwMTg2OSwiZXhwIjoxNzQ5NjM3ODY5fQ.hpneWz5-nOCpnz7JJfCBCW136GyVBHBhuZh-yNxxgPU&t=2024-06-11T10%3A31%3A04.797Z");
+        const res = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxODk2NzM3NCwiZXhwIjoxNzUwNTAzMzc0fQ.DVsJEpqKmQibj_wiaPlyBCkNuVkTzNlLa73kGOxYiOM&t=2024-06-21T10%3A56%3A14.114Z");
         const data = await res.json();
         setProjects(data.portfolio);
       } catch (error) {
