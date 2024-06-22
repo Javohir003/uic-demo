@@ -133,15 +133,111 @@
 @media (max-width: 1230px) {
   .Portfolio-Parent {
     padding: 100px 15px;
+    .Portfolio-Projects-Box {
+      .box-Portfolio {
+        a {
+          .text-info {
+            transition: all 0.7s;
+            .title-site {
+              line-height: 30px;
+              font-size: 12px;
+              font-weight: 500 !important;
+            }
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
   }
 }
 
-@media (max-width: 860px){
-  .Portfolio-Parent{
-    .Portfolio-Nav{
+@media (max-width: 860px) {
+  .Portfolio-Parent {
+    .Portfolio-Nav {
       display: block !important;
+      .Portfolio-Name {
+        margin-bottom: 20px;
+      }
+    }
+    .Portfolio-Projects-Box {
+      .box-Portfolio {
+        a {
+          .text-info {
+            transition: all 0.7s;
+            font-size: 27px !important;
+            .title-site {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .Portfolio-Parent {
+    .Portfolio-Projects-Box {
+      .box-Portfolio {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        a {
+          .text-info {
+            transition: all 0.7s;
+            font-size: 22px;
+            .title-site {
+              font-size: 12px;
+              font-weight: 400 !important;
+            }
+          }
+          img {
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .Portfolio-Parent {
+    padding: 70px 10px;
+    .Portfolio-Nav {
       .Portfolio-Name{
-        margin-bottom: 20px
+        margin-bottom: 30px;
+      }
+      .Portfolio-list-nav {        
+        overflow-y: auto;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none;/*Internet Explorer va eski Edge */
+        a{
+          border: 0;
+          button{
+            width: 150px;
+            height: 50px;
+            padding: 0 !important;
+            border: 1px solid gray !important;
+          }
+          button:hover{
+            border: 1px solid #138a7c !important;
+          }
+        }
+      }
+      .Portfolio-list-nav::-webkit-scrollbar {
+        display: none; /* Chrome, Safari va yangi Edge */
+      }
+    }
+    .Portfolio-Projects-Box {
+      .box-Portfolio {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        a {
+          img {
+            width: 100%;
+            object-fit: cover;
+          }
+        }
       }
     }
   }
