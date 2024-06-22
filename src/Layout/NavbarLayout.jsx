@@ -7,6 +7,7 @@ import LogoUicHome2 from "../Icon/UIC-Logo-Home.svg";
 import Languageicon from "../Icon/LanguageLogo.svg";
 import ScrollTopAuto from "../ScrollP/Scroll-Page";
 import ChatTelegram from "../ChatPage/ChatTelegram";
+import ClosedBtn from '../Icon/close.svg'
 
 function NavbarLayout() {
   const [scrollY, setScrollY] = useState(0);
@@ -70,6 +71,11 @@ function NavbarLayout() {
           <nav style={headerStyleScroll}>
             <div className="container">
               <div id="Navbar-Parent">
+                <div className="Burger-Parent">
+                  <button className="btn-closed">
+                    <img src={ClosedBtn} alt="" />
+                  </button>
+                </div>
                 <a href="/" className="Logo-UIC">
                   <img
                     id="altLogoId"

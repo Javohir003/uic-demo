@@ -2,9 +2,9 @@
   position: relative;
   max-width: 100%;
   background-color: #1e1e20;
-  padding: 190px 0px;
+  padding: 160px 0px;
   z-index: 1;
-  overflow: auto;
+  // overflow: auto;
 
   .container-Blog {
     max-width: 1220px;
@@ -13,7 +13,7 @@
     .Second-Page-Childs {
       display: flex;
       width: 100%;
-      height: 600px;
+      // height: 600px;
       // background-color: hotpink;
       .Second-Page-Child-Left {
         position: relative;
@@ -218,6 +218,103 @@
           .Second-Page-btn {
             display: flex;
             gap: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1205px) {
+  .Second-Page-Parent {
+    .container-Blog {
+      .Second-Page-Childs {
+        padding: 0px 20px;
+        justify-content: space-between;
+        .Second-Page-Child-Left {
+          width: 55%;
+        }
+        .Second-Page-Child-Right {
+          width: 45%;
+          .Second-Page-Child-Right-Box {
+            padding: 80px 20px 0px 90px;
+            max-width: 99%;
+            .Second-Page-Quick-Sort {
+              gap: 10px;
+              img {
+                width: 40px;
+              }
+              .icon-bottom-text {
+                transition: all 0.8s;
+                font-size: 1.1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .Second-Page-Parent {
+    padding: 180px 15px;
+    transition: all 1s;
+    .container-Blog {
+      max-width: 98%;
+      .Second-Page-Childs {
+        display: block;
+        .Second-Page-Child-Left {
+          width: 80%;
+          margin: auto;
+          .Second-Childs-Galery-Left {
+            overflow: hidden;
+          }
+          .Second-Childs-Galery-Right {
+            margin-top: 50px;
+          }
+        }
+        .Second-Page-Child-Right {
+          margin: auto;
+          width: 100%;
+          .Second-Page-Child-Right-Box {
+            padding: 0;
+            max-width: 90%;
+            margin: auto;
+            .title-text {
+              padding: 0px 80px 0px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .Second-Page-Parent {
+    padding: 170px 10px;
+    .container-Blog {
+      .Second-Page-Childs {
+        padding: 0px 5px;
+        .Second-Page-Child-Left {
+          display: none !important;
+        }
+        .Second-Page-Child-Right{
+          width: 100%;
+          .Second-Page-Child-Right-Box{
+            .title{
+              font-size: 40px;
+              font-weight: 600;
+            }
+            .title-text{
+              padding: 0;
+            }
+            .Second-Page-Quick-Sort{
+              display: flex;
+              justify-content: space-around;
+              margin-bottom: 50px;
+            }
           }
         }
       }

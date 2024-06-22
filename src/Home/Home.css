@@ -122,4 +122,37 @@
   100% {
     transform: rotate(360deg);
   }
+}
+@media (max-width: 1200px) {
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left {
+    padding: 0px 0px 0px 20px;
+  }
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Logo {
+    transition: all 0.8s;
+    top: 20%;
+  }
+  .Home-Page-Parent .Navbar-And-Home-Page .Navbar-Moutain-bgc {
+    transition: all 0.8s;
+  }
+  .Home-Page-Parent .Navbar-And-Home-Page .Navbar-Moutain-bgc::before {
+    height: 80%;
+  }
+}
+@media (max-width: 800px) {
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left {
+    transition: all 0.8s;
+    max-width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left {
+    transition: all 0.8s;
+    max-width: 100%;
+  }
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left h1 {
+    font-size: 40px !important;
+  }
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left p {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=Home.css.map */

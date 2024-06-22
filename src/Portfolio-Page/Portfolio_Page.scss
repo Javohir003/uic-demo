@@ -136,4 +136,15 @@
   }
 }
 
+@media (max-width: 860px){
+  .Portfolio-Parent{
+    .Portfolio-Nav{
+      display: block !important;
+      .Portfolio-Name{
+        margin-bottom: 20px
+      }
+    }
+  }
+}
+
 @import "../Second-Page/SecondPage.scss";

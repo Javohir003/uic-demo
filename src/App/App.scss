@@ -16,8 +16,6 @@
   margin: auto;
 }
 
-
-
 .btn-anim {
   cursor: pointer;
   font-style: normal;
@@ -129,6 +127,9 @@ html::-webkit-scrollbar-thumb {
         align-items: center;
         justify-content: space-between;
         padding: 12px 0px;
+        .Burger-Parent{
+          display: none;
+        }
         .Logo-UIC {
           margin-right: 100px;
           cursor: pointer;
@@ -151,7 +152,7 @@ html::-webkit-scrollbar-thumb {
                   color: #00a795;
                   transition: all 0.5s ease-in-out;
                 }
-                .actives{
+                .actives {
                   color: red !important;
                 }
               }
@@ -200,7 +201,7 @@ html::-webkit-scrollbar-thumb {
               transition: all 0.7s;
               transform: translateX(60px);
             }
-            img{
+            img {
               transition: all 0.7s;
               transform: translateX(40px);
             }
@@ -219,7 +220,7 @@ html::-webkit-scrollbar-thumb {
                 display: block;
                 transform: translateX(0px);
               }
-              img{
+              img {
                 transform: translateX(0px);
               }
             }
@@ -230,8 +231,143 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
+@media (max-width: 1250px) {
+  .Navbar-Parent {
+    nav {
+      .container {
+        #Navbar-Parent {
+          padding: 12px 10px;
+        }
+      }
+    }
+  }
+}
 
 
+@media (max-width: 1200px ) and (min-width: 1085px) {
+  .Navbar-Parent {
+    nav {
+      .container {
+        #Navbar-Parent {
+          padding: 12px 10px;
+          .Logo-UIC {
+            margin-right: 15px;
+            #altLogoId {
+              width: 65px;
+            }
+            #newLogoId {
+              width: 75px;
+            }
+          }
+          .Nav-Parent-Child2 {
+            .Nav-List {
+              li {
+                transition: all 0.8s;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1085px) {
+  .Navbar-Parent {
+    nav {
+      .container {
+        #Navbar-Parent {
+          padding: 12px 10px;
+          .Logo-UIC {
+            margin-right: 15px;
+            #altLogoId {
+              width: 65px;
+            }
+            #newLogoId {
+              width: 75px;
+            }
+          }
+          .Nav-Parent-Child2 {
+            .Nav-List {
+              li {
+                transition: all 0.8s;
+                font-size: 11px;
+              }
+            }
+            .UIC-Language{
+              padding: 8px 10px;
+              width: 90px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1003px) {
+  .Navbar-Parent {
+    nav {
+      .container {
+        #Navbar-Parent {
+          .Logo-UIC {
+            margin-right: 15px;
+            #altLogoId {
+              width: 55px;
+            }
+            #newLogoId {
+              width: 70px;
+            }
+          }
+          .Nav-Parent-Child2 {
+            .Nav-List {
+              li {
+                transition: all 0.8s;
+                font-size: 12px;
+              }
+              a {
+                span {
+                  font-size:  18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 990px){
+  .Navbar-Parent {
+    nav {
+      .container {
+        #Navbar-Parent {
+          padding: 15px 10px;
+          .Burger-Parent{
+            display: block;
+            .btn-closed{
+              padding: 3px 5px;
+              background: none;
+              border: 1px solid gray;
+              border-radius: 8px;
+              backdrop-filter: invert(10%);
+            }
+          }
+          .Nav-Parent-Child2 {
+            .Nav-List {
+              display: none
+            }
+            .UIC-Language{
+              display: none
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 @import "../Home/Home.scss";
 @import "../Second-Page/SecondPage.scss";
