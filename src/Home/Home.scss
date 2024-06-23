@@ -192,3 +192,22 @@
     }
   }
 }
+
+@media (max-width: 450px) {
+  .Home-Page-Parent {
+    .Navbar-And-Home-Page {
+      .Home-Page-Text {
+        .Home-Page-Text-Left {
+          h1 {
+            font-size: 30px !important;
+            line-height: 35px !important;
+          }
+          p{
+            font-size: 15px !important;
+            margin-bottom: 40px !important;
+          }
+        }
+      }
+    }
+  }
+}

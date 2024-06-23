@@ -12,7 +12,6 @@ function Servicess() {
       try {
         const servicesdata = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxODk2NzM3NCwiZXhwIjoxNzUwNTAzMzc0fQ.DVsJEpqKmQibj_wiaPlyBCkNuVkTzNlLa73kGOxYiOM&t=2024-06-21T10%3A56%3A14.114Z");
         const response = await servicesdata.json();
-        console.log(response.servicesData);
         setServicesdata(response.servicesData);
       } catch (error) {
         console.error("Servicesdan data kelmayopti ", error);

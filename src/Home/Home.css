@@ -159,4 +159,14 @@
   .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left p {
     font-size: 16px;
   }
+}
+@media (max-width: 450px) {
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left h1 {
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left p {
+    font-size: 15px !important;
+    margin-bottom: 40px !important;
+  }
 }/*# sourceMappingURL=Home.css.map */

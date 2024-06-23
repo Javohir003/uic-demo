@@ -57,7 +57,7 @@ const Partnyor = () => {
               className="mySwiper"
           >
             {partnyorData.map((partnyor) => (
-              <SwiperSlide >
+              <SwiperSlide key={partnyor.id}>
                 <a href={partnyor.url} target="_blank">
                   <img src={partnyor.imageLogo} alt="" />
                 </a>
