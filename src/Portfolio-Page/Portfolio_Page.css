@@ -148,10 +148,11 @@
   }
   .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a .text-info {
     transition: all 0.7s;
-    font-size: 22px;
+    font-size: 21px !important;
+    padding: 12px 20px !important;
   }
   .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a .text-info .title-site {
-    font-size: 12px;
+    font-size: 11px !important;
     font-weight: 400 !important;
   }
   .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a img {

@@ -73,4 +73,14 @@
   .be-Also-Box .be-also-among-Block ul {
     display: block;
   }
+}
+@media (max-width: 730px) {
+  .be-Also-Box {
+    transition: all 0.8s;
+    display: none !important;
+  }
+  .Top-Home-Page {
+    transition: all 0.8s;
+    display: none !important;
+  }
 }/*# sourceMappingURL=FooterBox.css.map */

@@ -185,9 +185,10 @@
         a {
           .text-info {
             transition: all 0.7s;
-            font-size: 22px;
+            font-size: 21px !important;
+            padding: 12px 20px !important;
             .title-site {
-              font-size: 12px;
+              font-size: 11px !important;
               font-weight: 400 !important;
             }
           }
@@ -242,5 +243,7 @@
     }
   }
 }
+
+
 
 @import "../Second-Page/SecondPage.scss";

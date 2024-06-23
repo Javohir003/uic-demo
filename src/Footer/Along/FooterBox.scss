@@ -82,3 +82,15 @@
     }
   }
 }
+
+@media (max-width: 730px){
+  .be-Also-Box{
+    transition: all 0.8s;
+
+    display: none !important;
+  }
+  .Top-Home-Page{
+    transition: all 0.8s;
+    display: none !important;
+  }
+}

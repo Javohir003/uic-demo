@@ -204,3 +204,56 @@
         }
     }
 }
+
+
+@media (max-width: 700px){
+    .Footer-Page-Parent{
+        .newLogo{
+            width: 95% !important;
+        }
+    }
+    .footer-End-Box{
+        transition: all 0.8s !important;
+        display: grid !important;
+        justify-content: center !important;
+        row-gap: 30px !important;
+        padding: 40px 0px !important;
+        .map-button{
+            width: 100%;
+            transition: all 0.8s !important;
+            order: 1 !important;
+        }
+        .footer-copyright{
+            order: 2 !important;
+            justify-self: center !important;
+        }
+       
+    }
+    .newLogo{
+        width: 84% !important;
+        svg{
+            width: 80px !important;
+        }
+    }
+}
+
+@media (max-width: 730px) and (min-width: 700px){
+    .newLogo{
+        width: 93% !important;
+    }
+}
+
+@media (max-width: 500px){
+    .Ijtimoiy-Tarmoq-Parent{
+        justify-content: center !important;
+    }
+    .Ijtimoiy-Tarmoq-Left-Parent{
+        transition: all 0.8s !important;
+        display: grid !important;
+        justify-content: center !important;
+        grid-template-columns: repeat(6, 1fr) !important;
+    }
+    .Footer-Page-Parent{
+        padding: 15px 0px !important;
+    }
+}

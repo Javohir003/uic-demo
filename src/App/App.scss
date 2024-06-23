@@ -369,6 +369,24 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
+@media (max-width: 600px){
+  #Navbar-Parent{
+    padding: 8px 10px !important;
+    .Logo-UIC{
+      img{
+        width: 50px !important;
+      }
+    }
+    .btn-closed{
+      border-radius: 6px !important;
+      padding: 2px 5px !important;
+      img{
+        width: 20px !important;
+      }
+    }
+  }
+}
+
 @import "../Home/Home.scss";
 @import "../Second-Page/SecondPage.scss";
 @import "../Portfolio-Page/Portfolio_Page.scss";

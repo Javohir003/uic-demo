@@ -1,5 +1,5 @@
 .Parent-Services {
-  background-color: #1E1E20;
+  background-color: #1e1e20;
 }
 .Parent-Services .Servicess-header {
   padding-top: 150px;
@@ -59,5 +59,67 @@
 @media (max-width: 1200px) {
   .Parent-Services {
     padding: 0px 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .Parent-Services .Servicess-header {
+    transition: all 0.8s;
+    padding-top: 100px;
+  }
+  .Parent-Services .Services-Box {
+    transition: all 0.8s !important;
+    padding: 20px;
+  }
+  .Parent-Services .Services-Box h1 {
+    font-size: 33px;
+    margin-bottom: 10px;
+  }
+  .Parent-Services .Services-Box p {
+    line-height: 150%;
+  }
+}
+@media (max-width: 900px) {
+  .Services-Box {
+    transition: all 0.8s !important;
+    padding: 15px !important;
+  }
+  .Services-Box h1 {
+    font-size: 30px !important;
+  }
+  .Services-Box p {
+    font-size: 0.8rem !important;
+  }
+  .title-styles {
+    margin-bottom: 10px !important;
+  }
+  .Servicess-header {
+    padding-top: 60px !important;
+  }
+}
+@media (max-width: 600px) {
+  .Services-Box {
+    transition: all 0.8s !important;
+    padding: 15px !important;
+  }
+  .Services-Box h1 {
+    font-size: 27px !important;
+  }
+  .Services-Box p {
+    font-size: 0.7rem !important;
+  }
+}
+@media (max-width: 560px) {
+  .Services-Parent-Child-Box {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .Services-Parent-Child-Box .Services-Box {
+    transition: all 0.8s !important;
+    padding: 30px 15px !important;
+  }
+  .Services-Parent-Child-Box .Services-Box h1 {
+    font-size: 27px !important;
+  }
+  .Services-Parent-Child-Box .Services-Box p {
+    font-size: 0.7rem !important;
   }
 }/*# sourceMappingURL=Servicess.css.map */

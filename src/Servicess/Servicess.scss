@@ -1,64 +1,131 @@
-.Parent-Services{
-    background-color: #1E1E20;
-    .Servicess-header{
-        padding-top: 150px;
-        padding-bottom: 20px;
-        .title-styles{
-          font-style: normal;
-          font-weight: 700;
-          font-size: 16px;
-          line-height: 19px;
-          letter-spacing: .03em;
-          text-transform: uppercase;
-          color: #00a795;
-          margin-bottom: 20px;
-  
-        }
-        .title-leader{
-          font-style: normal;
-          font-weight: 700;
-          font-size: 36px;
-          line-height: 120%;
-          color: #fff;
-          margin-bottom: 50px;
-        }
+.Parent-Services {
+  background-color: #1e1e20;
+  .Servicess-header {
+    padding-top: 150px;
+    padding-bottom: 20px;
+    .title-styles {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #00a795;
+      margin-bottom: 20px;
     }
+    .title-leader {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 120%;
+      color: #fff;
+      margin-bottom: 50px;
+    }
+  }
 }
 
-.Services-Parent-Child-Box{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0,1fr));
-    gap: 1.5rem;
-    padding-bottom: 50px;
-    .Services-Box{
-      padding: 40px 30px;
-      background-color: #252527;
-      border-radius: 12px;
-      text-decoration: none;
-        &:hover{
-          box-shadow: 16px 19px 13px -3px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 5px 6px #0f0f0f59, 0 24px 80px #252525b3;
-          transition: .5s ease-in-out !important;
-      }
-      h1{
-        font-size: 38px;
-        margin-bottom: 20px;
-        font-weight: 700;
-        color: white;
+.Services-Parent-Child-Box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  padding-bottom: 50px;
+  .Services-Box {
+    padding: 40px 30px;
+    background-color: #252527;
+    border-radius: 12px;
+    text-decoration: none;
+    &:hover {
+      box-shadow: 16px 19px 13px -3px rgba(0, 0, 0, 0.25);
+      box-shadow: 0 5px 6px #0f0f0f59, 0 24px 80px #252525b3;
+      transition: 0.5s ease-in-out !important;
+    }
+    h1 {
+      font-size: 38px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      color: white;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 140%;
+      color: #e0e0e099;
+      letter-spacing: 0.2px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .Parent-Services {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Parent-Services {
+    .Servicess-header {
+      transition: all 0.8s;
+      padding-top: 100px;
+    }
+    .Services-Box { 
+      transition: all 0.8s !important;
+      padding: 20px;
+      h1 {
+        font-size: 33px;
+        margin-bottom: 10px;
       }
       p{
-        font-size: 1rem;
-        line-height: 140%;
-        color: #e0e0e099;
-        letter-spacing: .2px;
-        font-weight: 400;
+        line-height: 150%;
       }
     }
   }
+}
 
-  @media (max-width: 1200px){
-    .Parent-Services{
-      padding: 0px 20px;
+
+@media (max-width: 900px){
+  .Services-Box{
+    transition: all 0.8s !important;
+    padding: 15px !important;
+    h1{
+      font-size: 30px !important;
+    }
+    p{
+      font-size: 0.8rem !important;
     }
   }
+  .title-styles{
+    margin-bottom: 10px !important;
+  }
+  .Servicess-header{
+    padding-top: 60px !important;
+  }
+}
+
+@media (max-width: 600px){
+  .Services-Box{
+    transition: all 0.8s !important;
+    padding: 15px !important;
+    h1{
+      font-size: 27px !important;
+    }
+    p{
+      font-size: 0.7rem !important;
+    }
+  }
+}
+@media (max-width: 560px){
+  .Services-Parent-Child-Box{
+    grid-template-columns: repeat(1, 1fr) !important;
+    .Services-Box{
+      transition: all 0.8s !important;
+      padding: 30px 15px !important;
+      h1{
+        font-size: 27px !important;
+      }
+      p{
+        font-size: 0.7rem !important;
+      }
+    }
+  }
+}
