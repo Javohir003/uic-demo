@@ -171,3 +171,13 @@
     padding: 10px 0px !important;
   }
 }
+
+@media (max-width: 400px){
+  .title-fonts{
+    font-size: 14px !important;
+  }
+  .Title{
+    padding: 8px 0px !important;
+    font-size: 28px !important;
+  }
+}

@@ -96,13 +96,19 @@
     padding-top: 60px !important;
   }
 }
+@media (max-width: 700px) {
+  .Services-Box h1 {
+    transition: all 0.7s !important;
+    font-size: 1.5rem !important;
+  }
+}
 @media (max-width: 600px) {
   .Services-Box {
     transition: all 0.8s !important;
     padding: 15px !important;
   }
   .Services-Box h1 {
-    font-size: 27px !important;
+    font-size: 1.3rem !important;
   }
   .Services-Box p {
     font-size: 0.7rem !important;
@@ -117,9 +123,28 @@
     padding: 30px 15px !important;
   }
   .Services-Parent-Child-Box .Services-Box h1 {
-    font-size: 27px !important;
+    font-weight: 700 !important;
+    font-size: 1.2rem !important;
   }
   .Services-Parent-Child-Box .Services-Box p {
     font-size: 0.7rem !important;
+  }
+}
+@media (max-width: 400px) {
+  .Servicess-header {
+    transition: all 0.8s !important;
+    padding: 40px 0px !important;
+  }
+  .Servicess-header .title-styles {
+    transition: all 0.8s !important;
+    font-size: 14px !important;
+  }
+  .Servicess-header .title-leader {
+    transition: all 0.8s !important;
+    margin-bottom: 10px !important;
+    font-size: 29px !important;
+  }
+  .Services-Parent-Child-Box .Services-Box h1 {
+    font-size: 1.1rem !important;
   }
 }/*# sourceMappingURL=Servicess.css.map */

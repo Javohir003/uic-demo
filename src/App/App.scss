@@ -253,7 +253,7 @@ html::-webkit-scrollbar-thumb {
           .Logo-UIC {
             margin-right: 15px;
             #altLogoId {
-              width: 65px;
+              width: 60px;
             }
             #newLogoId {
               width: 75px;
@@ -282,7 +282,7 @@ html::-webkit-scrollbar-thumb {
           .Logo-UIC {
             margin-right: 15px;
             #altLogoId {
-              width: 65px;
+              width: 60px;
             }
             #newLogoId {
               width: 75px;
@@ -311,13 +311,14 @@ html::-webkit-scrollbar-thumb {
     nav {
       .container {
         #Navbar-Parent {
+          padding: 15px 20px !important;
           .Logo-UIC {
             margin-right: 15px;
             #altLogoId {
               width: 55px;
             }
             #newLogoId {
-              width: 70px;
+              width: 90px;
             }
           }
           .Nav-Parent-Child2 {
@@ -370,11 +371,21 @@ html::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 600px){
+  .btn{
+    border: 1px solid gray !important;
+    padding: 12px 25px !important;
+  }
+}
+
+@media (max-width: 600px){
   #Navbar-Parent{
-    padding: 8px 10px !important;
+    padding: 20px 20px !important;
     .Logo-UIC{
-      img{
-        width: 50px !important;
+      #altLogoId{
+        width: 60px !important;
+      }
+      #newLogoId{
+        width: 75px !important;
       }
     }
     .btn-closed{
@@ -383,6 +394,17 @@ html::-webkit-scrollbar-thumb {
       img{
         width: 20px !important;
       }
+    }
+  }
+  .btn{
+    border: 1px solid gray !important;
+    padding: 9px 25px !important;
+  }
+  .btn-anim{
+    padding: 7px 15px !important;
+    span{
+      font-size: 15px !important;
+      font-weight: 500 !important
     }
   }
 }

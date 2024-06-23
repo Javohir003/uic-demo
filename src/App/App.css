@@ -232,7 +232,7 @@ html::-webkit-scrollbar-thumb {
     margin-right: 15px;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC #altLogoId {
-    width: 65px;
+    width: 60px;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC #newLogoId {
     width: 75px;
@@ -250,7 +250,7 @@ html::-webkit-scrollbar-thumb {
     margin-right: 15px;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC #altLogoId {
-    width: 65px;
+    width: 60px;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC #newLogoId {
     width: 75px;
@@ -265,6 +265,9 @@ html::-webkit-scrollbar-thumb {
   }
 }
 @media (max-width: 1003px) {
+  .Navbar-Parent nav .container #Navbar-Parent {
+    padding: 15px 20px !important;
+  }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC {
     margin-right: 15px;
   }
@@ -272,7 +275,7 @@ html::-webkit-scrollbar-thumb {
     width: 55px;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC #newLogoId {
-    width: 70px;
+    width: 90px;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Nav-Parent-Child2 .Nav-List li {
     transition: all 0.8s;
@@ -305,11 +308,20 @@ html::-webkit-scrollbar-thumb {
   }
 }
 @media (max-width: 600px) {
-  #Navbar-Parent {
-    padding: 8px 10px !important;
+  .btn {
+    border: 1px solid gray !important;
+    padding: 12px 25px !important;
   }
-  #Navbar-Parent .Logo-UIC img {
-    width: 50px !important;
+}
+@media (max-width: 600px) {
+  #Navbar-Parent {
+    padding: 20px 20px !important;
+  }
+  #Navbar-Parent .Logo-UIC #altLogoId {
+    width: 60px !important;
+  }
+  #Navbar-Parent .Logo-UIC #newLogoId {
+    width: 75px !important;
   }
   #Navbar-Parent .btn-closed {
     border-radius: 6px !important;
@@ -317,6 +329,17 @@ html::-webkit-scrollbar-thumb {
   }
   #Navbar-Parent .btn-closed img {
     width: 20px !important;
+  }
+  .btn {
+    border: 1px solid gray !important;
+    padding: 9px 25px !important;
+  }
+  .btn-anim {
+    padding: 7px 15px !important;
+  }
+  .btn-anim span {
+    font-size: 15px !important;
+    font-weight: 500 !important;
   }
 }
 .Home-Page-Parent .Navbar-And-Home-Page {
@@ -466,11 +489,15 @@ html::-webkit-scrollbar-thumb {
   }
 }
 @media (max-width: 650px) {
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Logo {
+    display: none;
+  }
   .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left {
     transition: all 0.8s;
     max-width: 100%;
   }
   .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left h1 {
+    transition: all 0.8s;
     font-size: 40px !important;
   }
   .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left p {
@@ -915,6 +942,18 @@ html::-webkit-scrollbar-thumb {
   .Portfolio-Parent .Portfolio-Nav .Portfolio-Name {
     margin-bottom: 20px;
   }
+  .Portfolio-Parent .Portfolio-Nav .Portfolio-Name h1 {
+    font-size: 38px !important;
+  }
+  .Portfolio-Parent .Portfolio-Nav .Portfolio-list-nav .btn-portfolio {
+    border: 1px solid gray !important;
+    font-weight: 500 !important;
+  }
+  .Portfolio-Parent .Portfolio-Nav .Portfolio-list-nav .active {
+    color: #03ceba !important;
+    font-weight: 500 !important;
+    border: 1px solid #03ceba !important;
+  }
   .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a .text-info {
     transition: all 0.7s;
     font-size: 27px !important;
@@ -925,6 +964,8 @@ html::-webkit-scrollbar-thumb {
 }
 @media (max-width: 700px) {
   .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio {
+    transition: all 0.7s !important;
+    gap: 18px !important;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
   .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a .text-info {
@@ -949,6 +990,9 @@ html::-webkit-scrollbar-thumb {
   .Portfolio-Parent .Portfolio-Nav .Portfolio-Name {
     margin-bottom: 30px;
   }
+  .Portfolio-Parent .Portfolio-Nav .Portfolio-Name h1 {
+    font-size: 40px !important;
+  }
   .Portfolio-Parent .Portfolio-Nav .Portfolio-list-nav {
     overflow-y: auto;
     scrollbar-width: none; /* Firefox */
@@ -958,10 +1002,12 @@ html::-webkit-scrollbar-thumb {
     border: 0;
   }
   .Portfolio-Parent .Portfolio-Nav .Portfolio-list-nav a button {
-    width: 150px;
-    height: 50px;
+    width: 130px;
+    height: 40px;
     padding: 0 !important;
     border: 1px solid gray !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
   }
   .Portfolio-Parent .Portfolio-Nav .Portfolio-list-nav a button:hover {
     border: 1px solid #138a7c !important;
@@ -969,11 +1015,108 @@ html::-webkit-scrollbar-thumb {
   .Portfolio-Parent .Portfolio-Nav .Portfolio-list-nav::-webkit-scrollbar {
     display: none; /* Chrome, Safari va yangi Edge */
   }
+  .Portfolio-Parent .Portfolio-Projects-Box {
+    margin-bottom: 50px !important;
+  }
   .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px !important;
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
   }
   .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a img {
     width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 500px) {
+  .Portfolio-Parent {
+    padding: 70px 10px;
+  }
+  .Portfolio-Parent .Portfolio-Nav .Portfolio-Name h1 {
+    transition: all 0.7s !important;
+    font-size: 35px !important;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box {
+    margin-bottom: 50px !important;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a .text-info {
+    transition: all 0.8s !important;
+    font-size: 20px !important;
+    padding: 10px 0px 0px 18px !important;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a .text-info .title-site {
+    transition: all 0.8s !important;
+    font-size: 10px !important;
+    line-height: 20px;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a img {
+    width: 100%;
+    height: 135px;
+    transition: all 0.8s !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 450px) {
+  .Portfolio-Parent {
+    padding: 70px 10px;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box {
+    margin-bottom: 50px !important;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio {
+    grid-template-columns: repeat(2, minmax(90px, 1fr));
+    gap: 14px !important;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a .text-info {
+    transition: all 0.8s !important;
+    font-size: 17px !important;
+    padding: 10px 0px 0px 15px !important;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a .text-info .title-site {
+    transition: all 0.8s !important;
+    font-size: 10px !important;
+    line-height: 20px;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a img {
+    width: 100%;
+    height: 110px;
+    transition: all 0.8s !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 400px) {
+  .Portfolio-Parent {
+    padding: 60px 10px;
+  }
+  .Portfolio-Parent .Portfolio-Nav .Portfolio-Name h1 {
+    transition: all 0.7s !important;
+    font-size: 30px !important;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box {
+    margin-bottom: 40px !important;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio {
+    gap: 10px !important;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a .text-info {
+    transition: all 0.6s !important;
+    font-size: 16px !important;
+    padding: 10px 0px 0px 12px !important;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a .text-info .title-site {
+    transition: all 0.6s !important;
+    font-size: 9px !important;
+    line-height: 20px;
+  }
+  .Portfolio-Parent .Portfolio-Projects-Box .box-Portfolio a img {
+    width: 100%;
+    height: 110px;
+    transition: all 0.8s !important;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1425,6 +1568,24 @@ html::-webkit-scrollbar-thumb {
     padding: 0px 15px;
   }
 }
+@media (max-width: 880px) {
+  .title-fonts {
+    font-size: 16px !important;
+  }
+  .Title {
+    font-size: 33px !important;
+    padding: 10px 0px !important;
+  }
+}
+@media (max-width: 400px) {
+  .title-fonts {
+    font-size: 14px !important;
+  }
+  .Title {
+    padding: 8px 0px !important;
+    font-size: 28px !important;
+  }
+}
 .Footer-Parent-Selector {
   max-width: 100%;
   background-color: rgb(30, 30, 32);
@@ -1617,6 +1778,9 @@ html::-webkit-scrollbar-thumb {
   }
 }
 @media (max-width: 700px) {
+  .Footer-Page-Parent .newLogo {
+    width: 95% !important;
+  }
   .footer-End-Box {
     transition: all 0.8s !important;
     display: grid !important;
@@ -1633,6 +1797,17 @@ html::-webkit-scrollbar-thumb {
     order: 2 !important;
     justify-self: center !important;
   }
+  .newLogo {
+    width: 84% !important;
+  }
+  .newLogo svg {
+    width: 80px !important;
+  }
+}
+@media (max-width: 730px) and (min-width: 700px) {
+  .newLogo {
+    width: 93% !important;
+  }
 }
 @media (max-width: 500px) {
   .Ijtimoiy-Tarmoq-Parent {
@@ -1643,6 +1818,9 @@ html::-webkit-scrollbar-thumb {
     display: grid !important;
     justify-content: center !important;
     grid-template-columns: repeat(6, 1fr) !important;
+  }
+  .Footer-Page-Parent {
+    padding: 15px 0px !important;
   }
 }
 .Blog-Page-Parent {
@@ -1949,6 +2127,18 @@ html::-webkit-scrollbar-thumb {
   .Services-Box p {
     font-size: 0.8rem !important;
   }
+  .title-styles {
+    margin-bottom: 10px !important;
+  }
+  .Servicess-header {
+    padding-top: 60px !important;
+  }
+}
+@media (max-width: 700px) {
+  .Services-Box h1 {
+    transition: all 0.7s !important;
+    font-size: 1.5rem !important;
+  }
 }
 @media (max-width: 600px) {
   .Services-Box {
@@ -1956,7 +2146,7 @@ html::-webkit-scrollbar-thumb {
     padding: 15px !important;
   }
   .Services-Box h1 {
-    font-size: 27px !important;
+    font-size: 1.3rem !important;
   }
   .Services-Box p {
     font-size: 0.7rem !important;
@@ -1968,14 +2158,32 @@ html::-webkit-scrollbar-thumb {
   }
   .Services-Parent-Child-Box .Services-Box {
     transition: all 0.8s !important;
-    background-color: red !important;
     padding: 30px 15px !important;
   }
   .Services-Parent-Child-Box .Services-Box h1 {
-    font-size: 27px !important;
+    font-weight: 700 !important;
+    font-size: 1.2rem !important;
   }
   .Services-Parent-Child-Box .Services-Box p {
     font-size: 0.7rem !important;
+  }
+}
+@media (max-width: 400px) {
+  .Servicess-header {
+    transition: all 0.8s !important;
+    padding: 40px 0px !important;
+  }
+  .Servicess-header .title-styles {
+    transition: all 0.8s !important;
+    font-size: 14px !important;
+  }
+  .Servicess-header .title-leader {
+    transition: all 0.8s !important;
+    margin-bottom: 10px !important;
+    font-size: 29px !important;
+  }
+  .Services-Parent-Child-Box .Services-Box h1 {
+    font-size: 1.1rem !important;
   }
 }
 .AboutPage-Parent {

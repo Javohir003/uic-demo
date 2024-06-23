@@ -4,6 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 
 import LogoUICHome from "../Icon/logoUic.svg";
 import LogoUicHome2 from "../Icon/UIC-Logo-Home.svg";
+import LogoUICHome3 from '../Icon/uic-new-logo.svg';
 import Languageicon from "../Icon/LanguageLogo.svg";
 import ScrollTopAuto from "../ScrollP/Scroll-Page";
 import ChatTelegram from "../ChatPage/ChatTelegram";
@@ -89,6 +90,7 @@ function NavbarLayout() {
                     alt=""
                     style={newLogo}
                   />
+                  
                 </a>
                 <div className="Nav-Parent-Child2">
                   <ul className="Nav-List">

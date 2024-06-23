@@ -145,11 +145,15 @@
   }
 }
 @media (max-width: 650px) {
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Logo {
+    display: none;
+  }
   .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left {
     transition: all 0.8s;
     max-width: 100%;
   }
   .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left h1 {
+    transition: all 0.8s;
     font-size: 40px !important;
   }
   .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left p {
