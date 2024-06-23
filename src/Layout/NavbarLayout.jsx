@@ -4,17 +4,17 @@ import { Link, Outlet } from "react-router-dom";
 
 import LogoUICHome from "../Icon/logoUic.svg";
 import LogoUicHome2 from "../Icon/UIC-Logo-Home.svg";
-import LogoUICHome3 from '../Icon/uic-new-logo.svg';
+import LogoUICHome3 from "../Icon/uic-new-logo.svg";
 import Languageicon from "../Icon/LanguageLogo.svg";
 import ScrollTopAuto from "../ScrollP/Scroll-Page";
 import ChatTelegram from "../ChatPage/ChatTelegram";
-import ClosedBtn from '../Icon/close.svg'
+import ClosedBtn from "../Icon/close.svg";
 
 function NavbarLayout() {
   const [scrollY, setScrollY] = useState(0);
   const { t, i18n } = useTranslation();
   const languages = localStorage.getItem("i18nextLanguage");
-  const [active, setActive] = useState('')
+  const [isactive, setIsActive] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -63,6 +63,11 @@ function NavbarLayout() {
     localStorage.setItem("i18nextLanguage", val);
   };
 
+  const handleActiveLanguage = (e, language) => {
+    setIsActive(!isactive)
+  }
+
+
   return (
     <>
       <header>
@@ -90,12 +95,13 @@ function NavbarLayout() {
                     alt=""
                     style={newLogo}
                   />
-                  
                 </a>
                 <div className="Nav-Parent-Child2">
                   <ul className="Nav-List">
                     <li>
-                      <Link className="actives" to={`/${i18n.language}/about`}>{t("about")}</Link>
+                      <Link className="actives" to={`/${i18n.language}/about`}>
+                        {t("about")}
+                      </Link>
                     </li>
                     <li>
                       <Link to={`/${i18n.language}/portfolio`}>
@@ -124,24 +130,16 @@ function NavbarLayout() {
                   </ul>
                   <article className="UIC-Language">
                     <img src={Languageicon} alt="" />
-                    <span
-                      onClick={(e) => handleChange(e, "eng")}
-                      value={languages}
-                    >
-                      Eng
-                    </span>
-                    <span
-                      onClick={(e) => handleChange(e, "ru")}
-                      value={languages}
-                    >
-                      Rus
-                    </span>
-                    <span
-                      onClick={(e) => handleChange(e, "uz")}
-                      value={languages}
-                    >
-                      Uzb
-                    </span>
+                    <span onClick={(e) => handleChange(e, "eng")}value={languages}>Eng</span>
+                    <span onClick={(e) => handleChange(e, "ru")} value={languages}>Rus</span>
+                    <span onClick={(e) => handleChange(e, "uz")}value={languages}>Uzb</span>
+                  </article>
+                  <article className="UIC-Active-Language" onClick={handleActiveLanguage}>
+                    <li className="ln" onClick={(e) => handleChange(e, "eng")}value={languages}><img src={Languageicon} alt="" /> en</li>
+                    <ul className={`no-active-lang ${isactive ? 'no-lang_active': ''}`}>
+                      <li className="ln" onClick={(e) => handleChange(e, "ru")} value={languages}><img src={Languageicon} alt="" /> uz</li>
+                      <li className="ln" onClick={(e) => handleChange(e, "uz")}value={languages} ><img src={Languageicon} alt="" /> ru</li>
+                    </ul>
                   </article>
                 </div>
               </div>
@@ -150,9 +148,8 @@ function NavbarLayout() {
         </div>
       </header>
       <main>
-        <Outlet/>
+        <Outlet />
       </main>
-      
     </>
   );
 }

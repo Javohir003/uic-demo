@@ -127,7 +127,7 @@ html::-webkit-scrollbar-thumb {
         align-items: center;
         justify-content: space-between;
         padding: 12px 0px;
-        .Burger-Parent{
+        .Burger-Parent {
           display: none;
         }
         .Logo-UIC {
@@ -225,6 +225,46 @@ html::-webkit-scrollbar-thumb {
               }
             }
           }
+          .UIC-Active-Language {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid gray;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.14);
+            li {
+              position: relative;
+              left: 0;
+              top: 0;
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              font-size: 20px;
+              font-weight: 500;
+              color: white;
+              text-transform: uppercase;
+            }
+            .no-active-lang {
+              position: absolute;
+              transform: translateY(40px);
+              padding: 20px 10px 10px 10px;
+              border: 1px solid gray;
+              border-radius: 0px 0px 5px 5px;
+              transition: all 0.4s;
+              border-top: 0px;
+              opacity: 0;
+              .ln:nth-child(1) {
+                margin-bottom: 10px;
+              }
+            }
+
+            .no-lang_active {
+              transform: translateY(58px);
+              opacity: 1;
+            }
+          }
         }
       }
     }
@@ -243,15 +283,14 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
-
-@media (max-width: 1200px ) and (min-width: 1085px) {
+@media (max-width: 1200px) and (min-width: 1085px) {
   .Navbar-Parent {
     nav {
       .container {
         #Navbar-Parent {
           padding: 12px 10px;
           .Logo-UIC {
-            margin-right: 15px;
+            margin-right: 0 !important;
             #altLogoId {
               width: 60px;
             }
@@ -280,7 +319,7 @@ html::-webkit-scrollbar-thumb {
         #Navbar-Parent {
           padding: 12px 10px;
           .Logo-UIC {
-            margin-right: 15px;
+            margin-right: 0px !important;
             #altLogoId {
               width: 60px;
             }
@@ -295,7 +334,7 @@ html::-webkit-scrollbar-thumb {
                 font-size: 11px;
               }
             }
-            .UIC-Language{
+            .UIC-Language {
               padding: 8px 10px;
               width: 90px;
             }
@@ -313,7 +352,7 @@ html::-webkit-scrollbar-thumb {
         #Navbar-Parent {
           padding: 15px 20px !important;
           .Logo-UIC {
-            margin-right: 15px;
+            margin-left: 15px !important;
             #altLogoId {
               width: 55px;
             }
@@ -329,7 +368,7 @@ html::-webkit-scrollbar-thumb {
               }
               a {
                 span {
-                  font-size:  18px;
+                  font-size: 18px;
                 }
               }
             }
@@ -340,15 +379,15 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
-@media (max-width: 990px){
+@media (max-width: 990px) {
   .Navbar-Parent {
     nav {
       .container {
         #Navbar-Parent {
           padding: 15px 10px;
-          .Burger-Parent{
+          .Burger-Parent {
             display: block;
-            .btn-closed{
+            .btn-closed {
               padding: 3px 5px;
               background: none;
               border: 1px solid gray;
@@ -358,10 +397,13 @@ html::-webkit-scrollbar-thumb {
           }
           .Nav-Parent-Child2 {
             .Nav-List {
-              display: none
+              display: none;
             }
-            .UIC-Language{
-              display: none
+            .UIC-Language {
+              display: none;
+            }
+            .UIC-Active-Language {
+              display: flex;
             }
           }
         }
@@ -370,41 +412,78 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
-@media (max-width: 600px){
-  .btn{
+@media (max-width: 700px){
+  .UIC-Active-Language{
+    transition: all 0.7s !important;
+    padding: 8px !important;
+    li{
+      transition: all 0.7s !important;
+      font-size: 16px !important;
+      img{
+        width: 22px !important;
+      }
+    }
+    .no-active-lang{
+      transform: translateY(54px) !important;
+      padding: 15px 7.4px 10px 7.2px !important;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
     border: 1px solid gray !important;
     padding: 12px 25px !important;
   }
 }
 
-@media (max-width: 600px){
-  #Navbar-Parent{
+@media (max-width: 600px) {
+  #Navbar-Parent {
     padding: 20px 20px !important;
-    .Logo-UIC{
-      #altLogoId{
+    .Logo-UIC {
+      #altLogoId {
         width: 60px !important;
       }
-      #newLogoId{
+      #newLogoId {
         width: 75px !important;
       }
     }
-    .btn-closed{
+    .btn-closed {
       border-radius: 6px !important;
       padding: 2px 5px !important;
-      img{
+      img {
         width: 20px !important;
       }
     }
   }
-  .btn{
+  .btn {
     border: 1px solid gray !important;
     padding: 9px 25px !important;
   }
-  .btn-anim{
+  .btn-anim {
     padding: 7px 15px !important;
-    span{
+    span {
       font-size: 15px !important;
-      font-weight: 500 !important
+      font-weight: 500 !important;
+    }
+  }
+}
+
+
+@media (max-width: 500px){
+  .UIC-Active-Language{
+    transition: all 0.7s !important;
+    padding: 6px 8px !important;
+    li{
+      transition: all 0.7s !important;
+      font-size: 14px !important;
+      img{
+        width: 20px !important;
+      }
+    }
+    .no-active-lang{
+      transform: translateY(51px) !important;
+      padding: 15px 7.4px 10px 7.2px !important;
     }
   }
 }

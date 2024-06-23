@@ -2,23 +2,20 @@ import { useState, useEffect } from "react";
 import "./ChatTelegram.css";
 
 function ChatTelegram() {
+  //     const [isChatVisible, setIsChatVisible] = useState(false);
 
-//     const [isChatVisible, setIsChatVisible] = useState(false);
+  //   const handleClickChat = () => {
+  //     console.log("Succes Chat");
+  //     setIsChatVisible(!isChatVisible);
 
-
-//   const handleClickChat = () => {
-//     console.log("Succes Chat");
-//     setIsChatVisible(!isChatVisible);
-
-//   };
-//   useEffect(() => {
-//     if (isChatVisible) {
-//       document.body.style.overflow = "hidden";
-//     } else {
-//       document.body.style.overflow = "auto";
-//     }
-//   }, [isChatVisible]);
-
+  //   };
+  //   useEffect(() => {
+  //     if (isChatVisible) {
+  //       document.body.style.overflow = "hidden";
+  //     } else {
+  //       document.body.style.overflow = "auto";
+  //     }
+  //   }, [isChatVisible]);
 
   return (
     <div className="chat-wrapper">

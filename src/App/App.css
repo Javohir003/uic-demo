@@ -218,6 +218,45 @@ html::-webkit-scrollbar-thumb {
 .Navbar-Parent nav .container #Navbar-Parent .Nav-Parent-Child2 .UIC-Language:hover img {
   transform: translateX(0px);
 }
+.Navbar-Parent nav .container #Navbar-Parent .Nav-Parent-Child2 .UIC-Active-Language {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.14);
+}
+.Navbar-Parent nav .container #Navbar-Parent .Nav-Parent-Child2 .UIC-Active-Language li {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+}
+.Navbar-Parent nav .container #Navbar-Parent .Nav-Parent-Child2 .UIC-Active-Language .no-active-lang {
+  position: absolute;
+  transform: translateY(40px);
+  padding: 20px 10px 10px 10px;
+  border: 1px solid gray;
+  border-radius: 0px 0px 5px 5px;
+  transition: all 0.4s;
+  border-top: 0px;
+  opacity: 0;
+}
+.Navbar-Parent nav .container #Navbar-Parent .Nav-Parent-Child2 .UIC-Active-Language .no-active-lang .ln:nth-child(1) {
+  margin-bottom: 10px;
+}
+.Navbar-Parent nav .container #Navbar-Parent .Nav-Parent-Child2 .UIC-Active-Language .no-lang_active {
+  transform: translateY(58px);
+  opacity: 1;
+}
 
 @media (max-width: 1250px) {
   .Navbar-Parent nav .container #Navbar-Parent {
@@ -229,7 +268,7 @@ html::-webkit-scrollbar-thumb {
     padding: 12px 10px;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC {
-    margin-right: 15px;
+    margin-right: 0 !important;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC #altLogoId {
     width: 60px;
@@ -247,7 +286,7 @@ html::-webkit-scrollbar-thumb {
     padding: 12px 10px;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC {
-    margin-right: 15px;
+    margin-right: 0px !important;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC #altLogoId {
     width: 60px;
@@ -269,7 +308,7 @@ html::-webkit-scrollbar-thumb {
     padding: 15px 20px !important;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC {
-    margin-right: 15px;
+    margin-left: 15px !important;
   }
   .Navbar-Parent nav .container #Navbar-Parent .Logo-UIC #altLogoId {
     width: 55px;
@@ -306,6 +345,26 @@ html::-webkit-scrollbar-thumb {
   .Navbar-Parent nav .container #Navbar-Parent .Nav-Parent-Child2 .UIC-Language {
     display: none;
   }
+  .Navbar-Parent nav .container #Navbar-Parent .Nav-Parent-Child2 .UIC-Active-Language {
+    display: flex;
+  }
+}
+@media (max-width: 700px) {
+  .UIC-Active-Language {
+    transition: all 0.7s !important;
+    padding: 8px !important;
+  }
+  .UIC-Active-Language li {
+    transition: all 0.7s !important;
+    font-size: 16px !important;
+  }
+  .UIC-Active-Language li img {
+    width: 22px !important;
+  }
+  .UIC-Active-Language .no-active-lang {
+    transform: translateY(54px) !important;
+    padding: 15px 7.4px 10px 7.2px !important;
+  }
 }
 @media (max-width: 600px) {
   .btn {
@@ -340,6 +399,23 @@ html::-webkit-scrollbar-thumb {
   .btn-anim span {
     font-size: 15px !important;
     font-weight: 500 !important;
+  }
+}
+@media (max-width: 500px) {
+  .UIC-Active-Language {
+    transition: all 0.7s !important;
+    padding: 6px 8px !important;
+  }
+  .UIC-Active-Language li {
+    transition: all 0.7s !important;
+    font-size: 14px !important;
+  }
+  .UIC-Active-Language li img {
+    width: 20px !important;
+  }
+  .UIC-Active-Language .no-active-lang {
+    transform: translateY(51px) !important;
+    padding: 15px 7.4px 10px 7.2px !important;
   }
 }
 .Home-Page-Parent .Navbar-And-Home-Page {
@@ -502,6 +578,16 @@ html::-webkit-scrollbar-thumb {
   }
   .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left p {
     font-size: 16px;
+  }
+}
+@media (max-width: 450px) {
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left h1 {
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .Home-Page-Parent .Navbar-And-Home-Page .Home-Page-Text .Home-Page-Text-Left p {
+    font-size: 15px !important;
+    margin-bottom: 40px !important;
   }
 }
 .Second-Page-Parent {
@@ -804,6 +890,79 @@ html::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+  }
+}
+@media (max-width: 650px) {
+  .title-second-page span {
+    transition: all 0.8s !important;
+    font-size: 15px !important;
+  }
+  .title {
+    transition: all 0.8s !important;
+    font-size: 36px !important;
+  }
+  .title-text p {
+    transition: all 0.8s !important;
+    font-size: 15px !important;
+  }
+  .Second-Page-Quick-Sort {
+    gap: 20px !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Left {
+    transition: all 0.8s !important;
+    width: auto !important;
+    gap: 10px !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Left img {
+    width: 15% !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Right {
+    transition: all 0.8s !important;
+    gap: 11px !important;
+    width: auto !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Right img {
+    width: 18% !important;
+  }
+  .Second-Page-Quick-Sort .icon-bottom-text {
+    font-size: 1rem !important;
+  }
+}
+@media (max-width: 450px) {
+  .title-second-page span {
+    transition: all 0.8s !important;
+    font-size: 13px !important;
+  }
+  .title {
+    transition: all 0.8s !important;
+    font-size: 32px !important;
+  }
+  .title-text p {
+    transition: all 0.8s !important;
+    font-size: 13px !important;
+  }
+  .Second-Page-Parent {
+    padding: 120px 0px !important;
+  }
+  .Second-Page-Quick-Sort {
+    margin-bottom: 40px !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Left {
+    transition: all 0.8s !important;
+    width: auto !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Left img {
+    width: 10% !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Right {
+    transition: all 0.8s !important;
+    width: auto !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Right img {
+    width: 14% !important;
+  }
+  .Second-Page-Quick-Sort .icon-bottom-text {
+    font-size: 0.9rem !important;
   }
 }
 .Portfolio-Parent {
@@ -1421,6 +1580,79 @@ html::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+  }
+}
+@media (max-width: 650px) {
+  .title-second-page span {
+    transition: all 0.8s !important;
+    font-size: 15px !important;
+  }
+  .title {
+    transition: all 0.8s !important;
+    font-size: 36px !important;
+  }
+  .title-text p {
+    transition: all 0.8s !important;
+    font-size: 15px !important;
+  }
+  .Second-Page-Quick-Sort {
+    gap: 20px !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Left {
+    transition: all 0.8s !important;
+    width: auto !important;
+    gap: 10px !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Left img {
+    width: 15% !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Right {
+    transition: all 0.8s !important;
+    gap: 11px !important;
+    width: auto !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Right img {
+    width: 18% !important;
+  }
+  .Second-Page-Quick-Sort .icon-bottom-text {
+    font-size: 1rem !important;
+  }
+}
+@media (max-width: 450px) {
+  .title-second-page span {
+    transition: all 0.8s !important;
+    font-size: 13px !important;
+  }
+  .title {
+    transition: all 0.8s !important;
+    font-size: 32px !important;
+  }
+  .title-text p {
+    transition: all 0.8s !important;
+    font-size: 13px !important;
+  }
+  .Second-Page-Parent {
+    padding: 120px 0px !important;
+  }
+  .Second-Page-Quick-Sort {
+    margin-bottom: 40px !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Left {
+    transition: all 0.8s !important;
+    width: auto !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Left img {
+    width: 10% !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Right {
+    transition: all 0.8s !important;
+    width: auto !important;
+  }
+  .Second-Page-Quick-Sort .Quick-Sort-Right img {
+    width: 14% !important;
+  }
+  .Second-Page-Quick-Sort .icon-bottom-text {
+    font-size: 0.9rem !important;
   }
 }
 .Partnyor-Parent-Child {
