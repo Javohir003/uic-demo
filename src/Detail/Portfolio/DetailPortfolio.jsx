@@ -8,9 +8,8 @@ import "./Portfolio.css";
 function DetailPortfolio() {
   const { t, i18n } = useTranslation();
   const location = useLocation();
-  const { projects } = location.state || {projects: {}};
+  const { projects } = location.state || { projects: {} };
 
-  console.log(projects);
 
   return (
     <>
@@ -19,12 +18,15 @@ function DetailPortfolio() {
           <div className="Detail-Portfolio-Parent">
             <div className="detail-container">
               <div className="Detail-Portfolio-header">
-                <img src={projects.detailPortfolioLogo} alt="" />
-                <article className="hedaer-left-detailportfolio">
-                  <h3>JavaScript (Vue.JS)</h3>
-                  <h3>Python(Django)</h3>
-                  <button>{t(projects.title_web)}</button>
+                <article className="box-detail-header">
+                  <img src={projects.detailPortfolioLogo} alt="" />
+                  <article className="hedaer-left-detailportfolio">
+                    <h3>JavaScript (Vue.JS)</h3>
+                    <h3>Python(Django)</h3>
+                    <button className="website-btn">{t(projects.title_web)}</button>
+                  </article>
                 </article>
+                <button className="website-btn close_btn">{t(projects.title_web)}</button>
               </div>
             </div>
             <div className="Detail-Portfolio-blur">
@@ -59,7 +61,7 @@ function DetailPortfolio() {
             </div>
 
             <div className="wrapper-img-portfolio">
-              <img  className="img1" src={projects.detailPortfolio} alt="" />
+              <img className="img1" src={projects.detailPortfolio} alt="" />
             </div>
 
             <p className="detail-container text-detail-portfolio">

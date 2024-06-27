@@ -17,10 +17,14 @@ function ChatTelegram() {
   //     }
   //   }, [isChatVisible]);
 
+  const handleChat = (e) => {
+    e.preventDefault()
+  }
+
   return (
     <div className="chat-wrapper">
       <div className="chat-wrapper-child">
-        <a href="#0">
+        <a href="#0" onClick={handleChat}>
           {/* <img onClick={handleClickChat} src='/public/assests/messages.svg' alt="" /> */}
           <svg
             version="1.0"
