@@ -23,10 +23,9 @@ function DetailPortfolio() {
                   <article className="hedaer-left-detailportfolio">
                     <h3>JavaScript (Vue.JS)</h3>
                     <h3>Python(Django)</h3>
-                    <button className="website-btn">{t(projects.title_web)}</button>
                   </article>
+                  <button className="website-btn">{t(projects.title_web)}</button>
                 </article>
-                <button className="website-btn close_btn">{t(projects.title_web)}</button>
               </div>
             </div>
             <div className="Detail-Portfolio-blur">
