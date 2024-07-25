@@ -43,6 +43,7 @@
             height: 100%;
             display: flex;
             justify-content: center;
+            margin-bottom: 40px;
             figure {
               position: relative;
               left: 0;
@@ -79,9 +80,10 @@
             width: 98%;
             height: 100px;
             .hr-style {
-              width: 100%;
-              height: 3px;
+              width: 96%;
+              height: 2px;
               background-color: gray;
+              border-radius: 10px;
             }
             .Second-Footer-Text {
               display: flex;
@@ -113,6 +115,8 @@
             align-items: end;
             width: 100%;
             height: 100%;
+            left: 0;
+            top: 95px;
 
             figure {
               position: relative;
@@ -265,13 +269,25 @@
       .Second-Page-Childs {
         display: block;
         .Second-Page-Child-Left {
-          width: 80%;
+          width: 85%;
           margin: auto;
+          .text-animation{
+            top: -50px;
+            right: 0px;
+          }
           .Second-Childs-Galery-Left {
             overflow: hidden;
+            .Second-Child-Galery-footer-text{
+              .hr-style{
+                width: 93%;
+              }
+            }
           }
           .Second-Childs-Galery-Right {
-            margin-top: 50px;
+            margin-top: 0px;
+            .Childs-Galery-Right-img{
+              top: 0;
+            }
           }
         }
         .Second-Page-Child-Right {

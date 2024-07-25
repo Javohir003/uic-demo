@@ -43,6 +43,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .Second-Page-Parent .container-Blog .Second-Page-Childs .Second-Page-Child-Left .Second-Childs-Galery-Left .Childs-Galery-Left-img figure {
   position: relative;
@@ -81,9 +82,10 @@
   height: 100px;
 }
 .Second-Page-Parent .container-Blog .Second-Page-Childs .Second-Page-Child-Left .Second-Childs-Galery-Left .Second-Child-Galery-footer-text .hr-style {
-  width: 100%;
-  height: 3px;
+  width: 96%;
+  height: 2px;
   background-color: gray;
+  border-radius: 10px;
 }
 .Second-Page-Parent .container-Blog .Second-Page-Childs .Second-Page-Child-Left .Second-Childs-Galery-Left .Second-Child-Galery-footer-text .Second-Footer-Text {
   display: flex;
@@ -113,6 +115,8 @@
   align-items: end;
   width: 100%;
   height: 100%;
+  left: 0;
+  top: 95px;
 }
 .Second-Page-Parent .container-Blog .Second-Page-Childs .Second-Page-Child-Left .Second-Childs-Galery-Right .Childs-Galery-Right-img figure {
   position: relative;
@@ -252,14 +256,24 @@
     display: block;
   }
   .Second-Page-Parent .container-Blog .Second-Page-Childs .Second-Page-Child-Left {
-    width: 80%;
+    width: 85%;
     margin: auto;
+  }
+  .Second-Page-Parent .container-Blog .Second-Page-Childs .Second-Page-Child-Left .text-animation {
+    top: -50px;
+    right: 0px;
   }
   .Second-Page-Parent .container-Blog .Second-Page-Childs .Second-Page-Child-Left .Second-Childs-Galery-Left {
     overflow: hidden;
   }
+  .Second-Page-Parent .container-Blog .Second-Page-Childs .Second-Page-Child-Left .Second-Childs-Galery-Left .Second-Child-Galery-footer-text .hr-style {
+    width: 93%;
+  }
   .Second-Page-Parent .container-Blog .Second-Page-Childs .Second-Page-Child-Left .Second-Childs-Galery-Right {
-    margin-top: 50px;
+    margin-top: 0px;
+  }
+  .Second-Page-Parent .container-Blog .Second-Page-Childs .Second-Page-Child-Left .Second-Childs-Galery-Right .Childs-Galery-Right-img {
+    top: 0;
   }
   .Second-Page-Parent .container-Blog .Second-Page-Childs .Second-Page-Child-Right {
     margin: auto;
