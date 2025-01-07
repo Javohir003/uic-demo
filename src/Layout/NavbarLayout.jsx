@@ -7,7 +7,6 @@ import LogoUicHome2 from "../Icon/UIC-Logo-Home.svg";
 import LogoUICHome3 from "../Icon/uic-new-logo.svg";
 import Languageicon from "../Icon/LanguageLogo.svg";
 import ScrollTopAuto from "../ScrollP/Scroll-Page";
-import ChatTelegram from "../ChatPage/ChatTelegram";
 import ClosedBtn from "../Icon/close.svg";
 
 function NavbarLayout() {
@@ -72,7 +71,6 @@ function NavbarLayout() {
     <>
       <header>
         <ScrollTopAuto />
-        <ChatTelegram />
         <div className="Navbar-Parent">
           <nav style={headerStyleScroll}>
             <div className="container">
