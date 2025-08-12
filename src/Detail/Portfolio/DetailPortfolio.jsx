@@ -1,7 +1,6 @@
-import { t } from "i18next";
-import React, { Fragment, useEffect, useState } from "react";
+
 import { useTranslation } from "react-i18next";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 import "./Portfolio.css";
 
@@ -9,6 +8,9 @@ function DetailPortfolio() {
   const { t, i18n } = useTranslation();
   const location = useLocation();
   const { projects } = location.state || { projects: {} };
+
+
+  
 
 
   return (
@@ -19,22 +21,22 @@ function DetailPortfolio() {
             <div className="detail-container">
               <div className="Detail-Portfolio-header">
                 <article className="box-detail-header">
-                  <img src={projects.detailPortfolioLogo} alt="" />
+                  <img src={projects.image_url} alt="" />
                   <article className="hedaer-left-detailportfolio">
                     <h3>JavaScript (Vue.JS)</h3>
                     <h3>Python(Django)</h3>
                   </article>
-                  <button className="website-btn">{t(projects.title_web)}</button>
+                  <button className="website-btn">{t(projects.title)}</button>
                 </article>
               </div>
             </div>
             <div className="Detail-Portfolio-blur">
-              <h1>{t(projects.title_portfolio)}</h1>
-              <p>{t(projects.title_portfolio)}</p>
+              <h1>{t(projects.title)}</h1>
+              <p>{t(projects.title)}</p>
             </div>
             <div className="detail-container">
               <button className="btn-detailPortfolio btn-anim">
-                <a href={projects.LinkVisitSites} target="_blank">
+                <a href={projects.site_link} target="_blank">
                   Got To Web site
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <g clip-path="url(#clip0_1802_2798)" fill="none">

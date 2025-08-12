@@ -59,9 +59,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 48px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   background-color: rgb(107, 105, 105);
   cursor: pointer;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .tasks {
+  margin-bottom: 30px;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .tasks-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .tasks ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.wrapper-Vacansy-Parent .wrapper-vacansy .tasks li {
+  margin-bottom: 8px;
+  line-height: 1.5;
 }/*# sourceMappingURL=DetailVacansy.css.map */

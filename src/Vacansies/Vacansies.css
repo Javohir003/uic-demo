@@ -46,8 +46,12 @@
 }
 .Vacansies-Wrapper .wrapper-vacansy a .wrapper-vacansy-child-1 h1 {
   font-size: 23px;
-  padding: 20px 0px;
+  margin-bottom: 15px;
   font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
 }
 .Vacansies-Wrapper .wrapper-vacansy a .wrapper-vacansy-child-1 .wrapper-vacansy-foot {
   display: flex;
@@ -62,6 +66,9 @@
   padding: 4px 7px;
   border-radius: 50%;
   background-color: rgb(84, 84, 84);
+}
+.Vacansies-Wrapper .wrapper-vacansy a .wrapper-vacansy-child-1 .wrapper-vacansy-foot .title-days {
+  font-size: 12px !important;
 }
 .Vacansies-Wrapper .wrapper-vacansy a .wrapper-vacansy-child-1 .wrapper-vacansy-foot .wrapper-vacansy-date-box {
   display: flex;

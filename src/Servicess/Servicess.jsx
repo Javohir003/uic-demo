@@ -10,7 +10,7 @@ function Servicess() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const servicesdata = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxOTEzNzg3MSwiZXhwIjoxNzUwNjczODcxfQ.bjuK7f2CTND9efpoID2JbGdi4whPvwVO3bizW7Gb9jY&t=2024-06-23T10%3A17%3A50.735Z");
+        const servicesdata = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mYWJmOGZmNC0zMzdhLTRiYjItYmYxNS0zNzhhZTgyMmU3ZmUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTc1NDkxNjcwNCwiZXhwIjo0OTA4NTE2NzA0fQ.nDfsG8-jhAOhAAoA6RSjkGpRI3fr8yqyx96vvQUbEWI");
         const response = await servicesdata.json();
         setServicesdata(response.servicesData);
       } catch (error) {

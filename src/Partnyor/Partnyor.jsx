@@ -1,7 +1,5 @@
-import { Fragment, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { v4 as uuidv4 } from "uuid";
-import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -13,16 +11,9 @@ const Partnyor = () => {
   useEffect(() => {
     const dataFetch = async () => {
       try {
-        const response = await fetch(
-          "https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxOTEzNzg3MSwiZXhwIjoxNzUwNjczODcxfQ.bjuK7f2CTND9efpoID2JbGdi4whPvwVO3bizW7Gb9jY&t=2024-06-23T10%3A17%3A50.735Z"
-        );
+        const response = await fetch("https://uic.group/api/v1/partners/");
         const data = await response.json();
-
-        const genetUUID = data.partnyors.map((partnyor) => ({
-          ...partnyor,
-          id: uuidv4(),
-        }));
-        setPartnyorData(genetUUID);
+        setPartnyorData(data);
       } catch (error) {
         throw new Error("Sizda aloqa yaxshi emas", error);
       }
@@ -39,11 +30,11 @@ const Partnyor = () => {
         </div>
         <div className="Partnyor-list-Parent">
           <div className="Grid-Partnyor">
-            {partnyorData.map((partnyor) => (
+            {partnyorData?.map((partnyor) => (
               <div className="grid-partnyor-list" key={partnyor.id}>
-                <a href={partnyor.url} target="_blank" rel="noopener noreferrer">
+                <a href={partnyor.company_site} target="_blank" rel="noopener noreferrer">
                   <article>
-                    <img src={partnyor.imageLogo} alt="" />
+                    <img src={partnyor.photo_url} alt="" />
                   </article>
                 </a>
               </div>
@@ -56,10 +47,10 @@ const Partnyor = () => {
               slidesPerView={3}
               className="mySwiper"
           >
-            {partnyorData.map((partnyor) => (
+            {partnyorData?.map((partnyor) => (
               <SwiperSlide key={partnyor.id}>
-                <a href={partnyor.url} target="_blank">
-                  <img src={partnyor.imageLogo} alt="" />
+                <a href={partnyor.company_site} target="_blank" rel="noopener noreferrer">
+                    <img src={partnyor.photo_url} alt="" />
                 </a>
               </SwiperSlide>
             ))}

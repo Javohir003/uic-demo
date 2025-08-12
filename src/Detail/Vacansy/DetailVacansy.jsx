@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./DetailVacansy.css";
-import Footer from "../../Footer/Footer";
 
 function DetailVacansy() {
   const { id } = useParams();
@@ -9,16 +8,10 @@ function DetailVacansy() {
   useEffect(() => {
     const fetchData1 = async () => {
       try {
-        const data = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxOTEzNzg3MSwiZXhwIjoxNzUwNjczODcxfQ.bjuK7f2CTND9efpoID2JbGdi4whPvwVO3bizW7Gb9jY&t=2024-06-23T10%3A17%3A50.735Z");
+        const data = await fetch(`https://uic.group/api/v1/vacancy/${id}`);
         const res = await data.json();
-        if (res && Array.isArray(res.vacansyData)) {
-          const foundVacancy = res.vacansyData.find(
-            (vac) => vac.id === parseInt(id)
-          );
-          setVacansies(foundVacancy);
-        } else {
-          console.error("Invalid response structure:", res);
-        }
+        console.log(res);
+        setVacansies(res)
       } catch (error) {
         console.error("Error fetching data: ", error);
       }
@@ -37,7 +30,7 @@ function DetailVacansy() {
           <div className="wrapper-vacansy">
             <div className="vacansy-header">
               <h1 className="header-title">{vacansies.title}</h1>
-              <p style={{ marginBottom: "30px", width: '100%', height: '1px', backgroundColor: 'rgb(147, 146, 146)'}} />
+              <p style={{ marginBottom: "30px", width: '100%', height: '1px', backgroundColor: 'rgb(147, 146, 146)' }} />
               <article className="vacansy-header-child">
                 <article className="header-child-1">
                   <p className="tarmoq-oval">
@@ -68,7 +61,7 @@ function DetailVacansy() {
                 <article className="header-child-workDate">
                   <article className="workDate-wrapper">
                     <p className="workDate">
-                      <svg width="25" height="28" viewBox="0 0 12 14" fill="none">
+                      <svg width="17" height="20" viewBox="0 0 12 14" fill="none">
                         <path
                           d="M0.861328 5.50245H11.1444"
                           stroke="#FFFFFF"
@@ -157,7 +150,7 @@ function DetailVacansy() {
                   </article>
                   <article className="workDate-wrapper">
                     <p className="workDate">
-                      <svg width="25" height="28" viewBox="0 0 12 12" fill="none">
+                      <svg width="17" height="20" viewBox="0 0 12 12" fill="none">
                         <path
                           fill-rule="evenodd"
                           clip-rule="evenodd"
@@ -178,36 +171,26 @@ function DetailVacansy() {
                         ></path>
                       </svg>
                     </p>
-                    <p>09:00 - 18:00</p>
+                    <p>{vacansies.from_clock} - {vacansies.to_clock}</p>
                   </article>
                 </article>
               </article>
             </div>
-            <h1>Talablar :</h1>
-            <br />
-            <li>{vacansies.talab1}</li>
-            <br />
-            <li>{vacansies.talab2}</li>
-            <br />
-            <li>{vacansies.talab3}</li>
-            <br />
-            <h1>Vazifalar : </h1>
-            <br />
-            <li>{vacansies.vazifa1}</li>
-            <br />
-            <li>{vacansies.vazifa2}</li>
-            <br />
-            <li>{vacansies.vazifa3}</li>
-            <br />
-            <h1>Shartlar : </h1>
-            <br />
-            <li>{vacansies.shart1}</li>
-            <br />
-            <li>{vacansies.shart2}</li>
-            <br />
-            <li>{vacansies.shart3}</li>
-            <br />
-            <li>{vacansies.shart4}</li>
+            <article className="tasks">
+              <h1 className="tasks-title">Talablar :</h1>
+              <div dangerouslySetInnerHTML={{ __html: vacansies.requirements }} />
+            </article>
+
+            <article className="tasks">
+              <h1 className="tasks-title">Vazifalar :</h1>
+              <div dangerouslySetInnerHTML={{ __html: vacansies.tasks }} />
+            </article>
+
+            <article className="tasks">
+              <h1 className="tasks-title">Sharoitlar :</h1>
+              <div dangerouslySetInnerHTML={{ __html: vacansies.conditions }} />
+            </article>
+
           </div>
         </div>
       </div>

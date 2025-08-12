@@ -10,12 +10,14 @@ function Vacansies() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await fetch("https://ptiuaaoxezklmpprwjpx.supabase.co/storage/v1/object/sign/data/info.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYXRhL2luZm8uanNvbiIsImlhdCI6MTcxOTEzNzg3MSwiZXhwIjoxNzUwNjczODcxfQ.bjuK7f2CTND9efpoID2JbGdi4whPvwVO3bizW7Gb9jY&t=2024-06-23T10%3A17%3A50.735Z");
-      const response = await data.json();
-      setVacansy(response.vacansyData);
+      const data = await fetch("https://uic.group/api/v1/vacancy/");
+      const response = await data.json();      
+      setVacansy(response.results);
     };
     fetchData();
   }, []);
+
+  
 
   return (
     <>
@@ -31,19 +33,19 @@ function Vacansies() {
             </h1>
           </div>
           <div className="wrapper-vacansy">
-            {vacansy.map((vacan, id) => {
+            {vacansy?.map((vacan, id) => {
               return (
                 <Fragment key={id}>
                   <Link to={`/${i18n.language}/vacancies/${vacan.id}`}>
                     <div className="wrapper-vacansy-child-1">
-                      <h1>{vacan.title}</h1>
+                      <h1 className="title-work">{vacan.title}</h1>
                       <hr />
                       <div className="wrapper-vacansy-foot">
                         <article className="wrapper-vacansy-date-box">
                           <p className="wrapper-oval-parent">
                             <svg
-                              width="14"
-                              height="18"
+                              width="12"
+                              height="15"
                               viewBox="0 0 12 14"
                               fill="none"
                             >
@@ -131,13 +133,13 @@ function Vacansies() {
                               ></path>
                             </svg>
                           </p>
-                          <p>Dushanba</p> - <p>Seshanba</p>
+                          <p className="title-days">Dushanba</p> - <p className="title-days">Seshanba</p>
                         </article>
                         <article className="wrapper-vacansy-time">
                           <p className="wrapper-oval-parent">
                             <svg
-                              width="14"
-                              height="18"
+                              width="12"
+                              height="15"
                               viewBox="0 0 12 12"
                               fill="none"
                             >
@@ -162,8 +164,8 @@ function Vacansies() {
                             </svg>
                           </p>
                           <article className="timer-child">
-                            <p>09:00</p>
-                            <p>18:00</p>
+                            <p className="title-days">{vacan.from_clock}</p>
+                            <p className="title-days">{vacan.to_clock}</p>
                           </article>
                         </article>
                       </div>
@@ -188,7 +190,7 @@ function Vacansies() {
                               fill="#00A795"
                             ></path>
                           </svg>
-                          <p>{vacan.workPrice}</p>
+                          <p>{vacan.min_salary} - {vacan.max_salary}</p>
                           <article className="next-parent">
                             <svg
                               width="16"
